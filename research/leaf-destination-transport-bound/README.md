@@ -1,4 +1,4 @@
-# Leaf-destination transport: an all-size bound of h = ceil(log2 n)
+# Leaf-destination transport: the exact maximum is max(1, floor(log2 n))
 
 **This is a scoped written proof, checked by its author with exact computation. Nobody has reviewed it independently yet. It makes no κ, precision-invoice or rounding claim.**
 
@@ -19,6 +19,23 @@ The proof is in `PROOF.md`. It rests on three lemmas:
 
 A 12-case table over the lowest common call then finishes the argument. Its single case with both a dirty source and a dirty destination cancels exactly by Lemma S.
 
+## Follow-up: the bound is exact, E(n) = max(1, floor(log2 n)) for every n (`PROOF2.md`)
+
+- **Upper bound for all n.** Two lemmas give it:
+  - Lemma X (exit support): after an injection inside a call of size k, at most floor(log2 k)+1 registers are nonzero when the call ends, and at most floor(log2 k) of those are scratch.
+  - Lemma I: a sign − call is the exact leaf-by-leaf inverse of the sign + call.
+  - In every case where the source is dirty, the exporting phase is the floor half, so the count is floor(log2 m).
+- **Attainment for every n ≥ 2.** An explicit family achieves the bound. With top sign +, inject at the f_0 leaf along the chain U, U′, U, U′, …, and read out at the first f_{n−1} leaf. The exact value there is
+  `y = Σ_{l=1}^{H} (−1)^{H−l} f_{n−1}…f_{n−⌈n/2^l⌉} · f_{⌊n/2^l⌋−1}…f_1`,
+  whose distinct tail lengths prevent any cancellation, so the mass is H = floor(log2 n).
+- **Exact checks** (`check2.py MODE LO HI [famHI]`):
+  - n = 1..80, both orientations and all injection/cut pairs: Lemma I, L1, Lemma X (the bound and its tightness), the per-case closed forms, E(n), Lemma P and the family. See `check_ok_*.log`.
+  - Family up to n = 512; closed form for n = 2..512 (`fam_closed.py`).
+  - Controls: no reversal gives E(7) = 54; a ceil-half split gives E(6) = 3; dropping the restoration breaks Lemma I (`controls2.log`).
+- **Scope.**
+  - The lower bound is proved for the (U,V) case with sign +. The other source-dirty cases match the census but are not proved.
+  - The proof has not been reviewed independently.
+
 ## Exact checks
 
 | Script | What it checks |
@@ -33,8 +50,6 @@ The bound h is attained at n = 2^h for h ≤ 7 and is strict otherwise.
 
 ## Open next questions
 
-- Prove floor(log2 n) for all n. This needs the scratch structure of the earlier phase.
-- Prove that h is attained at every power of two.
 - Cover multiple or accumulated errors, internal leaf values, rounding and aliasing.
 
 Credit: woklerx (leaf-destination-transport), cbethin (PR1416), Arham Tahir (PR1374), Hanson Sun (PR1085), Chafik Boukhalfa (PR628). Prepared by Philippe Van Velzen with substantial Claude (Anthropic) assistance. A sub-agent wrote the proof and the census; the main session re-ran the census for n ≤ 64, the lemma checks and the controls. Apache-2.0.

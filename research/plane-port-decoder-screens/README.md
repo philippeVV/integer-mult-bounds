@@ -89,6 +89,36 @@ average cost about 2–3.
 
 The scripts in `gain/` read the ports through `lower/ports.py`. That file loads the selected canonical word from `research/community-frontier1094-audit/selected-replay.tar.gz` and checks its hash. `k5.py` needs `python-sat`; `corr_rank.py` needs numpy.
 
+## 2-adic Smith lemma (`smith/`, second follow-up)
+
+**Proven for every plane assignment.**
+- Let r_j(X) be the number of Smith invariants of X over Z_(2) with valuation ≤ j. Write e_k = v₂(d_k) + v₂(t_k), and let B̃ be the 0/1 Gram of the plane bases.
+- Then `224 ≤ Σ_k r_{max(0,−e_k)}(B̃[R_k, A_k])`.
+- Proof sketch: `B̃∘(2^m N⊗J) = 2^m I₂₂₄` holds exactly, and r_j is subadditive.
+- At depth 0 this recovers Theorem A. The gain is bounded by Σ(h_k − ρ_k), where h_k is a per-term cap.
+- Cap at depth d: `r_d ≤ Σ_{s=1}^{d+1} C(ρ,s)`. Exact caps over subspace pairs are 37/93/163 for ρ = 9 and 29/64/99 for ρ = 8, at d = 1/2/3.
+
+| decoder class (any plane assignment) | C ≥ |
+|---|---|
+| all terms half-integral | 55 |
+| half-integral, ρ ≤ 3 | 112 |
+| every non-2-integral term has ρ ≤ 2 / ≤ 3 / ≤ 5 | 150 / 96 / 37 |
+
+**Other results:**
+- **Universal α(Γ_E) ≥ 14**, so C ≥ 15 for every assignment (`lagr.py`).
+  - Average over the 2295 Lagrangians of j^⊥; every nonzero vector lies in exactly 135 of them.
+  - The Hoffman bound on all 16,320 planes caps this averaging method at 15.
+- **Per-instance floor** `C ≥ α(Γ_E) + α(Γ_{≤1})` (`floor3.py`). For example, rW gives 31 + 15 = 46.
+
+**Still open.** Only decoders with a term of denominator ≥ 4 and ρ ≥ 7, or denominator ≥ 8 and ρ = 6, escape every universal bound above 32. That is exactly the line incumbent's mechanism: quarter terms of ρ = 8, with r₂ = 22 and Smith sum 176 ≥ 112 (`line_check.py`).
+
+**Run** (Python 3.12 with numpy, scipy, ortools and python-sat):
+- `smith/smith_check.py`
+- `smith/corollary.py`
+- `smith/lagr.py`
+- `smith/line_check.py`
+- `smith/floor3.py gain/rW_1.json`
+
 ## Open
 
 **Decoder target: resolved in favour of the masked target (`target/line_decoder.py`).**

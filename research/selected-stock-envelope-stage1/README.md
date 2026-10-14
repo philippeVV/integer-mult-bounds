@@ -79,6 +79,30 @@ and fails one above it. With c = 0, `log₂(8σ₁)` is about 16 bits.
   - The role multiplier is an overcount.
   - The fit lemma's (H1)/(H2) hypotheses are not checked here.
 
+## Second follow-up: three of the remaining conditions discharged (`verify_followup2.py`)
+
+`verify_followup2.py` prints `PASS_SELECTED_STOCK_FOLLOWUP2_CONDITIONS_1_3_4_FINITE` in about 4 s. It checks 43 file:line citations, and all 16 mutation controls are rejected. Every replay in it is reimplemented; none of the source scripts is executed.
+
+- **A₀'s parameters, replayed from PR36's word.**
+  - Inputs are the `certificates/copied-centers-{bit-axes,corner-25-23,input,network}.json` files. The network certificate pins `a_bit = 384599/10^10` and the notes file.
+  - The replay reconstructs the (25,23) corner pivots, the producer records and the two-stage child histogram.
+  - It gives **m = 575, max child 529, W = 188,181,929 (28 bits), halving degree 9, coefficient 252**. These match the certificates and PR141.
+- **The role multiplier is now exact.**
+  - An exact replay of the PR589 tuned word reproduces the paid profile `{1:1323,2:1342,3:79,4:44,5:102,6:11,7:19}`.
+  - The hash chain from `selected-result.json` down to the word is checked.
+  - The per-level multiplier is physical = 28425 (15 bits). This replaces the earlier 52-bit overcount and gives `log_q W(w) < 4096w + 15/80`.
+- **Fit lemma (H1)/(H2): the finite content holds at all 14 stages.**
+  - The statements are from `bootstrap-cutoff-time-space-split/README.md:44-51`.
+  - H1 base: 1−μ₁ = 3212/188181929.
+  - H2 holds with 1−μ_τ ≥ 1.894e-4 at τ = 1−s, using the full 10⁻¹⁶·32m² fallback.
+  - At every stage the gaps, the ordering a_{j−1} < a_j < s < 1−a_j, and the exponent identity hold exactly.
+- **Still open.**
+  - The analytic form of (H2) is our reading of the sources.
+  - PR589's hosted remainder REM is checked against EXPECTED but not replayed.
+  - PR36's producer DAGs are not regenerated; the replay starts from the pinned producer records.
+  - Whether the m=64 cover realises the word's operations is a structural question that is not checked.
+  - Run: `python3 -I -B research/selected-stock-envelope-stage1/verify_followup2.py`.
+
 ## Missing lemma (stage-1 statement, now closed by the follow-up)
 
 The retained old ordinary supplier (a₀ = 384599/10¹⁰) needs a preceding-row

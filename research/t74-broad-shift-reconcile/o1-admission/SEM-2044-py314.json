@@ -1,0 +1,64 @@
+{
+ "status": "PASS_T74_SEMANTIC_REGENERATED_ARTIFACTS",
+ "python": "3.14.7",
+ "package": "/dev/shm/expAC/am/co2044/research/capped-fusion-t74-k554",
+ "container_bytes_all_equal": true,
+ "checks": {
+  "pinned assignment_sha256 == sha(pinned container)": true,
+  "regenerated assignment_sha256 == sha(regenerated container)": true,
+  "pinned replica_lift.owners_file_sha256 == sha(pinned container)": true,
+  "regenerated replica_lift.owners_file_sha256 == sha(regenerated container)": true,
+  "pinned assignment_content_sha256 == payload sha of regenerated": true,
+  "template content pin": true,
+  "PLAN differs only in container-hash fields": true,
+  "PLAN semantic hash (container fields removed) equal": true,
+  "all non-PLAN semantic hashes equal": true,
+  "SPEC geometry equal": true,
+  "control: altered role changes semantic hash": true
+ },
+ "files": {
+  "rebuilt-owners/OWNERS.json.gz": {
+   "container_equal": true,
+   "semantic_equal": true,
+   "semantic_sha256": "417903aed40c24e7853791e4a6e07193fb74a8a9e53fe51e7f13bcc9e9d47a9c",
+   "regenerated_semantic_sha256": "417903aed40c24e7853791e4a6e07193fb74a8a9e53fe51e7f13bcc9e9d47a9c"
+  },
+  "rebuilt-owners/ORDER.json": {
+   "container_equal": true,
+   "semantic_equal": true,
+   "semantic_sha256": "519d1d5dbb997a219fcfcad34c0b03e7838bef24199784d7e964fa10090f66e1",
+   "regenerated_semantic_sha256": "519d1d5dbb997a219fcfcad34c0b03e7838bef24199784d7e964fa10090f66e1"
+  },
+  "rebuilt-owners/DISPATCH.json": {
+   "container_equal": true,
+   "semantic_equal": true,
+   "semantic_sha256": "6aad7f628f4c9b510a95c5b34357736303069ecf92a551659900b1ba540bc7e0",
+   "regenerated_semantic_sha256": "6aad7f628f4c9b510a95c5b34357736303069ecf92a551659900b1ba540bc7e0"
+  },
+  "rebuilt-owners/PROFILE.json": {
+   "container_equal": true,
+   "semantic_equal": true,
+   "semantic_sha256": "08ed380c94e1e1e70774a8f64b0f80e773e72fa4d4d8efc6f07f3478b6678c65",
+   "regenerated_semantic_sha256": "08ed380c94e1e1e70774a8f64b0f80e773e72fa4d4d8efc6f07f3478b6678c65"
+  },
+  "rebuilt-parent/GLOBAL-TEMPLATE.json.gz": {
+   "container_equal": true,
+   "semantic_equal": true,
+   "semantic_sha256": "84e1c038e40bb86a8e20629a7492c75c2dff1b00c8543720a74f62ab224ef67f",
+   "regenerated_semantic_sha256": "84e1c038e40bb86a8e20629a7492c75c2dff1b00c8543720a74f62ab224ef67f"
+  },
+  "rebuilt-parent/CONSTRUCTION.json": {
+   "container_equal": true,
+   "semantic_equal": true,
+   "semantic_sha256": "1cdadc74fef4cddeb2bae5e32fff7bc27456740150440ae8fda8822f569c2492",
+   "regenerated_semantic_sha256": "1cdadc74fef4cddeb2bae5e32fff7bc27456740150440ae8fda8822f569c2492"
+  },
+  "rebuilt-parent/PLAN.json": {
+   "container_equal": true,
+   "semantic_equal": true,
+   "semantic_sha256": "e9ca855b0ccba243868aa7bd24b42f9e59f2f554bfe10521143591073e72ea18",
+   "regenerated_semantic_sha256": "e9ca855b0ccba243868aa7bd24b42f9e59f2f554bfe10521143591073e72ea18",
+   "paths_differing": []
+  }
+ }
+}

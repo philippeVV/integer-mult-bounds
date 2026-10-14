@@ -1,0 +1,202 @@
+{
+  "status": "PASS_STRICT_MIXED_T74_EXACT_FILL",
+  "kappa": "13414839829209/8000000000000000",
+  "kappa_decimal": "0.001676854978651125",
+  "steps": [
+    {
+      "name": "bind",
+      "seconds": 0.7016675549966749,
+      "exit_code": 0,
+      "log_sha256": "71f679ce5a123fb58397fd6852ba64ce3832fd20e81a096bfda9a1cf3237237a"
+    },
+    {
+      "name": "emit",
+      "seconds": 17.523424414001056,
+      "exit_code": 0,
+      "log_sha256": "5931ab14e813691789aabe66be2b04c08cf32864e18c271cfbab60ed88bd3082"
+    },
+    {
+      "name": "audit",
+      "seconds": 88.89573409598961,
+      "exit_code": 0,
+      "log_sha256": "a8234bea6e3c26f38f51acd8b5233b3dee2a54977189fbfc6355cedab29674c4"
+    },
+    {
+      "name": "invoice",
+      "seconds": 2.033039004993043,
+      "exit_code": 0,
+      "log_sha256": "88b82d6e0d854847f741cfc46476d5cb83976ecb221f413f47eecb974dda2892"
+    },
+    {
+      "name": "assembly",
+      "seconds": 0.3117453849990852,
+      "exit_code": 0,
+      "log_sha256": "f545aafd8682a6a00161d2ffb2f56bf72506f9abf20b66885e8c0a009a0bad51"
+    },
+    {
+      "name": "admission",
+      "seconds": 0.7255258229997708,
+      "exit_code": 0,
+      "log_sha256": "40f0c35552fb10f02288ae8d2c6b9f902050fb370c0a19b7b88c977d0d44dab1"
+    },
+    {
+      "name": "bit",
+      "seconds": 0.8286998690018663,
+      "exit_code": 0,
+      "log_sha256": "d54d260bf95bd8ae4ab8846314082b93b2e3d8f427eb35376691f2ce543a6b67"
+    },
+    {
+      "name": "independent",
+      "seconds": 2.2876862260018243,
+      "exit_code": 0,
+      "log_sha256": "d2c176fb1b9778e4fb8b98b6272d5f713d676ea3fed84da20213eca036bb58fe"
+    }
+  ],
+  "independent": {
+    "status": "PASS_INDEPENDENT_VARIABLE_T_LITERAL_WINDOWS_CHARTS_PREFIX_ROW",
+    "roles": 159840,
+    "calls": 333,
+    "source_events_per_replica": 30,
+    "expanded_replica_events": 1110,
+    "bridge_events": 333,
+    "literal_windows": 666,
+    "checked_whole_helper_widths": 159840,
+    "checked_busy_family_windows": 159840,
+    "orthogonal_port_bases": 112,
+    "actual_73_axis_charts": 11144,
+    "checked_slice_prefixes": 74592,
+    "local_profiles": {
+      "gauge44": {
+        "1": 2346,
+        "4": 130,
+        "8": 8,
+        "3": 414,
+        "2": 504,
+        "5": 82
+      },
+      "extra": {
+        "1": 2338,
+        "4": 126,
+        "8": 8,
+        "3": 418,
+        "2": 512,
+        "5": 82
+      }
+    },
+    "width_inventories": {
+      "gauge44": {
+        "9": 240,
+        "4": 44,
+        "8": 114,
+        "7": 38,
+        "5": 44
+      },
+      "extra": {
+        "9": 240,
+        "4": 40,
+        "8": 114,
+        "7": 38,
+        "5": 48
+      }
+    },
+    "idle": {
+      "1": 2,
+      "48": 11374
+    },
+    "profile": {
+      "1": 779556,
+      "2": 169496,
+      "3": 138694,
+      "4": 42458,
+      "5": 27306,
+      "8": 2664,
+      "48": 11374
+    },
+    "live": 33152,
+    "physical": 33642,
+    "rank_mass": 2408256,
+    "deficit": 11840,
+    "namespace": {
+      "data": [
+        0,
+        33152
+      ],
+      "centres": [
+        33152,
+        33160
+      ],
+      "tableau": [
+        33160,
+        33640
+      ],
+      "coefficient": [
+        33640,
+        33642
+      ]
+    },
+    "local_prefix_bits": 68,
+    "local_prefix_from_native_receipt": true,
+    "local_profile_recounted": true,
+    "prefix_formula": {
+      "local_scalar": 68,
+      "input_l2": 37,
+      "invocations": 333,
+      "bridges": 333,
+      "margin": 4
+    },
+    "prefix_bits": 775,
+    "charged_prefix_bits": 1024,
+    "physical_stock_bits": 2643,
+    "physical_row_coefficient": 17495,
+    "row_limit": 20161,
+    "scope": "Finite role/window/chart and inherited prefix/row obligations. Requires separately admitted local supplier and emitted controller, complete finite invoice, exact moments and outer assembly; no all-size theorem is asserted.",
+    "controls_rejected": [
+      {
+        "name": "private_namespace_collision",
+        "reason": "private-namespace collision"
+      },
+      {
+        "name": "copy_replica_alias",
+        "reason": "role invocation time"
+      },
+      {
+        "name": "missing_whole_helper",
+        "reason": "complete helper role count"
+      },
+      {
+        "name": "split_whole_helper",
+        "reason": "complete helper role count"
+      },
+      {
+        "name": "truncated_helper_width",
+        "reason": "whole-helper residual width"
+      },
+      {
+        "name": "cross_idle_boundary",
+        "reason": "strict bridge-aware idle window"
+      },
+      {
+        "name": "cross_child_pending_axis_alias",
+        "reason": "overlapping pending children on one family"
+      },
+      {
+        "name": "wrong_provider_at_changed_call",
+        "reason": "whole-helper residual width"
+      }
+    ],
+    "disjoint_pending_child_axis_checks": 2016,
+    "provider_counts": {
+      "extra": 208,
+      "gauge44": 125
+    },
+    "input_sha256": {
+      "/dev/shm/expAC/rf1625/parent/layout/packing37-regression/candidate/PLAN.json": "163431bf8d3bc0d9b894994b1a3cfa7947367b2243b3c0b3a97d740195a1cb08",
+      "/dev/shm/expAC/rf1625/parent/layout/packing37-regression/candidate/DISPATCH.json": "b7b971df9dce435556145df307e2bb5138d87e5aa933f1fe61fcc5b5163301c4",
+      "/dev/shm/expAC/rf1625/parent/layout/packing37-regression/candidate/OWNERS.json.gz": "3a56f578b2db5647cf6cb811bc6263c7a802ae3e31e9e672596d43185e4e5c9f",
+      "/dev/shm/expAC/rf1625/parent/layout/demotions1148-round43/baseline-replay/parent/t16/global8/base/split-centres/GLOBAL-TEMPLATE.json.gz": "ab8448de2036a23d9b55a196a8846512dc24fdf09855c1e0f0caa5b7a6965f7b",
+      "/dev/shm/expAC/rf1625/parent/native-base/local/CANONICAL-WORD.json.gz": "f69c0ca2c217eab87a231b67e548cd6491286314b1215e19f0b1d7463afd5e91",
+      "/dev/shm/expAC/rf1625/parent/layout/packing37-regression/native-extra/local/CANONICAL-WORD.json.gz": "e38e2136e5a4a75bb843735a59158543eff04bd06384d73752b220d6938af73d"
+    }
+  },
+  "scope": "Conditional finite construction only; unchanged exact-head PR1297 native providers explicitly reused; all inherited theorem obligations retained."
+}

@@ -1,0 +1,42 @@
+WORD ../pipe/lv/raw/FULL-WORD.json.gz
+  01+ P1 P2 P3 ok; final partners {'y0': 'x5', 'y1': 'x4', 'y2': 'x3', 'y3': 'x2', 'y4': 'x1', 'y5': 'x0'} ; leaver-source final frame ranks {'x0': 6, 'x1': 6, 'x2': 6, 'x3': 6, 'x4': 6, 'x5': 6}
+  23+ P1 P2 P3 ok; final partners {'y0': 'x5', 'y1': 'x4', 'y2': 'x3', 'y3': 'x2', 'y4': 'x1', 'y5': 'x0'} ; leaver-source final frame ranks {'x0': 6, 'x1': 6, 'x2': 6, 'x3': 6, 'x4': 6, 'x5': 6}
+  45+ P1 P2 P3 ok; final partners {'y0': 'x5', 'y1': 'x4', 'y2': 'x3', 'y3': 'x2', 'y4': 'x1', 'y5': 'x0'} ; leaver-source final frame ranks {'x0': 6, 'x1': 6, 'x2': 6, 'x3': 6, 'x4': 6, 'x5': 6}
+  67+ P1 P2 P3 ok; final partners {'y0': 'x5', 'y1': 'x4', 'y2': 'x3', 'y3': 'x2', 'y4': 'x1', 'y5': 'x0'} ; leaver-source final frame ranks {'x0': 6, 'x1': 6, 'x2': 6, 'x3': 6, 'x4': 6, 'x5': 6}
+  67- P1 P2 P3 ok; final partners {'y0': 'x5', 'y1': 'x4', 'y2': 'x3', 'y3': 'x2', 'y4': 'x1', 'y5': 'x0'} ; leaver-source final frame ranks {'x0': 6, 'x1': 6, 'x2': 6, 'x3': 6, 'x4': 6, 'x5': 6}
+  01- P1 P2 P3 ok; final partners {'y0': 'x5', 'y1': 'x4', 'y2': 'x3', 'y3': 'x2', 'y4': 'x1', 'y5': 'x0'} ; leaver-source final frame ranks {'x0': 6, 'x1': 6, 'x2': 6, 'x3': 6, 'x4': 6, 'x5': 6}
+  23- P1 P2 P3 ok; final partners {'y0': 'x4', 'y1': 'x5', 'y2': 'x3', 'y3': 'x2', 'y4': 'x0', 'y5': 'x1'} ; leaver-source final frame ranks {'x0': 6, 'x1': 6, 'x2': 6, 'x3': 6, 'x4': 6, 'x5': 6}
+  45- P1 P2 P3 ok; final partners {'y0': 'x4', 'y1': 'x5', 'y2': 'x3', 'y3': 'x2', 'y4': 'x0', 'y5': 'x1'} ; leaver-source final frame ranks {'x0': 6, 'x1': 6, 'x2': 6, 'x3': 6, 'x4': 6, 'x5': 6}
+WORD ../pipe/lvc/hpe/FULL-WORD.json.gz
+  01+ P1 P2 P3 ok; final partners {'y0': 'x5', 'y1': 'x4', 'y2': 'x3', 'y3': 'x2', 'y4': 'x1', 'y5': 'x0'} ; leaver-source final frame ranks {'x0': 6, 'x1': 7, 'x2': 6, 'x3': 7, 'x4': 6, 'x5': 7}
+  23+ P1 P2 P3 ok; final partners {'y0': 'x5', 'y1': 'x4', 'y2': 'x3', 'y3': 'x2', 'y4': 'x1', 'y5': 'x0'} ; leaver-source final frame ranks {'x0': 6, 'x1': 6, 'x2': 6, 'x3': 7, 'x4': 6, 'x5': 6}
+  45+ P1 P2 P3 ok; final partners {'y0': 'x5', 'y1': 'x4', 'y2': 'x3', 'y3': 'x2', 'y4': 'x1', 'y5': 'x0'} ; leaver-source final frame ranks {'x0': 6, 'x1': 7, 'x2': 6, 'x3': 6, 'x4': 6, 'x5': 6}
+  67+ P1 P2 P3 ok; final partners {'y0': 'x5', 'y1': 'x4', 'y2': 'x3', 'y3': 'x2', 'y4': 'x1', 'y5': 'x0'} ; leaver-source final frame ranks {'x0': 6, 'x1': 6, 'x2': 7, 'x3': 6, 'x4': 6, 'x5': 6}
+  67- P1 P2 P3 ok; final partners {'y0': 'x5', 'y1': 'x4', 'y2': 'x3', 'y3': 'x2', 'y4': 'x1', 'y5': 'x0'} ; leaver-source final frame ranks {'x0': 6, 'x1': 6, 'x2': 6, 'x3': 7, 'x4': 6, 'x5': 6}
+  01- P1 P2 P3 ok; final partners {'y0': 'x5', 'y1': 'x4', 'y2': 'x3', 'y3': 'x2', 'y4': 'x1', 'y5': 'x0'} ; leaver-source final frame ranks {'x0': 6, 'x1': 7, 'x2': 6, 'x3': 7, 'x4': 6, 'x5': 7}
+  23- P1 P2 P3 ok; final partners {'y0': 'x4', 'y1': 'x5', 'y2': 'x3', 'y3': 'x2', 'y4': 'x0', 'y5': 'x1'} ; leaver-source final frame ranks {'x0': 6, 'x1': 6, 'x2': 6, 'x3': 7, 'x4': 6, 'x5': 6}
+  45- P1 P2 P3 ok; final partners {'y0': 'x4', 'y1': 'x5', 'y2': 'x3', 'y3': 'x2', 'y4': 'x0', 'y5': 'x1'} ; leaver-source final frame ranks {'x0': 7, 'x1': 6, 'x2': 6, 'x3': 6, 'x4': 6, 'x5': 6}
+WORD ../pipe/lv/hpe/FULL-WORD.json.gz
+  01+ P1 P2 P3 ok; final partners {'y0': 'x5', 'y1': 'x4', 'y2': 'x3', 'y3': 'x2', 'y4': 'x1', 'y5': 'x0'} ; leaver-source final frame ranks {'x0': 6, 'x1': 7, 'x2': 6, 'x3': 7, 'x4': 6, 'x5': 7}
+  23+ P1 P2 P3 ok; final partners {'y0': 'x5', 'y1': 'x4', 'y2': 'x3', 'y3': 'x2', 'y4': 'x1', 'y5': 'x0'} ; leaver-source final frame ranks {'x0': 6, 'x1': 6, 'x2': 6, 'x3': 7, 'x4': 6, 'x5': 6}
+  45+ P1 P2 P3 ok; final partners {'y0': 'x5', 'y1': 'x4', 'y2': 'x3', 'y3': 'x2', 'y4': 'x1', 'y5': 'x0'} ; leaver-source final frame ranks {'x0': 6, 'x1': 7, 'x2': 6, 'x3': 6, 'x4': 6, 'x5': 6}
+  67+ P1 P2 P3 ok; final partners {'y0': 'x5', 'y1': 'x4', 'y2': 'x3', 'y3': 'x2', 'y4': 'x1', 'y5': 'x0'} ; leaver-source final frame ranks {'x0': 6, 'x1': 6, 'x2': 7, 'x3': 6, 'x4': 6, 'x5': 6}
+  67- P1 P2 P3 ok; final partners {'y0': 'x5', 'y1': 'x4', 'y2': 'x3', 'y3': 'x2', 'y4': 'x1', 'y5': 'x0'} ; leaver-source final frame ranks {'x0': 6, 'x1': 6, 'x2': 6, 'x3': 7, 'x4': 6, 'x5': 6}
+  01- P1 P2 P3 ok; final partners {'y0': 'x5', 'y1': 'x4', 'y2': 'x3', 'y3': 'x2', 'y4': 'x1', 'y5': 'x0'} ; leaver-source final frame ranks {'x0': 6, 'x1': 7, 'x2': 6, 'x3': 7, 'x4': 6, 'x5': 7}
+  23- P1 P2 P3 ok; final partners {'y0': 'x4', 'y1': 'x5', 'y2': 'x3', 'y3': 'x2', 'y4': 'x0', 'y5': 'x1'} ; leaver-source final frame ranks {'x0': 6, 'x1': 6, 'x2': 6, 'x3': 7, 'x4': 6, 'x5': 6}
+  45- P1 P2 P3 ok; final partners {'y0': 'x4', 'y1': 'x5', 'y2': 'x3', 'y3': 'x2', 'y4': 'x0', 'y5': 'x1'} ; leaver-source final frame ranks {'x0': 7, 'x1': 6, 'x2': 6, 'x3': 6, 'x4': 6, 'x5': 6}
+PAIRING on ../pipe/lv/hpe/FULL-WORD.json.gz
+  block  0 |I| 4 rankC 4 dimL 0 dimK 4 rank(LK) 0 I=[225, 227, 229, 234]
+  block  1 |I| 4 rankC 4 dimL 0 dimK 4 rank(LK) 0 I=[241, 243, 245, 250]
+  block  2 |I| 4 rankC 4 dimL 0 dimK 4 rank(LK) 0 I=[257, 259, 261, 266]
+  block  3 |I| 8 rankC 4 dimL 4 dimK 4 rank(LK) 4 I=[8, 11, 273, 275, 277, 281, 282, 285]
+  block  4 |I| 8 rankC 4 dimL 4 dimK 4 rank(LK) 4 I=[32, 35, 289, 291, 293, 297, 298, 301]
+  block  5 |I| 8 rankC 4 dimL 4 dimK 4 rank(LK) 4 I=[64, 67, 305, 307, 309, 313, 314, 317]
+  block  6 |I| 8 rankC 4 dimL 4 dimK 4 rank(LK) 4 I=[104, 107, 321, 323, 325, 329, 330, 333]
+  block  7 |I| 8 rankC 4 dimL 4 dimK 4 rank(LK) 4 I=[0, 3, 337, 339, 341, 345, 346, 349]
+  block  8 |I| 8 rankC 4 dimL 4 dimK 4 rank(LK) 4 I=[40, 43, 353, 355, 357, 361, 362, 365]
+  block  9 |I| 8 rankC 4 dimL 4 dimK 4 rank(LK) 4 I=[72, 75, 369, 371, 373, 377, 378, 381]
+  block 10 |I| 8 rankC 4 dimL 4 dimK 4 rank(LK) 4 I=[96, 99, 385, 387, 389, 393, 394, 397]
+  block 11 |I| 4 rankC 4 dimL 0 dimK 4 rank(LK) 0 I=[401, 403, 405, 410]
+  block 12 |I| 4 rankC 4 dimL 0 dimK 4 rank(LK) 0 I=[417, 419, 421, 426]
+  block 13 |I| 4 rankC 4 dimL 0 dimK 4 rank(LK) 0 I=[433, 435, 437, 442]

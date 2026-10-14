@@ -1,0 +1,72 @@
+BLOCK 0 I [225, 227, 229, 234] final ranks of 24 factory regs (loc:rank) {0: 7, 1: 6, 2: 6, 3: 6, 4: 8, 5: 8, 6: 8, 7: 8, 8: 8, 9: 4, 10: 8, 11: 4, 12: 8, 13: 4, 14: 8, 15: 8, 16: 8, 17: 7, 18: 4, 19: 6, 20: 8, 21: 6, 22: 8, 23: 6}
+   cell registers [(56, '01+:x1'), (57, '01+:x0'), (58, '23-:x0'), (59, '23+:x1'), (233, '01-:x1'), (235, '01-:x0'), (237, '23-:x1'), (239, '23+:x0')]
+   hypothetical I +4 notri-low leaver sources  |I| 8 rankC 5 dimL 3 dimK 4 rank(LK) 3
+   hypothetical I +all 8 cell registers        |I| 12 rankC 8 dimL 4 dimK 4 rank(LK) 4
+   hypothetical single +56 (01+:x1): dimL 1 dimK 4 rank(LK) 1
+   hypothetical single +57 (01+:x0): dimL 0 dimK 4 rank(LK) 0
+   hypothetical single +58 (23-:x0): dimL 0 dimK 4 rank(LK) 0
+   hypothetical single +59 (23+:x1): dimL 1 dimK 4 rank(LK) 1
+   hypothetical single +233 (01-:x1): dimL 0 dimK 4 rank(LK) 0
+   hypothetical single +235 (01-:x0): dimL 0 dimK 4 rank(LK) 0
+   hypothetical single +237 (23-:x1): dimL 1 dimK 4 rank(LK) 1
+   hypothetical single +239 (23+:x0): dimL 0 dimK 4 rank(LK) 0
+BLOCK 1 I [241, 243, 245, 250] final ranks of 24 factory regs (loc:rank) {0: 7, 1: 6, 2: 7, 3: 7, 4: 8, 5: 8, 6: 8, 7: 8, 8: 8, 9: 4, 10: 8, 11: 4, 12: 8, 13: 4, 14: 8, 15: 8, 16: 8, 17: 7, 18: 4, 19: 6, 20: 8, 21: 6, 22: 8, 23: 6}
+   cell registers [(24, '01+:x3'), (25, '01+:x2'), (26, '45-:x0'), (27, '45+:x1'), (249, '01-:x3'), (251, '01-:x2'), (253, '45-:x1'), (255, '45+:x0')]
+   hypothetical I +4 notri-low leaver sources  |I| 8 rankC 5 dimL 3 dimK 4 rank(LK) 3
+   hypothetical I +all 8 cell registers        |I| 12 rankC 9 dimL 3 dimK 4 rank(LK) 3
+   hypothetical single +24 (01+:x3): dimL 1 dimK 4 rank(LK) 1
+   hypothetical single +25 (01+:x2): dimL 0 dimK 4 rank(LK) 0
+   hypothetical single +26 (45-:x0): dimL 0 dimK 4 rank(LK) 0
+   hypothetical single +27 (45+:x1): dimL 1 dimK 4 rank(LK) 1
+   hypothetical single +249 (01-:x3): dimL 0 dimK 4 rank(LK) 0
+   hypothetical single +251 (01-:x2): dimL 0 dimK 4 rank(LK) 0
+   hypothetical single +253 (45-:x1): dimL 1 dimK 4 rank(LK) 1
+   hypothetical single +255 (45+:x0): dimL 0 dimK 4 rank(LK) 0
+BLOCK 2 I [257, 259, 261, 266] final ranks of 24 factory regs (loc:rank) {0: 7, 1: 6, 2: 6, 3: 6, 4: 8, 5: 8, 6: 8, 7: 8, 8: 8, 9: 4, 10: 8, 11: 4, 12: 8, 13: 4, 14: 8, 15: 8, 16: 8, 17: 7, 18: 4, 19: 6, 20: 8, 21: 6, 22: 8, 23: 6}
+   cell registers [(16, '01+:x5'), (17, '01+:x4'), (18, '67-:x0'), (19, '67+:x1'), (265, '01-:x5'), (267, '01-:x4'), (269, '67-:x1'), (271, '67+:x0')]
+   hypothetical I +4 notri-low leaver sources  |I| 8 rankC 5 dimL 3 dimK 4 rank(LK) 3
+   hypothetical I +all 8 cell registers        |I| 12 rankC 9 dimL 3 dimK 4 rank(LK) 3
+   hypothetical single +16 (01+:x5): dimL 1 dimK 4 rank(LK) 1
+   hypothetical single +17 (01+:x4): dimL 0 dimK 4 rank(LK) 0
+   hypothetical single +18 (67-:x0): dimL 0 dimK 4 rank(LK) 0
+   hypothetical single +19 (67+:x1): dimL 1 dimK 4 rank(LK) 1
+   hypothetical single +265 (01-:x5): dimL 0 dimK 4 rank(LK) 0
+   hypothetical single +267 (01-:x4): dimL 0 dimK 4 rank(LK) 0
+   hypothetical single +269 (67-:x1): dimL 1 dimK 4 rank(LK) 1
+   hypothetical single +271 (67+:x0): dimL 0 dimK 4 rank(LK) 0
+BLOCK 11 I [401, 403, 405, 410] final ranks of 24 factory regs (loc:rank) {0: 7, 1: 6, 2: 6, 3: 6, 4: 8, 5: 8, 6: 6, 7: 8, 8: 8, 9: 4, 10: 6, 11: 4, 12: 6, 13: 4, 14: 6, 15: 6, 16: 6, 17: 7, 18: 4, 19: 6, 20: 6, 21: 6, 22: 6, 23: 6}
+   cell registers [(88, '23+:x3'), (89, '23+:x2'), (90, '45-:x2'), (91, '45+:x3'), (409, '23-:x3'), (411, '23-:x2'), (413, '45-:x3'), (415, '45+:x2')]
+   hypothetical I +4 notri-low leaver sources  |I| 8 rankC 5 dimL 3 dimK 4 rank(LK) 3
+   hypothetical I +all 8 cell registers        |I| 12 rankC 9 dimL 3 dimK 4 rank(LK) 3
+   hypothetical single +88 (23+:x3): dimL 1 dimK 4 rank(LK) 1
+   hypothetical single +89 (23+:x2): dimL 0 dimK 4 rank(LK) 0
+   hypothetical single +90 (45-:x2): dimL 0 dimK 4 rank(LK) 0
+   hypothetical single +91 (45+:x3): dimL 1 dimK 4 rank(LK) 1
+   hypothetical single +409 (23-:x3): dimL 0 dimK 4 rank(LK) 0
+   hypothetical single +411 (23-:x2): dimL 0 dimK 4 rank(LK) 0
+   hypothetical single +413 (45-:x3): dimL 1 dimK 4 rank(LK) 1
+   hypothetical single +415 (45+:x2): dimL 0 dimK 4 rank(LK) 0
+BLOCK 12 I [417, 419, 421, 426] final ranks of 24 factory regs (loc:rank) {0: 6, 1: 6, 2: 6, 3: 6, 4: 8, 5: 8, 6: 6, 7: 8, 8: 8, 9: 4, 10: 6, 11: 4, 12: 6, 13: 4, 14: 6, 15: 6, 16: 6, 17: 6, 18: 4, 19: 6, 20: 6, 21: 7, 22: 6, 23: 7}
+   cell registers [(80, '23+:x5'), (81, '23+:x4'), (82, '67-:x2'), (83, '67+:x3'), (425, '23-:x5'), (427, '23-:x4'), (429, '67-:x3'), (431, '67+:x2')]
+   hypothetical I +4 notri-low leaver sources  |I| 8 rankC 5 dimL 3 dimK 4 rank(LK) 3
+   hypothetical I +all 8 cell registers        |I| 12 rankC 9 dimL 3 dimK 4 rank(LK) 3
+   hypothetical single +80 (23+:x5): dimL 1 dimK 4 rank(LK) 1
+   hypothetical single +81 (23+:x4): dimL 0 dimK 4 rank(LK) 0
+   hypothetical single +82 (67-:x2): dimL 0 dimK 4 rank(LK) 0
+   hypothetical single +83 (67+:x3): dimL 1 dimK 4 rank(LK) 1
+   hypothetical single +425 (23-:x5): dimL 0 dimK 4 rank(LK) 0
+   hypothetical single +427 (23-:x4): dimL 0 dimK 4 rank(LK) 0
+   hypothetical single +429 (67-:x3): dimL 1 dimK 4 rank(LK) 1
+   hypothetical single +431 (67+:x2): dimL 0 dimK 4 rank(LK) 0
+BLOCK 13 I [433, 435, 437, 442] final ranks of 24 factory regs (loc:rank) {0: 6, 1: 6, 2: 6, 3: 6, 4: 8, 5: 8, 6: 8, 7: 8, 8: 8, 9: 4, 10: 8, 11: 4, 12: 8, 13: 4, 14: 7, 15: 8, 16: 7, 17: 6, 18: 4, 19: 6, 20: 8, 21: 6, 22: 8, 23: 6}
+   cell registers [(48, '45+:x5'), (49, '45+:x4'), (50, '67-:x4'), (51, '67+:x5'), (441, '45-:x5'), (443, '45-:x4'), (445, '67-:x5'), (447, '67+:x4')]
+   hypothetical I +4 notri-low leaver sources  |I| 8 rankC 5 dimL 3 dimK 4 rank(LK) 3
+   hypothetical I +all 8 cell registers        |I| 12 rankC 9 dimL 3 dimK 4 rank(LK) 3
+   hypothetical single +48 (45+:x5): dimL 1 dimK 4 rank(LK) 1
+   hypothetical single +49 (45+:x4): dimL 0 dimK 4 rank(LK) 0
+   hypothetical single +50 (67-:x4): dimL 0 dimK 4 rank(LK) 0
+   hypothetical single +51 (67+:x5): dimL 1 dimK 4 rank(LK) 1
+   hypothetical single +441 (45-:x5): dimL 0 dimK 4 rank(LK) 0
+   hypothetical single +443 (45-:x4): dimL 0 dimK 4 rank(LK) 0
+   hypothetical single +445 (67-:x5): dimL 1 dimK 4 rank(LK) 1
+   hypothetical single +447 (67+:x4): dimL 0 dimK 4 rank(LK) 0

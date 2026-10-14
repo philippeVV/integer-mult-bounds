@@ -1,0 +1,8358 @@
+{
+ "word": "db2c7cfb3f8eee2b76c2e0154fc530520fb4d90cd9511a002cab527b16033b83",
+ "profile": {
+  "1": 2412,
+  "2": 418,
+  "3": 418,
+  "4": 170,
+  "5": 68,
+  "8": 8
+ },
+ "helpers": {
+  "448": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 8,
+   "width": 7,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 0,
+     "regs": [
+      124,
+      448
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 1,
+     "regs": [
+      125,
+      448
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 695,
+     "regs": [
+      448,
+      231
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 743,
+     "regs": [
+      484,
+      448
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": []
+  },
+  "449": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 8,
+   "width": 7,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 2,
+     "regs": [
+      120,
+      449
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 3,
+     "regs": [
+      121,
+      449
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 696,
+     "regs": [
+      449,
+      226
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 745,
+     "regs": [
+      485,
+      449
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": []
+  },
+  "450": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 8,
+   "width": 7,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 4,
+     "regs": [
+      180,
+      450
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 5,
+     "regs": [
+      181,
+      450
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 697,
+     "regs": [
+      450,
+      230
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 783,
+     "regs": [
+      508,
+      450
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": []
+  },
+  "451": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 8,
+   "width": 7,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 6,
+     "regs": [
+      176,
+      451
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 7,
+     "regs": [
+      177,
+      451
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 698,
+     "regs": [
+      451,
+      228
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 785,
+     "regs": [
+      509,
+      451
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": []
+  },
+  "452": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 8,
+   "width": 7,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 8,
+     "regs": [
+      116,
+      452
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 9,
+     "regs": [
+      117,
+      452
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 699,
+     "regs": [
+      452,
+      232
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 821,
+     "regs": [
+      532,
+      452
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": []
+  },
+  "453": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 8,
+   "width": 7,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 10,
+     "regs": [
+      112,
+      453
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 11,
+     "regs": [
+      113,
+      453
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 700,
+     "regs": [
+      453,
+      62
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 823,
+     "regs": [
+      533,
+      453
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": []
+  },
+  "454": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 8,
+   "width": 7,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 12,
+     "regs": [
+      188,
+      454
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 13,
+     "regs": [
+      213,
+      454
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 701,
+     "regs": [
+      454,
+      236
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 926,
+     "regs": [
+      188,
+      454
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": []
+  },
+  "455": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 8,
+   "width": 7,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 14,
+     "regs": [
+      184,
+      455
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 15,
+     "regs": [
+      209,
+      455
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 702,
+     "regs": [
+      455,
+      238
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 928,
+     "regs": [
+      184,
+      455
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": []
+  },
+  "472": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 16,
+     "regs": [
+      148,
+      472
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 723,
+     "regs": [
+      472,
+      283
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 724,
+     "regs": [
+      472,
+      231
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    },
+    {
+     "sec": "B",
+     "idx": 1174,
+     "regs": [
+      148,
+      472
+     ],
+     "frame_dim": 7,
+     "ceil_dim": 7,
+     "climb": 1
+    }
+   ],
+   "candidates": []
+  },
+  "473": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 17,
+     "regs": [
+      144,
+      473
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 725,
+     "regs": [
+      473,
+      9
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 726,
+     "regs": [
+      473,
+      226
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    },
+    {
+     "sec": "B",
+     "idx": 1176,
+     "regs": [
+      144,
+      473
+     ],
+     "frame_dim": 7,
+     "ceil_dim": 7,
+     "climb": 1
+    }
+   ],
+   "candidates": []
+  },
+  "474": {
+   "entrance": [
+    120
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    120,
+    1
+   ],
+   "ceiling_dim": 2,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1239,
+     "regs": [
+      456,
+      474
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 727,
+     "regs": [
+      474,
+      279
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 982,
+     "regs": [
+      456,
+      474
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": [
+    {
+     "Ep": [
+      120,
+      1
+     ],
+     "legal": true,
+     "bad": [],
+     "raised": 3,
+     "raised_secs": {
+      "A": 1,
+      "B": 2
+     },
+     "dprofile": {
+      "1": 1,
+      "2": 5,
+      "3": -4
+     },
+     "dRC": 0.002356600000000004,
+     "dExcess": 0.003330600000000004,
+     "dM": -1,
+     "dP": -6,
+     "unpriced_widths": [],
+     "touched": 4
+    }
+   ]
+  },
+  "475": {
+   "entrance": [
+    120
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    120,
+    1
+   ],
+   "ceiling_dim": 2,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1240,
+     "regs": [
+      457,
+      475
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 728,
+     "regs": [
+      475,
+      274
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 983,
+     "regs": [
+      457,
+      475
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": [
+    {
+     "Ep": [
+      120,
+      1
+     ],
+     "legal": true,
+     "bad": [],
+     "raised": 3,
+     "raised_secs": {
+      "A": 1,
+      "B": 2
+     },
+     "dprofile": {
+      "1": 1,
+      "2": 5,
+      "3": -4
+     },
+     "dRC": 0.002356600000000004,
+     "dExcess": 0.003330600000000004,
+     "dM": -1,
+     "dP": -6,
+     "unpriced_widths": [],
+     "touched": 4
+    }
+   ]
+  },
+  "476": {
+   "entrance": [
+    96
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    96,
+    1
+   ],
+   "ceiling_dim": 2,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1215,
+     "regs": [
+      464,
+      476
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 729,
+     "regs": [
+      476,
+      278
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 992,
+     "regs": [
+      464,
+      476
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": [
+    {
+     "Ep": [
+      96,
+      1
+     ],
+     "legal": true,
+     "bad": [],
+     "raised": 3,
+     "raised_secs": {
+      "A": 1,
+      "B": 2
+     },
+     "dprofile": {
+      "1": 1,
+      "2": 5,
+      "3": -4
+     },
+     "dRC": 0.002356600000000004,
+     "dExcess": 0.003330600000000004,
+     "dM": -1,
+     "dP": -6,
+     "unpriced_widths": [],
+     "touched": 4
+    }
+   ]
+  },
+  "477": {
+   "entrance": [
+    96
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    96,
+    1
+   ],
+   "ceiling_dim": 2,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1216,
+     "regs": [
+      465,
+      477
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 730,
+     "regs": [
+      477,
+      276
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 993,
+     "regs": [
+      465,
+      477
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": [
+    {
+     "Ep": [
+      96,
+      1
+     ],
+     "legal": true,
+     "bad": [],
+     "raised": 3,
+     "raised_secs": {
+      "A": 1,
+      "B": 2
+     },
+     "dprofile": {
+      "1": 1,
+      "2": 5,
+      "3": -4
+     },
+     "dRC": 0.002356600000000004,
+     "dExcess": 0.003330600000000004,
+     "dM": -1,
+     "dP": -6,
+     "unpriced_widths": [],
+     "touched": 4
+    }
+   ]
+  },
+  "484": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 8,
+   "width": 7,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 18,
+     "regs": [
+      124,
+      484
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 742,
+     "regs": [
+      484,
+      299
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 743,
+     "regs": [
+      484,
+      448
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    },
+    {
+     "sec": "B",
+     "idx": 1166,
+     "regs": [
+      124,
+      484
+     ],
+     "frame_dim": 7,
+     "ceil_dim": 7,
+     "climb": 1
+    }
+   ],
+   "candidates": []
+  },
+  "485": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 8,
+   "width": 7,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 19,
+     "regs": [
+      120,
+      485
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 744,
+     "regs": [
+      485,
+      33
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 745,
+     "regs": [
+      485,
+      449
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    },
+    {
+     "sec": "B",
+     "idx": 1168,
+     "regs": [
+      120,
+      485
+     ],
+     "frame_dim": 7,
+     "ceil_dim": 7,
+     "climb": 1
+    }
+   ],
+   "candidates": []
+  },
+  "486": {
+   "entrance": [
+    126
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    126,
+    1
+   ],
+   "ceiling_dim": 2,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1245,
+     "regs": [
+      458,
+      486
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 746,
+     "regs": [
+      486,
+      295
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 990,
+     "regs": [
+      458,
+      486
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": [
+    {
+     "Ep": [
+      126,
+      1
+     ],
+     "legal": true,
+     "bad": [],
+     "raised": 3,
+     "raised_secs": {
+      "A": 1,
+      "B": 2
+     },
+     "dprofile": {
+      "1": 1,
+      "2": 5,
+      "3": -4
+     },
+     "dRC": 0.002356600000000004,
+     "dExcess": 0.003330600000000004,
+     "dM": -1,
+     "dP": -6,
+     "unpriced_widths": [],
+     "touched": 4
+    }
+   ]
+  },
+  "487": {
+   "entrance": [
+    126
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    126,
+    1
+   ],
+   "ceiling_dim": 2,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1246,
+     "regs": [
+      459,
+      487
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 747,
+     "regs": [
+      487,
+      290
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 991,
+     "regs": [
+      459,
+      487
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": [
+    {
+     "Ep": [
+      126,
+      1
+     ],
+     "legal": true,
+     "bad": [],
+     "raised": 3,
+     "raised_secs": {
+      "A": 1,
+      "B": 2
+     },
+     "dprofile": {
+      "1": 1,
+      "2": 5,
+      "3": -4
+     },
+     "dRC": 0.002356600000000004,
+     "dExcess": 0.003330600000000004,
+     "dM": -1,
+     "dP": -6,
+     "unpriced_widths": [],
+     "touched": 4
+    }
+   ]
+  },
+  "488": {
+   "entrance": [
+    102
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    102,
+    1
+   ],
+   "ceiling_dim": 2,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1229,
+     "regs": [
+      466,
+      488
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 748,
+     "regs": [
+      488,
+      294
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 984,
+     "regs": [
+      466,
+      488
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": [
+    {
+     "Ep": [
+      102,
+      1
+     ],
+     "legal": true,
+     "bad": [],
+     "raised": 3,
+     "raised_secs": {
+      "A": 1,
+      "B": 2
+     },
+     "dprofile": {
+      "1": 1,
+      "2": 5,
+      "3": -4
+     },
+     "dRC": 0.002356600000000004,
+     "dExcess": 0.003330600000000004,
+     "dM": -1,
+     "dP": -6,
+     "unpriced_widths": [],
+     "touched": 4
+    }
+   ]
+  },
+  "489": {
+   "entrance": [
+    102
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    102,
+    1
+   ],
+   "ceiling_dim": 2,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1230,
+     "regs": [
+      467,
+      489
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 749,
+     "regs": [
+      489,
+      292
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 985,
+     "regs": [
+      467,
+      489
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": [
+    {
+     "Ep": [
+      102,
+      1
+     ],
+     "legal": true,
+     "bad": [],
+     "raised": 3,
+     "raised_secs": {
+      "A": 1,
+      "B": 2
+     },
+     "dprofile": {
+      "1": 1,
+      "2": 5,
+      "3": -4
+     },
+     "dRC": 0.002356600000000004,
+     "dExcess": 0.003330600000000004,
+     "dM": -1,
+     "dP": -6,
+     "unpriced_widths": [],
+     "touched": 4
+    }
+   ]
+  },
+  "496": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 20,
+     "regs": [
+      220,
+      496
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 762,
+     "regs": [
+      496,
+      315
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 763,
+     "regs": [
+      496,
+      230
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    },
+    {
+     "sec": "B",
+     "idx": 1190,
+     "regs": [
+      220,
+      496
+     ],
+     "frame_dim": 7,
+     "ceil_dim": 7,
+     "climb": 1
+    }
+   ],
+   "candidates": []
+  },
+  "497": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 21,
+     "regs": [
+      216,
+      497
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 764,
+     "regs": [
+      497,
+      65
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 765,
+     "regs": [
+      497,
+      228
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    },
+    {
+     "sec": "B",
+     "idx": 1192,
+     "regs": [
+      216,
+      497
+     ],
+     "frame_dim": 7,
+     "ceil_dim": 7,
+     "climb": 1
+    }
+   ],
+   "candidates": []
+  },
+  "506": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 62,
+     "regs": [
+      586,
+      506
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "A",
+     "idx": 63,
+     "regs": [
+      506
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 37,
+     "regs": [
+      586,
+      506
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 146,
+     "regs": [
+      636,
+      506
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "508": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 8,
+   "width": 7,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 22,
+     "regs": [
+      180,
+      508
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 782,
+     "regs": [
+      508,
+      331
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 783,
+     "regs": [
+      508,
+      450
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    },
+    {
+     "sec": "B",
+     "idx": 1182,
+     "regs": [
+      180,
+      508
+     ],
+     "frame_dim": 7,
+     "ceil_dim": 7,
+     "climb": 1
+    }
+   ],
+   "candidates": []
+  },
+  "509": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 8,
+   "width": 7,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 23,
+     "regs": [
+      176,
+      509
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 784,
+     "regs": [
+      509,
+      105
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 785,
+     "regs": [
+      509,
+      451
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    },
+    {
+     "sec": "B",
+     "idx": 1184,
+     "regs": [
+      176,
+      509
+     ],
+     "frame_dim": 7,
+     "ceil_dim": 7,
+     "climb": 1
+    }
+   ],
+   "candidates": []
+  },
+  "518": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 61,
+     "regs": [
+      588,
+      518
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 42,
+     "regs": [
+      588,
+      518
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 156,
+     "regs": [
+      641,
+      518
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 158,
+     "regs": [
+      641,
+      518
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "520": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 24,
+     "regs": [
+      156,
+      520
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 802,
+     "regs": [
+      520,
+      347
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 803,
+     "regs": [
+      520,
+      232
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    },
+    {
+     "sec": "B",
+     "idx": 1206,
+     "regs": [
+      156,
+      520
+     ],
+     "frame_dim": 7,
+     "ceil_dim": 7,
+     "climb": 1
+    }
+   ],
+   "candidates": []
+  },
+  "521": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 25,
+     "regs": [
+      152,
+      521
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 804,
+     "regs": [
+      521,
+      1
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 805,
+     "regs": [
+      521,
+      62
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    },
+    {
+     "sec": "B",
+     "idx": 1208,
+     "regs": [
+      152,
+      521
+     ],
+     "frame_dim": 7,
+     "ceil_dim": 7,
+     "climb": 1
+    }
+   ],
+   "candidates": []
+  },
+  "522": {
+   "entrance": [
+    126
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    121,
+    7
+   ],
+   "ceiling_dim": 2,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1243,
+     "regs": [
+      460,
+      522
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 806,
+     "regs": [
+      522,
+      343
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 1014,
+     "regs": [
+      460,
+      522
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": [
+    {
+     "Ep": [
+      121,
+      7
+     ],
+     "legal": true,
+     "bad": [],
+     "raised": 3,
+     "raised_secs": {
+      "A": 1,
+      "B": 2
+     },
+     "dprofile": {
+      "1": 1,
+      "2": 5,
+      "3": -4
+     },
+     "dRC": 0.002356600000000004,
+     "dExcess": 0.003330600000000004,
+     "dM": -1,
+     "dP": -6,
+     "unpriced_widths": [],
+     "touched": 4
+    }
+   ]
+  },
+  "523": {
+   "entrance": [
+    126
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    121,
+    7
+   ],
+   "ceiling_dim": 2,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1244,
+     "regs": [
+      461,
+      523
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 807,
+     "regs": [
+      523,
+      338
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 1015,
+     "regs": [
+      461,
+      523
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": [
+    {
+     "Ep": [
+      121,
+      7
+     ],
+     "legal": true,
+     "bad": [],
+     "raised": 3,
+     "raised_secs": {
+      "A": 1,
+      "B": 2
+     },
+     "dprofile": {
+      "1": 1,
+      "2": 5,
+      "3": -4
+     },
+     "dRC": 0.002356600000000004,
+     "dExcess": 0.003330600000000004,
+     "dM": -1,
+     "dP": -6,
+     "unpriced_widths": [],
+     "touched": 4
+    }
+   ]
+  },
+  "524": {
+   "entrance": [
+    96
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    96,
+    7
+   ],
+   "ceiling_dim": 2,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1217,
+     "regs": [
+      470,
+      524
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 808,
+     "regs": [
+      524,
+      342
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 1024,
+     "regs": [
+      470,
+      524
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": [
+    {
+     "Ep": [
+      96,
+      7
+     ],
+     "legal": true,
+     "bad": [],
+     "raised": 3,
+     "raised_secs": {
+      "A": 1,
+      "B": 2
+     },
+     "dprofile": {
+      "1": 1,
+      "2": 5,
+      "3": -4
+     },
+     "dRC": 0.002356600000000004,
+     "dExcess": 0.003330600000000004,
+     "dM": -1,
+     "dP": -6,
+     "unpriced_widths": [],
+     "touched": 4
+    }
+   ]
+  },
+  "525": {
+   "entrance": [
+    96
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    96,
+    7
+   ],
+   "ceiling_dim": 2,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1218,
+     "regs": [
+      471,
+      525
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 809,
+     "regs": [
+      525,
+      340
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 1025,
+     "regs": [
+      471,
+      525
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": [
+    {
+     "Ep": [
+      96,
+      7
+     ],
+     "legal": true,
+     "bad": [],
+     "raised": 3,
+     "raised_secs": {
+      "A": 1,
+      "B": 2
+     },
+     "dprofile": {
+      "1": 1,
+      "2": 5,
+      "3": -4
+     },
+     "dRC": 0.002356600000000004,
+     "dExcess": 0.003330600000000004,
+     "dM": -1,
+     "dP": -6,
+     "unpriced_widths": [],
+     "touched": 4
+    }
+   ]
+  },
+  "526": {
+   "entrance": [
+    96
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    96,
+    25
+   ],
+   "ceiling_dim": 2,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1219,
+     "regs": [
+      478,
+      526
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 810,
+     "regs": [
+      526,
+      344
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 1030,
+     "regs": [
+      478,
+      526
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": [
+    {
+     "Ep": [
+      96,
+      25
+     ],
+     "legal": true,
+     "bad": [],
+     "raised": 3,
+     "raised_secs": {
+      "A": 1,
+      "B": 2
+     },
+     "dprofile": {
+      "1": 1,
+      "2": 5,
+      "3": -4
+     },
+     "dRC": 0.002356600000000004,
+     "dExcess": 0.003330600000000004,
+     "dM": -1,
+     "dP": -6,
+     "unpriced_widths": [],
+     "touched": 4
+    }
+   ]
+  },
+  "527": {
+   "entrance": [
+    96
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    96,
+    25
+   ],
+   "ceiling_dim": 2,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1220,
+     "regs": [
+      479,
+      527
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 811,
+     "regs": [
+      527,
+      6
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 1031,
+     "regs": [
+      479,
+      527
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": [
+    {
+     "Ep": [
+      96,
+      25
+     ],
+     "legal": true,
+     "bad": [],
+     "raised": 3,
+     "raised_secs": {
+      "A": 1,
+      "B": 2
+     },
+     "dprofile": {
+      "1": 1,
+      "2": 5,
+      "3": -4
+     },
+     "dRC": 0.002356600000000004,
+     "dExcess": 0.003330600000000004,
+     "dM": -1,
+     "dP": -6,
+     "unpriced_widths": [],
+     "touched": 4
+    }
+   ]
+  },
+  "528": {
+   "entrance": [
+    126
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    103,
+    25
+   ],
+   "ceiling_dim": 2,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1235,
+     "regs": [
+      492,
+      528
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 812,
+     "regs": [
+      528,
+      348
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 1040,
+     "regs": [
+      492,
+      528
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": [
+    {
+     "Ep": [
+      103,
+      25
+     ],
+     "legal": true,
+     "bad": [],
+     "raised": 3,
+     "raised_secs": {
+      "A": 1,
+      "B": 2
+     },
+     "dprofile": {
+      "1": 1,
+      "2": 5,
+      "3": -4
+     },
+     "dRC": 0.002356600000000004,
+     "dExcess": 0.003330600000000004,
+     "dM": -1,
+     "dP": -6,
+     "unpriced_widths": [],
+     "touched": 4
+    }
+   ]
+  },
+  "529": {
+   "entrance": [
+    126
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    103,
+    25
+   ],
+   "ceiling_dim": 2,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1236,
+     "regs": [
+      493,
+      529
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 813,
+     "regs": [
+      529,
+      350
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 1041,
+     "regs": [
+      493,
+      529
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": [
+    {
+     "Ep": [
+      103,
+      25
+     ],
+     "legal": true,
+     "bad": [],
+     "raised": 3,
+     "raised_secs": {
+      "A": 1,
+      "B": 2
+     },
+     "dprofile": {
+      "1": 1,
+      "2": 5,
+      "3": -4
+     },
+     "dRC": 0.002356600000000004,
+     "dExcess": 0.003330600000000004,
+     "dM": -1,
+     "dP": -6,
+     "unpriced_widths": [],
+     "touched": 4
+    }
+   ]
+  },
+  "531": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 8,
+   "width": 7,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 459,
+     "regs": [
+      115,
+      531
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 495,
+     "regs": [
+      179,
+      531
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 776,
+     "regs": [
+      507,
+      531
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 815,
+     "regs": [
+      531,
+      351
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    }
+   ],
+   "candidates": []
+  },
+  "532": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 8,
+   "width": 7,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 26,
+     "regs": [
+      116,
+      532
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 820,
+     "regs": [
+      532,
+      363
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 821,
+     "regs": [
+      532,
+      452
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    },
+    {
+     "sec": "B",
+     "idx": 1198,
+     "regs": [
+      116,
+      532
+     ],
+     "frame_dim": 7,
+     "ceil_dim": 7,
+     "climb": 1
+    }
+   ],
+   "candidates": []
+  },
+  "533": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 8,
+   "width": 7,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 27,
+     "regs": [
+      112,
+      533
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 822,
+     "regs": [
+      533,
+      41
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 823,
+     "regs": [
+      533,
+      453
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    },
+    {
+     "sec": "B",
+     "idx": 1200,
+     "regs": [
+      112,
+      533
+     ],
+     "frame_dim": 7,
+     "ceil_dim": 7,
+     "climb": 1
+    }
+   ],
+   "candidates": []
+  },
+  "534": {
+   "entrance": [
+    120
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    120,
+    7
+   ],
+   "ceiling_dim": 2,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1241,
+     "regs": [
+      462,
+      534
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 824,
+     "regs": [
+      534,
+      359
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 1022,
+     "regs": [
+      462,
+      534
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": [
+    {
+     "Ep": [
+      120,
+      7
+     ],
+     "legal": true,
+     "bad": [],
+     "raised": 3,
+     "raised_secs": {
+      "A": 1,
+      "B": 2
+     },
+     "dprofile": {
+      "1": 1,
+      "2": 5,
+      "3": -4
+     },
+     "dRC": 0.002356600000000004,
+     "dExcess": 0.003330600000000004,
+     "dM": -1,
+     "dP": -6,
+     "unpriced_widths": [],
+     "touched": 4
+    }
+   ]
+  },
+  "535": {
+   "entrance": [
+    120
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    120,
+    7
+   ],
+   "ceiling_dim": 2,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1242,
+     "regs": [
+      463,
+      535
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 825,
+     "regs": [
+      535,
+      354
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 1023,
+     "regs": [
+      463,
+      535
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": [
+    {
+     "Ep": [
+      120,
+      7
+     ],
+     "legal": true,
+     "bad": [],
+     "raised": 3,
+     "raised_secs": {
+      "A": 1,
+      "B": 2
+     },
+     "dprofile": {
+      "1": 1,
+      "2": 5,
+      "3": -4
+     },
+     "dRC": 0.002356600000000004,
+     "dExcess": 0.003330600000000004,
+     "dM": -1,
+     "dP": -6,
+     "unpriced_widths": [],
+     "touched": 4
+    }
+   ]
+  },
+  "536": {
+   "entrance": [
+    102
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    97,
+    7
+   ],
+   "ceiling_dim": 2,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1223,
+     "regs": [
+      468,
+      536
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 826,
+     "regs": [
+      536,
+      358
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 1016,
+     "regs": [
+      468,
+      536
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": [
+    {
+     "Ep": [
+      97,
+      7
+     ],
+     "legal": true,
+     "bad": [],
+     "raised": 3,
+     "raised_secs": {
+      "A": 1,
+      "B": 2
+     },
+     "dprofile": {
+      "1": 1,
+      "2": 5,
+      "3": -4
+     },
+     "dRC": 0.002356600000000004,
+     "dExcess": 0.003330600000000004,
+     "dM": -1,
+     "dP": -6,
+     "unpriced_widths": [],
+     "touched": 4
+    }
+   ]
+  },
+  "537": {
+   "entrance": [
+    102
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    97,
+    7
+   ],
+   "ceiling_dim": 2,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1224,
+     "regs": [
+      469,
+      537
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 827,
+     "regs": [
+      537,
+      356
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 1017,
+     "regs": [
+      469,
+      537
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": [
+    {
+     "Ep": [
+      97,
+      7
+     ],
+     "legal": true,
+     "bad": [],
+     "raised": 3,
+     "raised_secs": {
+      "A": 1,
+      "B": 2
+     },
+     "dprofile": {
+      "1": 1,
+      "2": 5,
+      "3": -4
+     },
+     "dRC": 0.002356600000000004,
+     "dExcess": 0.003330600000000004,
+     "dM": -1,
+     "dP": -6,
+     "unpriced_widths": [],
+     "touched": 4
+    }
+   ]
+  },
+  "538": {
+   "entrance": [
+    102
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    102,
+    25
+   ],
+   "ceiling_dim": 2,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1231,
+     "regs": [
+      490,
+      538
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 828,
+     "regs": [
+      538,
+      360
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 1032,
+     "regs": [
+      490,
+      538
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": [
+    {
+     "Ep": [
+      102,
+      25
+     ],
+     "legal": true,
+     "bad": [],
+     "raised": 3,
+     "raised_secs": {
+      "A": 1,
+      "B": 2
+     },
+     "dprofile": {
+      "1": 1,
+      "2": 5,
+      "3": -4
+     },
+     "dRC": 0.002356600000000004,
+     "dExcess": 0.003330600000000004,
+     "dM": -1,
+     "dP": -6,
+     "unpriced_widths": [],
+     "touched": 4
+    }
+   ]
+  },
+  "539": {
+   "entrance": [
+    102
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    102,
+    25
+   ],
+   "ceiling_dim": 2,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1232,
+     "regs": [
+      491,
+      539
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 829,
+     "regs": [
+      539,
+      46
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 1033,
+     "regs": [
+      491,
+      539
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": [
+    {
+     "Ep": [
+      102,
+      25
+     ],
+     "legal": true,
+     "bad": [],
+     "raised": 3,
+     "raised_secs": {
+      "A": 1,
+      "B": 2
+     },
+     "dprofile": {
+      "1": 1,
+      "2": 5,
+      "3": -4
+     },
+     "dRC": 0.002356600000000004,
+     "dExcess": 0.003330600000000004,
+     "dM": -1,
+     "dP": -6,
+     "unpriced_widths": [],
+     "touched": 4
+    }
+   ]
+  },
+  "540": {
+   "entrance": [
+    120
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    97,
+    25
+   ],
+   "ceiling_dim": 2,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1225,
+     "regs": [
+      480,
+      540
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 830,
+     "regs": [
+      540,
+      364
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 1038,
+     "regs": [
+      480,
+      540
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": [
+    {
+     "Ep": [
+      97,
+      25
+     ],
+     "legal": true,
+     "bad": [],
+     "raised": 3,
+     "raised_secs": {
+      "A": 1,
+      "B": 2
+     },
+     "dprofile": {
+      "1": 1,
+      "2": 5,
+      "3": -4
+     },
+     "dRC": 0.002356600000000004,
+     "dExcess": 0.003330600000000004,
+     "dM": -1,
+     "dP": -6,
+     "unpriced_widths": [],
+     "touched": 4
+    }
+   ]
+  },
+  "541": {
+   "entrance": [
+    120
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    97,
+    25
+   ],
+   "ceiling_dim": 2,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1226,
+     "regs": [
+      481,
+      541
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 831,
+     "regs": [
+      541,
+      366
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 1039,
+     "regs": [
+      481,
+      541
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": [
+    {
+     "Ep": [
+      97,
+      25
+     ],
+     "legal": true,
+     "bad": [],
+     "raised": 3,
+     "raised_secs": {
+      "A": 1,
+      "B": 2
+     },
+     "dprofile": {
+      "1": 1,
+      "2": 5,
+      "3": -4
+     },
+     "dRC": 0.002356600000000004,
+     "dExcess": 0.003330600000000004,
+     "dM": -1,
+     "dP": -6,
+     "unpriced_widths": [],
+     "touched": 4
+    }
+   ]
+  },
+  "543": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 8,
+   "width": 7,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 486,
+     "regs": [
+      155,
+      543
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 521,
+     "regs": [
+      219,
+      543
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 796,
+     "regs": [
+      519,
+      543
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 833,
+     "regs": [
+      543,
+      367
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    }
+   ],
+   "candidates": []
+  },
+  "544": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 28,
+     "regs": [
+      212,
+      544
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 838,
+     "regs": [
+      544,
+      379
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 1222,
+     "regs": [
+      212,
+      544
+     ],
+     "frame_dim": 7,
+     "ceil_dim": 7,
+     "climb": 4
+    }
+   ],
+   "candidates": []
+  },
+  "545": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 29,
+     "regs": [
+      208,
+      545
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 839,
+     "regs": [
+      545,
+      73
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 1224,
+     "regs": [
+      208,
+      545
+     ],
+     "frame_dim": 7,
+     "ceil_dim": 7,
+     "climb": 4
+    }
+   ],
+   "candidates": []
+  },
+  "550": {
+   "entrance": [
+    102
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    102,
+    31
+   ],
+   "ceiling_dim": 2,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1233,
+     "regs": [
+      502,
+      550
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 844,
+     "regs": [
+      550,
+      376
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 1034,
+     "regs": [
+      502,
+      550
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": [
+    {
+     "Ep": [
+      102,
+      31
+     ],
+     "legal": true,
+     "bad": [],
+     "raised": 3,
+     "raised_secs": {
+      "A": 1,
+      "B": 2
+     },
+     "dprofile": {
+      "1": 1,
+      "2": 5,
+      "3": -4
+     },
+     "dRC": 0.002356600000000004,
+     "dExcess": 0.003330600000000004,
+     "dM": -1,
+     "dP": -6,
+     "unpriced_widths": [],
+     "touched": 4
+    }
+   ]
+  },
+  "551": {
+   "entrance": [
+    102
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    102,
+    31
+   ],
+   "ceiling_dim": 2,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1234,
+     "regs": [
+      503,
+      551
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 845,
+     "regs": [
+      551,
+      78
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 1035,
+     "regs": [
+      503,
+      551
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": [
+    {
+     "Ep": [
+      102,
+      31
+     ],
+     "legal": true,
+     "bad": [],
+     "raised": 3,
+     "raised_secs": {
+      "A": 1,
+      "B": 2
+     },
+     "dprofile": {
+      "1": 1,
+      "2": 5,
+      "3": -4
+     },
+     "dRC": 0.002356600000000004,
+     "dExcess": 0.003330600000000004,
+     "dM": -1,
+     "dP": -6,
+     "unpriced_widths": [],
+     "touched": 4
+    }
+   ]
+  },
+  "552": {
+   "entrance": [
+    126
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    97,
+    31
+   ],
+   "ceiling_dim": 2,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1227,
+     "regs": [
+      516,
+      552
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 846,
+     "regs": [
+      552,
+      380
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 1042,
+     "regs": [
+      516,
+      552
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": [
+    {
+     "Ep": [
+      97,
+      31
+     ],
+     "legal": true,
+     "bad": [],
+     "raised": 3,
+     "raised_secs": {
+      "A": 1,
+      "B": 2
+     },
+     "dprofile": {
+      "1": 1,
+      "2": 5,
+      "3": -4
+     },
+     "dRC": 0.002356600000000004,
+     "dExcess": 0.003330600000000004,
+     "dM": -1,
+     "dP": -6,
+     "unpriced_widths": [],
+     "touched": 4
+    }
+   ]
+  },
+  "553": {
+   "entrance": [
+    126
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    97,
+    31
+   ],
+   "ceiling_dim": 2,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1228,
+     "regs": [
+      517,
+      553
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 847,
+     "regs": [
+      553,
+      382
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 1043,
+     "regs": [
+      517,
+      553
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": [
+    {
+     "Ep": [
+      97,
+      31
+     ],
+     "legal": true,
+     "bad": [],
+     "raised": 3,
+     "raised_secs": {
+      "A": 1,
+      "B": 2
+     },
+     "dprofile": {
+      "1": 1,
+      "2": 5,
+      "3": -4
+     },
+     "dRC": 0.002356600000000004,
+     "dExcess": 0.003330600000000004,
+     "dM": -1,
+     "dP": -6,
+     "unpriced_widths": [],
+     "touched": 4
+    }
+   ]
+  },
+  "554": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 8,
+   "width": 7,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 64,
+     "regs": [
+      666,
+      554
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "A",
+     "idx": 65,
+     "regs": [
+      664,
+      554
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "A",
+     "idx": 66,
+     "regs": [
+      618,
+      554
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "A",
+     "idx": 67,
+     "regs": [
+      616,
+      554
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "555": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 8,
+   "width": 7,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 468,
+     "regs": [
+      123,
+      555
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 504,
+     "regs": [
+      187,
+      555
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 736,
+     "regs": [
+      483,
+      555
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 849,
+     "regs": [
+      555,
+      383
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    }
+   ],
+   "candidates": []
+  },
+  "556": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 8,
+   "width": 7,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 30,
+     "regs": [
+      188,
+      556
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 854,
+     "regs": [
+      556,
+      395
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 1214,
+     "regs": [
+      188,
+      556
+     ],
+     "frame_dim": 7,
+     "ceil_dim": 7,
+     "climb": 4
+    },
+    {
+     "sec": "T",
+     "idx": 20,
+     "regs": [
+      556,
+      395
+     ],
+     "frame_dim": 8,
+     "ceil_dim": 8,
+     "climb": 1
+    }
+   ],
+   "candidates": []
+  },
+  "557": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 8,
+   "width": 7,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 31,
+     "regs": [
+      184,
+      557
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 855,
+     "regs": [
+      557,
+      97
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 1216,
+     "regs": [
+      184,
+      557
+     ],
+     "frame_dim": 7,
+     "ceil_dim": 7,
+     "climb": 4
+    },
+    {
+     "sec": "T",
+     "idx": 21,
+     "regs": [
+      557,
+      97
+     ],
+     "frame_dim": 8,
+     "ceil_dim": 8,
+     "climb": 1
+    }
+   ],
+   "candidates": []
+  },
+  "559": {
+   "entrance": [
+    480
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    480
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1202,
+     "regs": [
+      548,
+      559
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "A",
+     "idx": 1203,
+     "regs": [
+      558,
+      559
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "A",
+     "idx": 1204,
+     "regs": [
+      549,
+      559
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 857,
+     "regs": [
+      559,
+      386
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    }
+   ],
+   "candidates": []
+  },
+  "561": {
+   "entrance": [
+    480
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    480
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1190,
+     "regs": [
+      546,
+      561
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "A",
+     "idx": 1191,
+     "regs": [
+      560,
+      561
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "A",
+     "idx": 1192,
+     "regs": [
+      547,
+      561
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 859,
+     "regs": [
+      561,
+      388
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    }
+   ],
+   "candidates": []
+  },
+  "562": {
+   "entrance": [
+    96
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    96,
+    31
+   ],
+   "ceiling_dim": 2,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1221,
+     "regs": [
+      514,
+      562
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 860,
+     "regs": [
+      562,
+      392
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 1036,
+     "regs": [
+      514,
+      562
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": [
+    {
+     "Ep": [
+      96,
+      31
+     ],
+     "legal": true,
+     "bad": [],
+     "raised": 3,
+     "raised_secs": {
+      "A": 1,
+      "B": 2
+     },
+     "dprofile": {
+      "1": 1,
+      "2": 5,
+      "3": -4
+     },
+     "dRC": 0.002356600000000004,
+     "dExcess": 0.003330600000000004,
+     "dM": -1,
+     "dP": -6,
+     "unpriced_widths": [],
+     "touched": 4
+    }
+   ]
+  },
+  "563": {
+   "entrance": [
+    96
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    96,
+    31
+   ],
+   "ceiling_dim": 2,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1222,
+     "regs": [
+      515,
+      563
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 861,
+     "regs": [
+      563,
+      102
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 1037,
+     "regs": [
+      515,
+      563
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": [
+    {
+     "Ep": [
+      96,
+      31
+     ],
+     "legal": true,
+     "bad": [],
+     "raised": 3,
+     "raised_secs": {
+      "A": 1,
+      "B": 2
+     },
+     "dprofile": {
+      "1": 1,
+      "2": 5,
+      "3": -4
+     },
+     "dRC": 0.002356600000000004,
+     "dExcess": 0.003330600000000004,
+     "dM": -1,
+     "dP": -6,
+     "unpriced_widths": [],
+     "touched": 4
+    }
+   ]
+  },
+  "564": {
+   "entrance": [
+    120
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    103,
+    31
+   ],
+   "ceiling_dim": 2,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1237,
+     "regs": [
+      504,
+      564
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 862,
+     "regs": [
+      564,
+      396
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 1044,
+     "regs": [
+      504,
+      564
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": [
+    {
+     "Ep": [
+      103,
+      31
+     ],
+     "legal": true,
+     "bad": [],
+     "raised": 3,
+     "raised_secs": {
+      "A": 1,
+      "B": 2
+     },
+     "dprofile": {
+      "1": 1,
+      "2": 5,
+      "3": -4
+     },
+     "dRC": 0.002356600000000004,
+     "dExcess": 0.003330600000000004,
+     "dM": -1,
+     "dP": -6,
+     "unpriced_widths": [],
+     "touched": 4
+    }
+   ]
+  },
+  "565": {
+   "entrance": [
+    120
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    103,
+    31
+   ],
+   "ceiling_dim": 2,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1238,
+     "regs": [
+      505,
+      565
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 863,
+     "regs": [
+      565,
+      398
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 1045,
+     "regs": [
+      505,
+      565
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": [
+    {
+     "Ep": [
+      103,
+      31
+     ],
+     "legal": true,
+     "bad": [],
+     "raised": 3,
+     "raised_secs": {
+      "A": 1,
+      "B": 2
+     },
+     "dprofile": {
+      "1": 1,
+      "2": 5,
+      "3": -4
+     },
+     "dRC": 0.002356600000000004,
+     "dExcess": 0.003330600000000004,
+     "dM": -1,
+     "dP": -6,
+     "unpriced_widths": [],
+     "touched": 4
+    }
+   ]
+  },
+  "566": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 8,
+   "width": 7,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 128,
+     "regs": [
+      628,
+      566
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 130,
+     "regs": [
+      628,
+      566
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 230,
+     "regs": [
+      676,
+      566
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 232,
+     "regs": [
+      676,
+      566
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "567": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 8,
+   "width": 7,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 49,
+     "regs": [
+      211,
+      567
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 477,
+     "regs": [
+      147,
+      567
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 756,
+     "regs": [
+      495,
+      567
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 865,
+     "regs": [
+      567,
+      399
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    }
+   ],
+   "candidates": []
+  },
+  "569": {
+   "entrance": [
+    480
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    480
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1193,
+     "regs": [
+      547,
+      569
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "A",
+     "idx": 1194,
+     "regs": [
+      568,
+      569
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "A",
+     "idx": 1195,
+     "regs": [
+      546,
+      569
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 867,
+     "regs": [
+      569,
+      402
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    }
+   ],
+   "candidates": []
+  },
+  "571": {
+   "entrance": [
+    480
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    480
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1205,
+     "regs": [
+      548,
+      571
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "A",
+     "idx": 1206,
+     "regs": [
+      558,
+      571
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "A",
+     "idx": 1207,
+     "regs": [
+      549,
+      571
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "A",
+     "idx": 1208,
+     "regs": [
+      570,
+      571
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "576": {
+   "entrance": [
+    480
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    480
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1209,
+     "regs": [
+      548,
+      576
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "A",
+     "idx": 1210,
+     "regs": [
+      570,
+      576
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "A",
+     "idx": 1211,
+     "regs": [
+      558,
+      576
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 874,
+     "regs": [
+      576,
+      423
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    }
+   ],
+   "candidates": []
+  },
+  "577": {
+   "entrance": [
+    480
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    480
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1212,
+     "regs": [
+      549,
+      577
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "A",
+     "idx": 1213,
+     "regs": [
+      570,
+      577
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "A",
+     "idx": 1214,
+     "regs": [
+      558,
+      577
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 875,
+     "regs": [
+      577,
+      418
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    }
+   ],
+   "candidates": []
+  },
+  "578": {
+   "entrance": [
+    480
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    480
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1196,
+     "regs": [
+      560,
+      578
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "A",
+     "idx": 1197,
+     "regs": [
+      568,
+      578
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "A",
+     "idx": 1198,
+     "regs": [
+      546,
+      578
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 876,
+     "regs": [
+      578,
+      422
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    }
+   ],
+   "candidates": []
+  },
+  "579": {
+   "entrance": [
+    480
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    480
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 1199,
+     "regs": [
+      560,
+      579
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "A",
+     "idx": 1200,
+     "regs": [
+      547,
+      579
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "A",
+     "idx": 1201,
+     "regs": [
+      568,
+      579
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 877,
+     "regs": [
+      579,
+      420
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    }
+   ],
+   "candidates": []
+  },
+  "584": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 8,
+   "width": 7,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 32,
+     "regs": [
+      126,
+      584
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 33,
+     "regs": [
+      186,
+      584
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 882,
+     "regs": [
+      584,
+      439
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 893,
+     "regs": [
+      126,
+      584
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": []
+  },
+  "585": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 8,
+   "width": 7,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 34,
+     "regs": [
+      127,
+      585
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 35,
+     "regs": [
+      187,
+      585
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 883,
+     "regs": [
+      585,
+      434
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 895,
+     "regs": [
+      127,
+      585
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": []
+  },
+  "586": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 8,
+   "width": 7,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 62,
+     "regs": [
+      586,
+      506
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 36,
+     "regs": [
+      114,
+      586
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 37,
+     "regs": [
+      586,
+      506
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 38,
+     "regs": [
+      182,
+      586
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "587": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 8,
+   "width": 7,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 39,
+     "regs": [
+      115,
+      587
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 40,
+     "regs": [
+      183,
+      587
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 885,
+     "regs": [
+      587,
+      436
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 907,
+     "regs": [
+      183,
+      587
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": []
+  },
+  "588": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 8,
+   "width": 7,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 61,
+     "regs": [
+      588,
+      518
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 41,
+     "regs": [
+      154,
+      588
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 42,
+     "regs": [
+      588,
+      518
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 43,
+     "regs": [
+      222,
+      588
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "589": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 8,
+   "width": 7,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 44,
+     "regs": [
+      155,
+      589
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 45,
+     "regs": [
+      223,
+      589
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 887,
+     "regs": [
+      589,
+      54
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 913,
+     "regs": [
+      223,
+      589
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": []
+  },
+  "590": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 8,
+   "width": 7,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 46,
+     "regs": [
+      150,
+      590
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 47,
+     "regs": [
+      210,
+      590
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 888,
+     "regs": [
+      590,
+      444
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 899,
+     "regs": [
+      150,
+      590
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": []
+  },
+  "591": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 8,
+   "width": 7,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 48,
+     "regs": [
+      151,
+      591
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 50,
+     "regs": [
+      211,
+      591
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 889,
+     "regs": [
+      591,
+      446
+     ],
+     "frame_dim": 3,
+     "ceil_dim": 4,
+     "climb": 2
+    },
+    {
+     "sec": "B",
+     "idx": 901,
+     "regs": [
+      151,
+      591
+     ],
+     "frame_dim": 6,
+     "ceil_dim": 6,
+     "climb": 3
+    }
+   ],
+   "candidates": []
+  },
+  "592": {
+   "entrance": [
+    6
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    6
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 51,
+     "regs": [
+      169,
+      592
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 52,
+     "regs": [
+      170,
+      592
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 53,
+     "regs": [
+      172,
+      592
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 54,
+     "regs": [
+      175,
+      592
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "593": {
+   "entrance": [
+    6
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    6
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 55,
+     "regs": [
+      169,
+      593
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 56,
+     "regs": [
+      170,
+      593
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 57,
+     "regs": [
+      172,
+      593
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 58,
+     "regs": [
+      175,
+      593
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "594": {
+   "entrance": [
+    6
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    6
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 59,
+     "regs": [
+      169,
+      594
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 60,
+     "regs": [
+      170,
+      594
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 61,
+     "regs": [
+      172,
+      594
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 62,
+     "regs": [
+      175,
+      594
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "596": {
+   "entrance": [
+    6
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    6
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 63,
+     "regs": [
+      169,
+      596
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 64,
+     "regs": [
+      170,
+      596
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 65,
+     "regs": [
+      172,
+      596
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 66,
+     "regs": [
+      175,
+      596
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "600": {
+   "entrance": [
+    6
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    6
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 67,
+     "regs": [
+      137,
+      600
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 68,
+     "regs": [
+      138,
+      600
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 69,
+     "regs": [
+      140,
+      600
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 70,
+     "regs": [
+      143,
+      600
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "601": {
+   "entrance": [
+    6
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    6
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 71,
+     "regs": [
+      137,
+      601
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 72,
+     "regs": [
+      138,
+      601
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 73,
+     "regs": [
+      140,
+      601
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 74,
+     "regs": [
+      143,
+      601
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "602": {
+   "entrance": [
+    6
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    6
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 75,
+     "regs": [
+      137,
+      602
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 76,
+     "regs": [
+      138,
+      602
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 77,
+     "regs": [
+      140,
+      602
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 78,
+     "regs": [
+      143,
+      602
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "604": {
+   "entrance": [
+    6
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    6
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 79,
+     "regs": [
+      137,
+      604
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 80,
+     "regs": [
+      138,
+      604
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 81,
+     "regs": [
+      140,
+      604
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 82,
+     "regs": [
+      143,
+      604
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "608": {
+   "entrance": [
+    6
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    6
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 83,
+     "regs": [
+      129,
+      608
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 84,
+     "regs": [
+      130,
+      608
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 85,
+     "regs": [
+      132,
+      608
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 86,
+     "regs": [
+      135,
+      608
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "609": {
+   "entrance": [
+    6
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    6
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 87,
+     "regs": [
+      129,
+      609
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 88,
+     "regs": [
+      130,
+      609
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 89,
+     "regs": [
+      132,
+      609
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 90,
+     "regs": [
+      135,
+      609
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "610": {
+   "entrance": [
+    6
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    6
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 91,
+     "regs": [
+      129,
+      610
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 92,
+     "regs": [
+      130,
+      610
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 93,
+     "regs": [
+      132,
+      610
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 94,
+     "regs": [
+      135,
+      610
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "612": {
+   "entrance": [
+    6
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    6
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 95,
+     "regs": [
+      129,
+      612
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 96,
+     "regs": [
+      130,
+      612
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 97,
+     "regs": [
+      132,
+      612
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 98,
+     "regs": [
+      135,
+      612
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "616": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 67,
+     "regs": [
+      616,
+      554
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 99,
+     "regs": [
+      121,
+      616
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 100,
+     "regs": [
+      122,
+      616
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 101,
+     "regs": [
+      124,
+      616
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "617": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 103,
+     "regs": [
+      121,
+      617
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 104,
+     "regs": [
+      122,
+      617
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 105,
+     "regs": [
+      124,
+      617
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 106,
+     "regs": [
+      127,
+      617
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "618": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 66,
+     "regs": [
+      618,
+      554
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 107,
+     "regs": [
+      121,
+      618
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 108,
+     "regs": [
+      122,
+      618
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 109,
+     "regs": [
+      124,
+      618
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "620": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 111,
+     "regs": [
+      121,
+      620
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 112,
+     "regs": [
+      122,
+      620
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 113,
+     "regs": [
+      124,
+      620
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 114,
+     "regs": [
+      127,
+      620
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "624": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 115,
+     "regs": [
+      145,
+      624
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 116,
+     "regs": [
+      146,
+      624
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 117,
+     "regs": [
+      148,
+      624
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 118,
+     "regs": [
+      151,
+      624
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "625": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 119,
+     "regs": [
+      145,
+      625
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 120,
+     "regs": [
+      146,
+      625
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 121,
+     "regs": [
+      148,
+      625
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 122,
+     "regs": [
+      151,
+      625
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "626": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 123,
+     "regs": [
+      145,
+      626
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 124,
+     "regs": [
+      146,
+      626
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 125,
+     "regs": [
+      148,
+      626
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 126,
+     "regs": [
+      151,
+      626
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "628": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 127,
+     "regs": [
+      145,
+      628
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 128,
+     "regs": [
+      628,
+      566
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 129,
+     "regs": [
+      146,
+      628
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 130,
+     "regs": [
+      628,
+      566
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "632": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 133,
+     "regs": [
+      177,
+      632
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 134,
+     "regs": [
+      178,
+      632
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 135,
+     "regs": [
+      180,
+      632
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 136,
+     "regs": [
+      183,
+      632
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "633": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 137,
+     "regs": [
+      177,
+      633
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 138,
+     "regs": [
+      178,
+      633
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 139,
+     "regs": [
+      180,
+      633
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 140,
+     "regs": [
+      183,
+      633
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "634": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 141,
+     "regs": [
+      177,
+      634
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 142,
+     "regs": [
+      178,
+      634
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 143,
+     "regs": [
+      180,
+      634
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 144,
+     "regs": [
+      183,
+      634
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "636": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 145,
+     "regs": [
+      177,
+      636
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 146,
+     "regs": [
+      636,
+      506
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 147,
+     "regs": [
+      178,
+      636
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 148,
+     "regs": [
+      636,
+      506
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "640": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 151,
+     "regs": [
+      217,
+      640
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 152,
+     "regs": [
+      218,
+      640
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 153,
+     "regs": [
+      220,
+      640
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 154,
+     "regs": [
+      223,
+      640
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "641": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 155,
+     "regs": [
+      217,
+      641
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 156,
+     "regs": [
+      641,
+      518
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 157,
+     "regs": [
+      218,
+      641
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 158,
+     "regs": [
+      641,
+      518
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "642": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 161,
+     "regs": [
+      217,
+      642
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 162,
+     "regs": [
+      218,
+      642
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 163,
+     "regs": [
+      220,
+      642
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 164,
+     "regs": [
+      223,
+      642
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "644": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 165,
+     "regs": [
+      217,
+      644
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 166,
+     "regs": [
+      218,
+      644
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 167,
+     "regs": [
+      220,
+      644
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 168,
+     "regs": [
+      223,
+      644
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "648": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 169,
+     "regs": [
+      113,
+      648
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 170,
+     "regs": [
+      114,
+      648
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 171,
+     "regs": [
+      116,
+      648
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 172,
+     "regs": [
+      119,
+      648
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "649": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 173,
+     "regs": [
+      113,
+      649
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 174,
+     "regs": [
+      114,
+      649
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 175,
+     "regs": [
+      116,
+      649
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 176,
+     "regs": [
+      119,
+      649
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "650": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 177,
+     "regs": [
+      113,
+      650
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 178,
+     "regs": [
+      114,
+      650
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 179,
+     "regs": [
+      116,
+      650
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 180,
+     "regs": [
+      119,
+      650
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "652": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 181,
+     "regs": [
+      113,
+      652
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 182,
+     "regs": [
+      114,
+      652
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 183,
+     "regs": [
+      116,
+      652
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 184,
+     "regs": [
+      119,
+      652
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "656": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 185,
+     "regs": [
+      153,
+      656
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 186,
+     "regs": [
+      154,
+      656
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 187,
+     "regs": [
+      156,
+      656
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 188,
+     "regs": [
+      159,
+      656
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "657": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 189,
+     "regs": [
+      153,
+      657
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 190,
+     "regs": [
+      154,
+      657
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 191,
+     "regs": [
+      156,
+      657
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 192,
+     "regs": [
+      159,
+      657
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "658": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 193,
+     "regs": [
+      153,
+      658
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 194,
+     "regs": [
+      154,
+      658
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 195,
+     "regs": [
+      156,
+      658
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 196,
+     "regs": [
+      159,
+      658
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "660": {
+   "entrance": [
+    30
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    30
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 197,
+     "regs": [
+      153,
+      660
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 198,
+     "regs": [
+      154,
+      660
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 199,
+     "regs": [
+      156,
+      660
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 200,
+     "regs": [
+      159,
+      660
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "664": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 65,
+     "regs": [
+      664,
+      554
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 201,
+     "regs": [
+      185,
+      664
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 202,
+     "regs": [
+      186,
+      664
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 203,
+     "regs": [
+      188,
+      664
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "665": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 205,
+     "regs": [
+      185,
+      665
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 206,
+     "regs": [
+      186,
+      665
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 207,
+     "regs": [
+      188,
+      665
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 208,
+     "regs": [
+      191,
+      665
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "666": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "A",
+     "idx": 64,
+     "regs": [
+      666,
+      554
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 209,
+     "regs": [
+      185,
+      666
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 210,
+     "regs": [
+      186,
+      666
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 211,
+     "regs": [
+      188,
+      666
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "668": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 213,
+     "regs": [
+      185,
+      668
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 214,
+     "regs": [
+      186,
+      668
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 215,
+     "regs": [
+      188,
+      668
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 216,
+     "regs": [
+      191,
+      668
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "672": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 217,
+     "regs": [
+      209,
+      672
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 218,
+     "regs": [
+      210,
+      672
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 219,
+     "regs": [
+      212,
+      672
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 220,
+     "regs": [
+      215,
+      672
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "673": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 221,
+     "regs": [
+      209,
+      673
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 222,
+     "regs": [
+      210,
+      673
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 223,
+     "regs": [
+      212,
+      673
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 224,
+     "regs": [
+      215,
+      673
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "674": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 225,
+     "regs": [
+      209,
+      674
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 226,
+     "regs": [
+      210,
+      674
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 227,
+     "regs": [
+      212,
+      674
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 228,
+     "regs": [
+      215,
+      674
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "676": {
+   "entrance": [
+    24
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    24
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 229,
+     "regs": [
+      209,
+      676
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 230,
+     "regs": [
+      676,
+      566
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 231,
+     "regs": [
+      210,
+      676
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 232,
+     "regs": [
+      676,
+      566
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "680": {
+   "entrance": [
+    6
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    6
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 235,
+     "regs": [
+      201,
+      680
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 236,
+     "regs": [
+      202,
+      680
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 237,
+     "regs": [
+      204,
+      680
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 238,
+     "regs": [
+      207,
+      680
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "681": {
+   "entrance": [
+    6
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    6
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 239,
+     "regs": [
+      201,
+      681
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 240,
+     "regs": [
+      202,
+      681
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 241,
+     "regs": [
+      204,
+      681
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 242,
+     "regs": [
+      207,
+      681
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "682": {
+   "entrance": [
+    6
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    6
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 243,
+     "regs": [
+      201,
+      682
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 244,
+     "regs": [
+      202,
+      682
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 245,
+     "regs": [
+      204,
+      682
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 246,
+     "regs": [
+      207,
+      682
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "684": {
+   "entrance": [
+    6
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    6
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 247,
+     "regs": [
+      201,
+      684
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 248,
+     "regs": [
+      202,
+      684
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 249,
+     "regs": [
+      204,
+      684
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 250,
+     "regs": [
+      207,
+      684
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "688": {
+   "entrance": [
+    6
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    6
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 251,
+     "regs": [
+      193,
+      688
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 252,
+     "regs": [
+      194,
+      688
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 253,
+     "regs": [
+      196,
+      688
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 254,
+     "regs": [
+      199,
+      688
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "689": {
+   "entrance": [
+    6
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    6
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 255,
+     "regs": [
+      193,
+      689
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 256,
+     "regs": [
+      194,
+      689
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 257,
+     "regs": [
+      196,
+      689
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 258,
+     "regs": [
+      199,
+      689
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "690": {
+   "entrance": [
+    6
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    6
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 259,
+     "regs": [
+      193,
+      690
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 260,
+     "regs": [
+      194,
+      690
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 261,
+     "regs": [
+      196,
+      690
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 262,
+     "regs": [
+      199,
+      690
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "692": {
+   "entrance": [
+    6
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    6
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 263,
+     "regs": [
+      193,
+      692
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 264,
+     "regs": [
+      194,
+      692
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 265,
+     "regs": [
+      196,
+      692
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 266,
+     "regs": [
+      199,
+      692
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "696": {
+   "entrance": [
+    6
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    6
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 267,
+     "regs": [
+      161,
+      696
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 268,
+     "regs": [
+      162,
+      696
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 269,
+     "regs": [
+      164,
+      696
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 270,
+     "regs": [
+      167,
+      696
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "697": {
+   "entrance": [
+    6
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    6
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 271,
+     "regs": [
+      161,
+      697
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 272,
+     "regs": [
+      162,
+      697
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 273,
+     "regs": [
+      164,
+      697
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 274,
+     "regs": [
+      167,
+      697
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "698": {
+   "entrance": [
+    6
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    6
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 275,
+     "regs": [
+      161,
+      698
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 276,
+     "regs": [
+      162,
+      698
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 277,
+     "regs": [
+      164,
+      698
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 278,
+     "regs": [
+      167,
+      698
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  },
+  "700": {
+   "entrance": [
+    6
+   ],
+   "end_dim": 9,
+   "width": 8,
+   "ceiling": [
+    6
+   ],
+   "ceiling_dim": 1,
+   "first_events": [
+    {
+     "sec": "B",
+     "idx": 279,
+     "regs": [
+      161,
+      700
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 280,
+     "regs": [
+      162,
+      700
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 281,
+     "regs": [
+      164,
+      700
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 1,
+     "climb": 0
+    },
+    {
+     "sec": "B",
+     "idx": 282,
+     "regs": [
+      167,
+      700
+     ],
+     "frame_dim": 1,
+     "ceil_dim": 2,
+     "climb": 0
+    }
+   ],
+   "candidates": []
+  }
+ }
+}

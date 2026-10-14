@@ -1,0 +1,97 @@
+{
+ "recipe": "e782ab00fc7b59b7a4a2e2ca03d3a45e238338fabca8ee35cde1b1f58fa7b6b6",
+ "honest": "PASS",
+ "controls": [
+  {
+   "control": "entrance_outside_first_gate_frame",
+   "expected": "frame not monotone",
+   "got": "frame not monotone (474, (120, 2), (120, 1))",
+   "rejected_at_pinned_site": true
+  },
+  {
+   "control": "raised_gate_missing",
+   "expected": "frame not monotone",
+   "got": "frame not monotone (474, (120, 1), (120,))",
+   "rejected_at_pinned_site": true
+  },
+  {
+   "control": "raised_gate_missing_group_486",
+   "expected": "frame not monotone",
+   "got": "frame not monotone (486, (126, 1), (126,))",
+   "rejected_at_pinned_site": true
+  },
+  {
+   "control": "raised_gate_missing_group_522",
+   "expected": "frame not monotone",
+   "got": "frame not monotone (522, (121, 7), (126,))",
+   "rejected_at_pinned_site": true
+  },
+  {
+   "control": "raised_gate_missing_group_526",
+   "expected": "frame not monotone",
+   "got": "frame not monotone (526, (96, 25), (96,))",
+   "rejected_at_pinned_site": true
+  },
+  {
+   "control": "raised_gate_missing_group_534",
+   "expected": "frame not monotone",
+   "got": "frame not monotone (534, (120, 7), (120,))",
+   "rejected_at_pinned_site": true
+  },
+  {
+   "control": "raised_gate_missing_group_538",
+   "expected": "frame not monotone",
+   "got": "frame not monotone (538, (102, 25), (102,))",
+   "rejected_at_pinned_site": true
+  },
+  {
+   "control": "raised_gate_missing_group_550",
+   "expected": "frame not monotone",
+   "got": "frame not monotone (550, (102, 31), (102,))",
+   "rejected_at_pinned_site": true
+  },
+  {
+   "control": "raised_gate_missing_group_562",
+   "expected": "frame not monotone",
+   "got": "frame not monotone (562, (96, 31), (96,))",
+   "rejected_at_pinned_site": true
+  },
+  {
+   "control": "entrance_reverted_profile",
+   "expected": "paid profile mismatch",
+   "got": "paid profile mismatch",
+   "rejected_at_pinned_site": true
+  },
+  {
+   "control": "ungrouped_promotion",
+   "expected": "frame not monotone",
+   "got": "frame not monotone (448, (24, 1), (24,))",
+   "rejected_at_pinned_site": true
+  },
+  {
+   "control": "recipe_gate_old_frame",
+   "expected": "('gate frame mismatch'",
+   "got": "('gate frame mismatch', 'A', 1215)",
+   "rejected_at_pinned_site": true
+  },
+  {
+   "control": "recipe_not_a_promotion",
+   "expected": "('not a promotion'",
+   "got": "('not a promotion', '474')",
+   "rejected_at_pinned_site": true
+  },
+  {
+   "control": "recipe_input_pin",
+   "expected": "input word pin",
+   "got": "input word pin",
+   "rejected_at_pinned_site": true
+  },
+  {
+   "control": "raised_gate_scalar_tamper",
+   "expected": "",
+   "got": "nonzero entrance response",
+   "rejected_at_pinned_site": true
+  }
+ ],
+ "rejected": 15
+}

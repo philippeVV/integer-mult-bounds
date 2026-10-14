@@ -1,0 +1,12 @@
+__pycache__/
+engine/cliques.pkl
+engine/certk6*.pkl
+engine/k6chunks/
+engine/k6chunks.sha256
+engine/k6_open.committed.pkl
+engine/run_k6b.log
+engine/group_elems.npy
+engine/gens_small.pkl
+engine/cover4.pkl
+engine/orb3.pkl
+engine/orb4.pkl

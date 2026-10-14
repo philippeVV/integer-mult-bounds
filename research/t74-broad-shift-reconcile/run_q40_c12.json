@@ -1,0 +1,43 @@
+{
+ "A2": "delta = beta'_m/rho exactly; beta'_m in [-1/2,1/2) gives |delta| <= 1/(2 rho) < 1/2 (inherited |delta|<=1/2 holds, strictly)",
+ "A3_inherited_or_True_residual": "-2*b*delta*(-delta*theta**2 - 2*delta*theta - delta + 2*theta*y)/(theta + 1)",
+ "A3": "|s1| = |beta'_m| <= 1/2, equality at beta'_m=-1/2 (attained, cell is half-open) -> shrink needed",
+ "A4": "s2=-delta(1-theta): x-lin 4b delta th/(1+th) (<= 2b th/(1+th)^2), y-lin 2b delta th/(1+th)^2 abs (<= b th/(1+th)^2); 1-2|s2| >= 2th/(1+th) >= th. Outer uses s2, whose asserts in check_gaugefree.py stage A are live (not or-True).",
+ "A_symbolic": "PASS",
+ "B_grid": {
+  "qmax": 40,
+  "cden": 12,
+  "thetas": 490,
+  "cells": 23520,
+  "blocks": 287256,
+  "entries": 7568034
+ },
+ "B_max_|s1|": "1/2",
+ "B_max_|delta|*2rho": "1",
+ "B_min_(1-2|s2|)/theta": "1",
+ "B_sec5_max_range_over_bound": [
+  "1120/1681",
+  {
+   "diag": "Dcol",
+   "theta": "1/40",
+   "c": "-2",
+   "B": 32,
+   "m": -86
+  }
+ ],
+ "B_lemma2.1_sentence_total_linear_range_over_theta_B": [
+  "7105/3362",
+  2.1133254015466982,
+  {
+   "theta": "1/40",
+   "c": "-19/12",
+   "B": 8,
+   "m": -48,
+   "delta": "203/492",
+   "lin_range_total": "1421/3362"
+  }
+ ],
+ "source_sha256": "f164efe8d794240df1317e19b18a83691517247e5bb30ac2c6df99d6146f318f",
+ "sympy": "1.13.3"
+}
+PASS_BROAD_SHIFT_RECONCILE

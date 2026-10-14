@@ -159,6 +159,10 @@ Neither is a theorem about other words, contracts or frame rules.
    `e1promo/evidence/`.
 
 Optional extra runs:
+- Set `FRAME_MODEL` to PR1148's standalone
+  `research/k8-eight-ends/discovery/frame_model.py` (tomdif/integer-mult-bounds
+  at `506ea08dd77388105682044ebb0848ce9b274964`) before running `reproduce.sh`.
+  It cross-checks every gate ceiling; all 5,406 of 5,406 agree.
 - `kblock/relabel_fast.py CODED-CELLS-k8.json` (about 12 minutes).
 - `e1promo/run_reopt_all.sh FINAL-WORD OUT`. It needs Python 3.12 with SciPy via
   `uv`.

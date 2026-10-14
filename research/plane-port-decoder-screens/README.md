@@ -45,9 +45,10 @@ integer C that still wins is 160–162. This package screens both directions.
 **Constructions:** every decoder built and checked exactly on the full instance
 costs at least 224, the naive cost of one private rank-2 term per port.
 
-**Numerical only (floating-point, uncertified):** the minimum rank of N looks
-like 56–90. A below-break-even decoder would therefore need many terms of
-average cost about 2–3.
+**Numerical only (floating-point, uncertified). Corrected; see the third follow-up below.**
+- The earlier ALS estimate of 56–90 for the minimum rank of N was an overestimate.
+- Levenberg–Marquardt (`construct2/lm.py`) finds a symmetric rank-36 completion on the rW instance, with residual about 4e-22, and fails at rank 31.
+- These completions are dense (ρ ≈ 9 per term), so they do not give a cheap decoder.
 
 ## Gain analysis (`gain/`, follow-up)
 
@@ -118,6 +119,18 @@ The scripts in `gain/` read the ports through `lower/ports.py`. That file loads 
 - `smith/lagr.py`
 - `smith/line_check.py`
 - `smith/floor3.py gain/rW_1.json`
+
+## Third follow-up: large-term obstruction (`construct2/`)
+
+- **Large terms need few independent ports.** Every term has rank 1, so K ≥ rank N ≥ α(Γ_E).
+  - If every term has ρ ≥ 7, then C ≥ 7·α(Γ_E). A decoder below 162 built from large terms therefore needs a plane choice with **α(Γ_E) ≤ 23**.
+  - For symmetric PSD decoders (N = Σ c_k c_kᵀ/2^j), Lovász gives K ≥ ϑ(Γ_E). For the line case this is tight: ϑ = 8 = rank G/2.
+- **The best plane choice found has α = 28** (`construct2/amin_s1.json`, certified optimal by CP-SAT) and ϑ ≈ 32.5.
+  - ϑ is computed by `theta.py` and is numerical, with no dual certificate.
+  - On that instance, large-term decoders cost ≥ 196, and PSD decoders ≥ 231.
+  - rW has α = 31 and ϑ ≈ 32.4.
+- **Structured searches found nothing below 224:** the two-copy root decoder (G_ρ + G_σ)/4, hyperplane-supported quarter terms, and joint ALS.
+- **The deciding question:** does any plane choice have α(Γ_E) ≤ 23? Averaging over Lagrangians only proves α ≥ 14, and real instances reach only 21–23 per Lagrangian clique.
 
 ## Open
 

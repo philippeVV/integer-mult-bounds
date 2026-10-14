@@ -49,6 +49,46 @@ costs at least 224, the naive cost of one private rank-2 term per port.
 like 56–90. A below-break-even decoder would therefore need many terms of
 average cost about 2–3.
 
+## Gain analysis (`gain/`, follow-up)
+
+**Proven, with exact checks:**
+6. **Theorem A (`integral_bound.py`).** Suppose every term `d_k t_kᵀ` is 2-integral, meaning no even denominators. Then `C ≥ 224`.
+   - Reduce mod 2: `N mod 2 = I` on required entries, and the Gram `B` vanishes on free pairs.
+   - So `Σρ_k ≥ rank_F2(B ∘ (I ⊗ J)) = rank blockdiag(Gram E_a) = 224`.
+   - Subadditivity lemma: `Σρ_k ≥ rank_F2(B ∘ (Σ α_k β_kᵀ ⊗ J))` for any `α_k ⊆ supp d_k` and `β_k ⊆ supp t_k`. It is also checked on random term families.
+7. **Gain inequality (`gain.py`).** `C ≥ 224 − gain(K₋)`, where `K₋` is the set of terms with even denominators. Their gain is (the F2 rank they remove) minus (their cost).
+   - **A sub-160 decoder needs gain > 64.** Rebuilt exactly, the line incumbent has gain 48 (8 terms, cost 64, mod-2 pattern of rank 112).
+8. **Top-layer lemma.** Let m be the largest 2-adic exponent.
+   - The leading layer `S_m = Σ_{e_k=m} d̄_k t̄_kᵀ` vanishes mod 2 on every required entry.
+   - Hence any split of that layer into two parts gives equal masked ranks, and the layer costs `≥ 2·max rank`.
+   - Every diagonal covered at the top layer is covered by at least two top-layer terms.
+9. **Why lines reach 48 (`ham.py`).**
+   - Each port lies in exactly 4 frame terms. Those support sets are the 14 weight-4 words of the extended Hamming [8,4,4] code, with 8 ports each.
+   - All overlaps are even, so the top layer cancels.
+   - Each term's support is a whole hyperplane, which costs 8.
+10. **Frame skeleton plus half-integer corrections costs ≥ 116 (`corrbound.py`).**
+    - Choose each `r_a` inside the 4 frame hyperplanes that contain `q_a`. Then the frame still costs 64, but 2016 odd entries are lost.
+    - Correcting them costs ≥ 52 by Theorem A applied to `2·N_corr`. The best exact build is 312 (`rectcover2.py`).
+11. **Rank-≤2 Hadamard decoders `N = (G/2)∘M` are impossible for every plane choice (`k5.py`).**
+    - The lost-pair graph would have to be bipartite, so the odd graph would need a 2-colouring with no monochromatic K5.
+    - This is the same UNSAT as result 3, re-checked independently.
+12. **Hamming classes need no decoder of their own (`cls14.py`).** With `r` inside the frame hyperplanes, every class pair has pairing rank 2, so each class costs exactly 16 (its naive cost).
+13. **Floor `C ≥ |S| + |Q|` (`floor2.py`).**
+    - S is a set of pairwise non-orthogonal ports, and Q ⊆ S is a set with pairwise pairing rank 2.
+    - The floor is 103–108 on edge-maximising planes but only about 40 on α-minimising planes, so it does not close the gap.
+
+**Searched, nothing found:**
+- 2-term polarisation gadgets (`polar.py`) have gain ≤ 0.
+- Simulated annealing over class-Hadamard decoders always collapses to 224.
+- Frame-stabiliser-equivariant plane choices: none exist. The stabiliser has order 344,064, and we also tried all vector stabilisers and 109 vector-pair stabilisers. This was a sympy screen and is not packaged.
+- Numerically, the masked rank on the frame-hyperplane instance is about 38–40, against α(Γ_E) = 31 (CP-SAT optimal).
+
+**Gain status:** not settled. The route looks dead, but this is not proven:
+- No construction beats gain 0.
+- A general proof of `gain ≤ 64` would need to control the carry layers below the top 2-adic layer.
+
+The scripts in `gain/` read the ports through `lower/ports.py`. That file loads the selected canonical word from `research/community-frontier1094-audit/selected-replay.tar.gz` and checks its hash. `k5.py` needs `python-sat`; `corr_rank.py` needs numpy.
+
 ## Open
 
 The gap between 32 and 224 is open. Still unexplored:

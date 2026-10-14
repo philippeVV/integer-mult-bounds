@@ -1,0 +1,92 @@
+{
+  "seed": "007d37bc63e5322f40385c4ab524ae59",
+  "track": "incumbent-optimization",
+  "suggestions": [
+    {
+      "task_id": "selected-packing",
+      "scope_key": "ab5d8f0f0d19bbab8625",
+      "question": "Is there a genuinely unsearched, explicitly bounded improvement to the selected packing?",
+      "method": "Prove a stronger scoped relaxation or exact optimum for one named residual subproblem.",
+      "starting_points": [
+        "certificates/selected-result.json",
+        "research/heterogeneous-owner-assembly/README.md",
+        "research/complex-local-word-ceiling/README.md"
+      ],
+      "acceptance_gate": "Check live PR overlap first, price both suppliers and distinguish a search best from an optimum. Report the word's packing cap from ceiling.ceiling() and the fraction of it realized; label packing gains as such.",
+      "first_step": {
+        "command": [
+          "python3",
+          "-B",
+          "scripts/research_baseline.py"
+        ],
+        "expected": "PASS_RESEARCH_BASELINE_BINDINGS_ONLY",
+        "inspect": "Locate the selected packing source in the review and check live PRs for the same residual problem.",
+        "scope": "Positive control / source-bound orientation only; this is not a new construction or full cold replay."
+      },
+      "first_experiment": "Define an unclaimed canonical domain and a favorable bound before starting a new search.",
+      "bottleneck_link": "An actual paid-profile gain can improve the frontier up to the other supplier cap.",
+      "allowed_variations": [
+        "One bounded residual packing instance or exact relaxation.",
+        "If the coverage law, template or guard changes, derive an applicable fully charged replacement bound instead of applying the incumbent ceiling outside its scope."
+      ],
+      "scope_change_triggers": [
+        "Rerunning an existing search with only a different seed as a separate mathematical contribution."
+      ],
+      "overlap_terms": [
+        "T16",
+        "owner exchange",
+        "packing"
+      ],
+      "scope_rule": "If you change the card's premise, record scope_status=changed and explain why. A package metadata check cannot establish mathematical relevance."
+    },
+    {
+      "task_id": "scalar-to-moment",
+      "scope_key": "9dbfd943f23ef75bae31",
+      "question": "Can one known scalar simplification be converted into an actual paid-profile improvement?",
+      "method": "Derive the changed legal frame itinerary and exact child histogram.",
+      "starting_points": [
+        "research/r439-bsection-stars-seed01/README.md",
+        "certificates/selected-result.json"
+      ],
+      "acceptance_gate": "An unchanged histogram is not a kappa gain; record any separate runtime or proof benefit explicitly.",
+      "first_step": {
+        "command": [
+          "python3",
+          "-B",
+          "research/r439-bsection-stars-seed01/verify.py"
+        ],
+        "expected": "PASS_R439_BSECTION_STARS",
+        "inspect": "Observe that the positive control improves scalar counts while retaining the paid histogram.",
+        "scope": "Positive control / source-bound orientation only; this is not a new construction or full cold replay."
+      },
+      "first_experiment": "Choose one simplification and derive the complete changed frame itinerary, or prove why it cannot change the histogram.",
+      "bottleneck_link": "A legal change to the histogram, not addition count alone, is the bridge to an exponent gain.",
+      "allowed_variations": [
+        "One existing scalar simplification and one proposed frame-path change."
+      ],
+      "scope_change_triggers": [
+        "Submitting only another scalar count as completion of a paid-profile task."
+      ],
+      "overlap_terms": [
+        "scalar simplification",
+        "paid profile",
+        "R439"
+      ],
+      "scope_rule": "If you change the card's premise, record scope_status=changed and explain why. A package metadata check cannot establish mathematical relevance."
+    }
+  ],
+  "base_commit": null,
+  "catalog_assessed_on": "2026-10-14",
+  "priority_revision": 4,
+  "priority_log": "docs/research/research-priority-log.md",
+  "catalog_sha256": "d46eb6d5b3e279428753d770653663fbdf1063e55c255ea073d768f344927ef7",
+  "selected_record_sha256": "10b9e340fd8e354a37a0c4813c90e5de1dd42044b5f6aca4a3fc5a42b685fa32",
+  "selected": {
+    "kappa": "836330098538459/500000000000000000",
+    "review": "docs/research/community-batch1099-review.md",
+    "source_manifest": "research/community-frontier1094-audit/SELECTED-SOURCE.json",
+    "reproduce": "make frontier1094-verify"
+  },
+  "status": "SUGGESTIONS_ONLY_NOT_RESERVED",
+  "next_step": "Check live overlap, refine one question's object and domain, and record a bounded task card. A different seed or scope key is not evidence of novelty."
+}

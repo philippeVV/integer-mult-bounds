@@ -130,6 +130,8 @@ The scripts in `gain/` read the ports through `lower/ports.py`. That file loads 
   - On that instance, large-term decoders cost ≥ 196, and PSD decoders ≥ 231.
   - rW has α = 31 and ϑ ≈ 32.4.
 - **Structured searches found nothing below 224:** the two-copy root decoder (G_ρ + G_σ)/4, hyperplane-supported quarter terms, and joint ALS.
+- **Update: α = 25 is reachable** (`construct2/amin25.json`). CP-SAT proves this optimal; the graph has 756 edges and exactly 6 maximum independent sets, and ϑ ≈ 29.6. The search found it with tabu moves over single ports and port pairs and then stalled at 25. Large-term decoders on this instance still cost at least 7·25 = 175.
+- On the lower-bound side, Lagrangian averaging is exactly 14 even with integrality. A generalised pairwise-dot-1 family was tried with CEGAR, with no result beyond 14.
 - **The deciding question:** does any plane choice have α(Γ_E) ≤ 23? Averaging over Lagrangians only proves α ≥ 14, and real instances reach only 21–23 per Lagrangian clique.
 
 ## Open

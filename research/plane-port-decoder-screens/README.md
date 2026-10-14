@@ -91,7 +91,14 @@ The scripts in `gain/` read the ports through `lower/ports.py`. That file loads 
 
 ## Open
 
-**Decoder-target caveat.** PR #1825 gets charge 126 by factoring the label Gram `B₀ = UUᵀ` over F2, using shared matched planes. On those planes `B₀` is 1 on all 6,608 even pairs, and the masked target used here needs 0 there. It is still open which target the 2-unpaid contract requires: is the frame-0 preconditioner's (J+G)-shift free for plane ports? See #1587 comment 18927273. All bounds in this package assume the masked target.
+**Decoder target: resolved in favour of the masked target (`target/line_decoder.py`).**
+- An exact ℚ replay of the selected canonical word splits `y += Jx` at the cut into a drop-carried part N, through the 8 centres, and a lossless part L. It gives:
+  - `J = I`;
+  - `N = G/2`: diagonal 1, **0 on all 6,608 even pairs**, ±1/2 on odd pairs;
+  - L supported on label-orthogonal pairs only, as Theorem A requires.
+- So the incumbent decoder realises the masked identity, not the label Gram. `B₀ = (J + 2N) mod 2` is only the PR717 label-form identity.
+- PR #1825's F2 factorization of `B₀` (charge 126) therefore does not meet the scalar endpoint. Open PR #1889 audits the same failure independently.
+- All bounds in this package use this target.
 
 The gap between 32 and 224 is open. Still unexplored:
 - correction terms whose rectangles cover several rows;

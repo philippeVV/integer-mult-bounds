@@ -82,6 +82,25 @@ No `S_b, S_c` meets class(a), so on class(a) only `P_a` (rank ≤ 2) and the ran
 
 Lemma C leaves a class served by ≤ 1 term; Lemma B′ excludes that block. All 23 cases are infeasible.
 
+## Addendum: every normal set containing F0 is closed (`f0/`)
+
+These are the k = 8 set F0 with caps (2,1⁷) for any choice of cap-2 normal, and the k = 9 sets F0 ∪ {x} with caps 1⁹ for all 112 live x. Support-level rules cannot close them; the following closes them, valid over any field of characteristic ≠ 2.
+
+- **Structure.** The 112 live lines split into 14 blocks of 8. Each block is two orthogonal 4-cliques whose lines share the same 4 F0 seers, giving 28 cliques in all.
+- **Triangle lemma.** Take three cliques that pairwise share exactly one F0 pair P, together with matched 2-subsets forming an orthogonal 6-set. Assume two of the cliques are "pure-like" and the third has at most 3 other terms. Then the system is infeasible.
+  - The idempotent E = ¼V[A]ᵀU[A] and its complement force the third clique's projection Π to be 0.
+  - Then 4I − (nilpotent) has rank 4 > 3, a contradiction.
+  - Certificate: a Nullstellensatz identity Σgᵢfᵢ = 1 (`triangle_cert.json`; 48 variables, 57 equations, 849 cofactor terms, degree ≤ 6, all denominators powers of 2).
+- **Case A (F0, cap 2 on g0).** For every g0, some triangle has two pure cliques and one g0-clique.
+- **Case B (F0 ∪ {x}).** A SAT encoding on the support of the x-term is UNSAT for all 112 x under both CaDiCaL and Glucose. It uses two clause families:
+  - FR: completely orthogonal clique pairs seen only by x;
+  - TRI: one clause per triangle and choice of third clique.
+  - Controls: dropping either clause family makes the encoding SAT (`negctl.py`).
+
+Run `python3 f0/check_F0.py`. It needs python-sat, rebuilds the E8 lines, imports nothing else from the package, and takes about 3 s. `f0/triangle_cert.py` regenerates the certificate with passagemath-singular.
+
+Other k = 7, 8, 9 normal sets remain open (see Discussion #1267).
+
 ## Not covered
 
 - k = 7, 8, 9 distinct normals (not attempted here).

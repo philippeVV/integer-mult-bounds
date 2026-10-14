@@ -1,4 +1,4 @@
-# Selected stock envelope, bootstrap stage 1 (conditional)
+# Selected stock envelope: stage 1 and all recorded stages (conditional)
 
 **Scoped source-bound derivation. No κ change and no supplier admission.**
 This addresses card `selected-stock-envelope` (priority revision 4) for one
@@ -55,7 +55,31 @@ The stage-1 guard `log₂(8σ₁) ≤ H₁ = 6,562,783` holds iff
 c ≤ 2^6,562,780 − 8198. The threshold is checked exactly: it passes at the bound
 and fails one above it. With c = 0, `log₂(8σ₁)` is about 16 bits.
 
-## Missing lemma (the one coefficient that is still unbound)
+## Follow-up: c is explicit, and all 14 recorded stages pass (`verify_followup.py`)
+
+- **The old leaf A₀ (a₀ = 384599/10¹⁰)** is the bit supplier of PR36's copied-centres assembly.
+  - Source: `inputs/complex/retained/copied-centers-assembly.tex:38,40,43,44,83`.
+  - Its parameters are (t,w) = (9,28), r = 529, and `D_b(e) = 9⌈log₂e⌉` with **no additive constant**.
+  - PR141 supplies m = 575 (`ORIGINAL-PROOF.md:35`).
+  - Lemma: `D(e) ≤ 9⌈log₂max(2,e)⌉` for every e, since 575⁹ > 2·529⁹. It is proved, and also checked exhaustively for e < 2²¹, where the worst slack is −9.
+  - So PR141's constant is c = 0, and `log_q R₀ < (63/20)(1+log₂e)`.
+- **Stage 1:**
+  - σ₁ ≤ 8194 under the internal-borrowing reading.
+  - σ₁ ≤ 8194 + 63/20 = 163943/20 under the external-reserve reading.
+  - The missing lemma above is therefore closed. Internal borrowing itself stays a retained conditional, but no longer matters for the bound.
+- **All 14 recorded stages** (`bootstrap`[1..7] and `conservative_bootstrap`[1..7]):
+  - Each H_j is recomputed from a₀ and checked against ASSEMBLY.json, from H₁ = 6,562,783 up to H₇ ≈ 2.97·10²³.
+  - All three readings pass at every stage, with margins of millions of bits: internal 8194; retained 163943/20; fully hoisted 8194·j + 63/20, where the hoisted width assumptions are ours.
+- **Run:** `python3 -I -B research/selected-stock-envelope-stage1/verify_followup.py`. It prints `PASS_SELECTED_STOCK_ENVELOPE_ALL_RECORDED_STAGES_CONDITIONAL` in about 65 s.
+  - It checks 31 file:line citations.
+  - It rejects all 9 mutation controls, including a wrong halving degree, a wrong coefficient, a wrong a₀, and wrong citation lines or text.
+- **Still conditional:**
+  - A₀'s parameters come from source text and a structural twin, not from a replay of PR36's word.
+  - W(w) is inherited from the m=67 source.
+  - The role multiplier is an overcount.
+  - The fit lemma's (H1)/(H2) hypotheses are not checked here.
+
+## Missing lemma (stage-1 statement, now closed by the follow-up)
 
 The retained old ordinary supplier (a₀ = 384599/10¹⁰) needs a preceding-row
 reserve with `log_q R₀(e) ≤ ρ(1 + log₂e)` for an explicit ρ. Equivalently, PR141's
@@ -86,8 +110,8 @@ sources.
 
 ## Open next questions
 
-- Bound PR141's constant c, or prove internal borrowing for A₀.
-- Repeat the derivation for stages 2–7.
+- Replay PR36's physical word to bind A₀'s m, r and W directly.
+- Prove A₀'s internal borrowing, or adopt the external-reserve reading in the outer proof.
 
 Credit: Josie Elliston (#1965), ToikY (#1990), the #1956 authors, and the
 PR141/PR185/PR386/PR387/PR589 authors.

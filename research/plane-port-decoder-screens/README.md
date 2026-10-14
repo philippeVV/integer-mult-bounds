@@ -91,6 +91,8 @@ The scripts in `gain/` read the ports through `lower/ports.py`. That file loads 
 
 ## Open
 
+**Decoder-target caveat.** PR #1825 gets charge 126 by factoring the label Gram `B₀ = UUᵀ` over F2, using shared matched planes. On those planes `B₀` is 1 on all 6,608 even pairs, and the masked target used here needs 0 there. It is still open which target the 2-unpaid contract requires: is the frame-0 preconditioner's (J+G)-shift free for plane ports? See #1587 comment 18927273. All bounds in this package assume the masked target.
+
 The gap between 32 and 224 is open. Still unexplored:
 - correction terms whose rectangles cover several rows;
 - `r_t` taken from exterior coordinates;

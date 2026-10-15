@@ -1,0 +1,41 @@
+{
+ "model": "owner/payload-constant subspace, 896 arrays",
+ "cases": {
+  "FINAL": {
+   "pair0 selected (32)": 8,
+   "all selected (128)": 24,
+   "pair0 all (224)": 96,
+   "all inputs (896)": 376,
+   "rank_O": 520
+  },
+  "FINAL+INIT64": {
+   "pair0 selected (32)": 0,
+   "all selected (128)": 0,
+   "pair0 all (224)": 88,
+   "all inputs (896)": 352,
+   "rank_O": 544
+  },
+  "FINAL+INIT64+dA0 (PR2346 Q2)": {
+   "pair0 selected (32)": 0,
+   "all selected (128)": 0,
+   "pair0 all (224)": 88,
+   "all inputs (896)": 352,
+   "rank_O": 544
+  },
+  "FINAL+INIT64+dA0..3": {
+   "pair0 selected (32)": 0,
+   "all selected (128)": 0,
+   "pair0 all (224)": 88,
+   "all inputs (896)": 352,
+   "rank_O": 544
+  },
+  "FINAL+INIT64+post-B1 pair-0 selected cut (32)": {
+   "pair0 selected (32)": 0,
+   "all selected (128)": 0,
+   "pair0 all (224)": 88,
+   "all inputs (896)": 352,
+   "rank_O": 544
+  }
+ },
+ "control_PR2174_defect": 0
+}

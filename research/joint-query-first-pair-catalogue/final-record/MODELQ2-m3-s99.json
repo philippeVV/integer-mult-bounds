@@ -1,0 +1,262 @@
+{
+ "m": 3,
+ "seed": 99,
+ "primes": {
+  "2147483647": {
+   "FINAL": {
+    "rank_O": 1560,
+    "lost_selected_arrays_per_bank": [
+     "40/3",
+     16,
+     16,
+     "40/3"
+    ]
+   },
+   "FINAL+INIT64 (PR2346 contract)": {
+    "rank_O": 1712,
+    "lost_selected_arrays_per_bank": [
+     "16/3",
+     "16/3",
+     "16/3",
+     0
+    ]
+   },
+   "+dA0 (PR2346 Q2 / #2192 record)": {
+    "rank_O": 1728,
+    "lost_selected_arrays_per_bank": [
+     0,
+     "16/3",
+     "16/3",
+     0
+    ]
+   },
+   "+dA0..dA3 (per-bank d_A, 32)": {
+    "rank_O": 1760,
+    "lost_selected_arrays_per_bank": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "+dA0,pA0,pT0 (PR2174 cut of pair 0)": {
+    "rank_O": 1728,
+    "lost_selected_arrays_per_bank": [
+     0,
+     "16/3",
+     "16/3",
+     0
+    ]
+   },
+   "+per-bank dA,pA,pT (96)": {
+    "rank_O": 1760,
+    "lost_selected_arrays_per_bank": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "+per-bank full selected cut (128)": {
+    "rank_O": 1760,
+    "lost_selected_arrays_per_bank": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "FINAL+dA0..dA3 (no INIT64)": {
+    "rank_O": 1632,
+    "lost_selected_arrays_per_bank": [
+     "32/3",
+     "32/3",
+     "32/3",
+     "32/3"
+    ]
+   },
+   "FINAL+INIT64+all pair-0 inputs revealed": {
+    "rank_O": 1960,
+    "lost_selected_arrays_per_bank": [
+     0,
+     "16/3",
+     "16/3",
+     0
+    ]
+   },
+   "+dA0,dA1,dA2 (24)": {
+    "rank_O": 1760,
+    "lost_selected_arrays_per_bank": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "+dA1,dA2 only": {
+    "rank_O": 1744,
+    "lost_selected_arrays_per_bank": [
+     "16/3",
+     0,
+     0,
+     0
+    ]
+   },
+   "control: PR2174 cut contract, literal (final Y_0U only)": {
+    "rank_O": 464,
+    "lost_selected_arrays_per_bank": [
+     0,
+     32,
+     32,
+     32
+    ]
+   },
+   "control: PR2174 cut contract + all final Y_U": {
+    "rank_O": 1328,
+    "lost_selected_arrays_per_bank": [
+     0,
+     32,
+     32,
+     32
+    ]
+   },
+   "PR2174 cut contract + all final Y_U + all f": {
+    "rank_O": 1400,
+    "lost_selected_arrays_per_bank": [
+     0,
+     32,
+     32,
+     32
+    ]
+   }
+  },
+  "2147483629": {
+   "FINAL": {
+    "rank_O": 1560,
+    "lost_selected_arrays_per_bank": [
+     "40/3",
+     16,
+     16,
+     "40/3"
+    ]
+   },
+   "FINAL+INIT64 (PR2346 contract)": {
+    "rank_O": 1712,
+    "lost_selected_arrays_per_bank": [
+     "16/3",
+     "16/3",
+     "16/3",
+     0
+    ]
+   },
+   "+dA0 (PR2346 Q2 / #2192 record)": {
+    "rank_O": 1728,
+    "lost_selected_arrays_per_bank": [
+     0,
+     "16/3",
+     "16/3",
+     0
+    ]
+   },
+   "+dA0..dA3 (per-bank d_A, 32)": {
+    "rank_O": 1760,
+    "lost_selected_arrays_per_bank": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "+dA0,pA0,pT0 (PR2174 cut of pair 0)": {
+    "rank_O": 1728,
+    "lost_selected_arrays_per_bank": [
+     0,
+     "16/3",
+     "16/3",
+     0
+    ]
+   },
+   "+per-bank dA,pA,pT (96)": {
+    "rank_O": 1760,
+    "lost_selected_arrays_per_bank": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "+per-bank full selected cut (128)": {
+    "rank_O": 1760,
+    "lost_selected_arrays_per_bank": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "FINAL+dA0..dA3 (no INIT64)": {
+    "rank_O": 1632,
+    "lost_selected_arrays_per_bank": [
+     "32/3",
+     "32/3",
+     "32/3",
+     "32/3"
+    ]
+   },
+   "FINAL+INIT64+all pair-0 inputs revealed": {
+    "rank_O": 1960,
+    "lost_selected_arrays_per_bank": [
+     0,
+     "16/3",
+     "16/3",
+     0
+    ]
+   },
+   "+dA0,dA1,dA2 (24)": {
+    "rank_O": 1760,
+    "lost_selected_arrays_per_bank": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "+dA1,dA2 only": {
+    "rank_O": 1744,
+    "lost_selected_arrays_per_bank": [
+     "16/3",
+     0,
+     0,
+     0
+    ]
+   },
+   "control: PR2174 cut contract, literal (final Y_0U only)": {
+    "rank_O": 464,
+    "lost_selected_arrays_per_bank": [
+     0,
+     32,
+     32,
+     32
+    ]
+   },
+   "control: PR2174 cut contract + all final Y_U": {
+    "rank_O": 1328,
+    "lost_selected_arrays_per_bank": [
+     0,
+     32,
+     32,
+     32
+    ]
+   },
+   "PR2174 cut contract + all final Y_U + all f": {
+    "rank_O": 1400,
+    "lost_selected_arrays_per_bank": [
+     0,
+     32,
+     32,
+     32
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,154 @@
+{
+ "m": 1,
+ "seed": 1,
+ "primes": {
+  "2147483647": {
+   "FINAL": {
+    "rank_O": 520,
+    "lost_selected_arrays_per_bank": [
+     8,
+     16,
+     16,
+     8
+    ]
+   },
+   "FINAL+INIT64 (PR2346 contract)": {
+    "rank_O": 544,
+    "lost_selected_arrays_per_bank": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "+dA0 (PR2346 Q2 / #2192 record)": {
+    "rank_O": 544,
+    "lost_selected_arrays_per_bank": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "+dA0..dA3 (per-bank d_A, 32)": {
+    "rank_O": 544,
+    "lost_selected_arrays_per_bank": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "+dA0,pA0,pT0 (PR2174 cut of pair 0)": {
+    "rank_O": 544,
+    "lost_selected_arrays_per_bank": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "+per-bank dA,pA,pT (96)": {
+    "rank_O": 544,
+    "lost_selected_arrays_per_bank": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "+per-bank full selected cut (128)": {
+    "rank_O": 544,
+    "lost_selected_arrays_per_bank": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "FINAL+dA0..dA3 (no INIT64)": {
+    "rank_O": 544,
+    "lost_selected_arrays_per_bank": [
+     0,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  "2147483629": {
+   "FINAL": {
+    "rank_O": 520,
+    "lost_selected_arrays_per_bank": [
+     8,
+     16,
+     16,
+     8
+    ]
+   },
+   "FINAL+INIT64 (PR2346 contract)": {
+    "rank_O": 544,
+    "lost_selected_arrays_per_bank": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "+dA0 (PR2346 Q2 / #2192 record)": {
+    "rank_O": 544,
+    "lost_selected_arrays_per_bank": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "+dA0..dA3 (per-bank d_A, 32)": {
+    "rank_O": 544,
+    "lost_selected_arrays_per_bank": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "+dA0,pA0,pT0 (PR2174 cut of pair 0)": {
+    "rank_O": 544,
+    "lost_selected_arrays_per_bank": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "+per-bank dA,pA,pT (96)": {
+    "rank_O": 544,
+    "lost_selected_arrays_per_bank": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "+per-bank full selected cut (128)": {
+    "rank_O": 544,
+    "lost_selected_arrays_per_bank": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "FINAL+dA0..dA3 (no INIT64)": {
+    "rank_O": 544,
+    "lost_selected_arrays_per_bank": [
+     0,
+     0,
+     0,
+     0
+    ]
+   }
+  }
+ }
+}

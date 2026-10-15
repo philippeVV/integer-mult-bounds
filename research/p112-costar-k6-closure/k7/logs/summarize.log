@@ -1,0 +1,6 @@
+chunks 270 rows 7536480 expected 7536480
+reps covered 269160 of 269160
+(3,1^6) {'FILTER_L1': 1222909, 'L0': 319384, 'L1': 341732, 'L1Z': 86, 'SURVIVE': 9} total 1884120
+(2,2,1^5) {'FILTER_L1': 2677263, 'L0': 1249398, 'L1': 1709807, 'L1Z': 13316, 'L3odd': 243, 'SURVIVE': 2333} total 5652360
+certificates 7534138 replay ok 7534138 FAIL 0
+survivors 2342 {((2, 2, 1, 1, 1, 1, 1), 'A2pair'): 2111, ((2, 2, 1, 1, 1, 1, 1), 'orthpair'): 222, ((3, 1, 1, 1, 1, 1, 1), '-'): 9}

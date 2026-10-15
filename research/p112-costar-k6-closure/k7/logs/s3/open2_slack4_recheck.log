@@ -1,0 +1,2 @@
+[0, 2, 3, 14, 15, 56, 80] [1, 2, 1, 2, 1, 1, 1] clauses 9837878 rank-cliques 192714 cadical UNSAT glucose UNSAT
+LEMMA S: all 1 cases UNSAT on both solvers

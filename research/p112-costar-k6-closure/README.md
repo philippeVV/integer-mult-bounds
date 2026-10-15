@@ -1,11 +1,13 @@
-# P112 co-star nine-term masked decoders: none with 3–6 distinct normals
+# P112 co-star nine-term masked decoders: none with 3–7 distinct normals
 
 ## Scope
 
 **Exact non-existence result; no new κ, decoder or cost claim.** There is no nine-term masked
 P112 co-star decoder whose terms use 3, 4, 5 or 6 distinct normals, over any field of characteristic
-≠ 2, zeros and unequal left/right factors allowed. Normal sets with **k = 7, 8 or 9 distinct normals
-are not covered** (k ≤ 2 cannot cover P112: no two co-stars do).
+≠ 2, zeros and unequal left/right factors allowed. **k = 7** is closed in `k7/`: every case is closed
+by a replayed certificate, except 2,342 cases closed by Lemma S, a SAT encoding found UNSAT by two
+solvers (no DRAT proofs). Normal sets with **k = 8 or 9 distinct normals are not covered**, except
+those containing F0 (`f0/`). k ≤ 2 cannot cover P112, since no two co-stars do.
 
 ## Model and definitions
 
@@ -56,6 +58,7 @@ plain Python sets by `verify_cert.py`, which imports neither `model.py` nor any 
 | 4 | 35 | 1,960 | 1,925 | 35 (L1 28, L0 7) | 0 |
 | 5 | 567 | 39,690 | 39,140 | 550 (L1 345, L0 193, L3odd 11, L1Z 1) | 0 |
 | 6 | 12,528 | 701,568 | 637,744 | 63,801 (L0 44,617, L1 19,029, L1Z 131, L3odd 24) | **23** |
+| 7 | 269,160 | 7,536,480 | 3,900,172 | 3,633,966 (L0 1,568,782, L1 2,051,539, L1Z 13,402, L3odd 243) | **2,342** by Lemma S (SAT), `k7/` |
 
 k = 3, 4: `run_cert.py` + `engine2.py` (orbits from `cover.py`/`orbits.py`); k = 5, 6: orbits from
 `group.py`/`canonfast.py`/`orbitsk2.py` (`orbk.pkl`), then `run_k.py`/`run_k6b.py` + `engine4.py`
@@ -99,11 +102,11 @@ These are the k = 8 set F0 with caps (2,1⁷) for any choice of cap-2 normal, an
 
 Run `python3 f0/check_F0.py`. It needs python-sat, rebuilds the E8 lines, imports nothing else from the package, and takes about 3 s. `f0/triangle_cert.py` regenerates the certificate with passagemath-singular.
 
-Other k = 7, 8, 9 normal sets remain open (see Discussion #1267).
+k = 7 is closed in full in `k7/`. Other k = 8, 9 normal sets remain open (see Discussion #1267).
 
 ## Not covered
 
-- k = 7, 8, 9 distinct normals (not attempted here).
+- k = 8, 9 distinct normals, except sets containing F0 (`f0/`). k = 7 is in `k7/`.
 - Decoders whose factors are not confined to the co-star of their normal (non-co-star supports).
 - Masked decoders of rank ≤ 8 (fewer terms): handled by #1212 (rigidity), not here.
 

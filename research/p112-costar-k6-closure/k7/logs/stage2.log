@@ -1,0 +1,61 @@
+1 270 {'FILTER_L1': 24035, 'L0': 1831, 'L1': 2129, 'L1Z': 5, 'L3odd': 0, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 0, 'ERROR': 0} replayFAIL 0 surv 0 46s
+6 270 {'FILTER_L1': 124390, 'L0': 24731, 'L1': 18829, 'L1Z': 46, 'L3odd': 0, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 4, 'ERROR': 0} replayFAIL 0 surv 4 175s
+11 270 {'FILTER_L1': 218541, 'L0': 47773, 'L1': 41514, 'L1Z': 147, 'L3odd': 3, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 22, 'ERROR': 0} replayFAIL 0 surv 22 327s
+16 270 {'FILTER_L1': 289647, 'L0': 85016, 'L1': 73069, 'L1Z': 214, 'L3odd': 3, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 51, 'ERROR': 0} replayFAIL 0 surv 51 819s
+21 270 {'FILTER_L1': 356003, 'L0': 112480, 'L1': 118865, 'L1Z': 445, 'L3odd': 5, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 202, 'ERROR': 0} replayFAIL 0 surv 202 1395s
+26 270 {'FILTER_L1': 432258, 'L0': 140094, 'L1': 154687, 'L1Z': 659, 'L3odd': 5, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 297, 'ERROR': 0} replayFAIL 0 surv 297 1698s
+31 270 {'FILTER_L1': 524344, 'L0': 162574, 'L1': 179838, 'L1Z': 884, 'L3odd': 5, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 355, 'ERROR': 0} replayFAIL 0 surv 355 1969s
+36 270 {'FILTER_L1': 616932, 'L0': 182441, 'L1': 206920, 'L1Z': 1273, 'L3odd': 7, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 427, 'ERROR': 0} replayFAIL 0 surv 427 2194s
+41 270 {'FILTER_L1': 695096, 'L0': 216936, 'L1': 234181, 'L1Z': 1328, 'L3odd': 10, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 449, 'ERROR': 0} replayFAIL 0 surv 449 2503s
+46 270 {'FILTER_L1': 778385, 'L0': 248577, 'L1': 259098, 'L1Z': 1465, 'L3odd': 11, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 464, 'ERROR': 0} replayFAIL 0 surv 464 2816s
+51 270 {'FILTER_L1': 859846, 'L0': 283596, 'L1': 282602, 'L1Z': 1481, 'L3odd': 11, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 464, 'ERROR': 0} replayFAIL 0 surv 464 3080s
+56 270 {'FILTER_L1': 938717, 'L0': 311622, 'L1': 315499, 'L1Z': 1651, 'L3odd': 12, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 499, 'ERROR': 0} replayFAIL 0 surv 499 3365s
+61 270 {'FILTER_L1': 1016446, 'L0': 330787, 'L1': 358225, 'L1Z': 1912, 'L3odd': 12, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 618, 'ERROR': 0} replayFAIL 0 surv 618 3727s
+66 270 {'FILTER_L1': 1105683, 'L0': 359905, 'L1': 379747, 'L1Z': 1999, 'L3odd': 16, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 650, 'ERROR': 0} replayFAIL 0 surv 650 4010s
+71 270 {'FILTER_L1': 1194946, 'L0': 384394, 'L1': 405944, 'L1Z': 2043, 'L3odd': 16, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 657, 'ERROR': 0} replayFAIL 0 surv 657 4315s
+76 270 {'FILTER_L1': 1281728, 'L0': 415734, 'L1': 427797, 'L1Z': 2057, 'L3odd': 19, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 665, 'ERROR': 0} replayFAIL 0 surv 665 4503s
+81 270 {'FILTER_L1': 1367632, 'L0': 450479, 'L1': 447128, 'L1Z': 2075, 'L3odd': 21, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 665, 'ERROR': 0} replayFAIL 0 surv 665 4794s
+86 270 {'FILTER_L1': 1445708, 'L0': 487388, 'L1': 472132, 'L1Z': 2085, 'L3odd': 22, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 665, 'ERROR': 0} replayFAIL 0 surv 665 5111s
+91 270 {'FILTER_L1': 1524850, 'L0': 514091, 'L1': 505942, 'L1Z': 2300, 'L3odd': 27, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 790, 'ERROR': 0} replayFAIL 0 surv 790 5465s
+96 270 {'FILTER_L1': 1602247, 'L0': 544848, 'L1': 537781, 'L1Z': 2303, 'L3odd': 28, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 793, 'ERROR': 0} replayFAIL 0 surv 793 5641s
+101 270 {'FILTER_L1': 1675337, 'L0': 574842, 'L1': 574671, 'L1Z': 2327, 'L3odd': 30, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 793, 'ERROR': 0} replayFAIL 0 surv 793 5935s
+106 270 {'FILTER_L1': 1736862, 'L0': 606681, 'L1': 621248, 'L1Z': 2363, 'L3odd': 34, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 812, 'ERROR': 0} replayFAIL 0 surv 812 6181s
+111 270 {'FILTER_L1': 1784152, 'L0': 630609, 'L1': 688551, 'L1Z': 3580, 'L3odd': 35, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 1073, 'ERROR': 0} replayFAIL 0 surv 1073 6629s
+116 270 {'FILTER_L1': 1840449, 'L0': 657975, 'L1': 743510, 'L1Z': 4783, 'L3odd': 41, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 1242, 'ERROR': 0} replayFAIL 0 surv 1242 6971s
+121 270 {'FILTER_L1': 1881026, 'L0': 687114, 'L1': 811393, 'L1Z': 6781, 'L3odd': 57, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 1629, 'ERROR': 0} replayFAIL 0 surv 1629 7539s
+126 270 {'FILTER_L1': 1915373, 'L0': 713991, 'L1': 888234, 'L1Z': 8603, 'L3odd': 68, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 1731, 'ERROR': 0} replayFAIL 0 surv 1731 8055s
+131 270 {'FILTER_L1': 1966716, 'L0': 742475, 'L1': 947161, 'L1Z': 9754, 'L3odd': 87, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 1807, 'ERROR': 0} replayFAIL 0 surv 1807 8407s
+136 270 {'FILTER_L1': 2046444, 'L0': 770110, 'L1': 979639, 'L1Z': 9897, 'L3odd': 91, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 1819, 'ERROR': 0} replayFAIL 0 surv 1819 8757s
+141 270 {'FILTER_L1': 2103623, 'L0': 797176, 'L1': 1034936, 'L1Z': 10301, 'L3odd': 111, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 1853, 'ERROR': 0} replayFAIL 0 surv 1853 9074s
+146 270 {'FILTER_L1': 2166287, 'L0': 825005, 'L1': 1084287, 'L1Z': 10434, 'L3odd': 127, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 1860, 'ERROR': 0} replayFAIL 0 surv 1860 9442s
+151 270 {'FILTER_L1': 2234831, 'L0': 854115, 'L1': 1126526, 'L1Z': 10526, 'L3odd': 131, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 1871, 'ERROR': 0} replayFAIL 0 surv 1871 9841s
+156 270 {'FILTER_L1': 2325137, 'L0': 877854, 'L1': 1152442, 'L1Z': 10560, 'L3odd': 136, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 1871, 'ERROR': 0} replayFAIL 0 surv 1871 9986s
+161 270 {'FILTER_L1': 2405666, 'L0': 910468, 'L1': 1179266, 'L1Z': 10587, 'L3odd': 139, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 1874, 'ERROR': 0} replayFAIL 0 surv 1874 10299s
+166 270 {'FILTER_L1': 2472184, 'L0': 947469, 'L1': 1215681, 'L1Z': 10648, 'L3odd': 144, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 1874, 'ERROR': 0} replayFAIL 0 surv 1874 10667s
+171 270 {'FILTER_L1': 2533922, 'L0': 976418, 'L1': 1264747, 'L1Z': 10796, 'L3odd': 155, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 1962, 'ERROR': 0} replayFAIL 0 surv 1962 11059s
+=== resume Wed Oct 14 11:37:37 PM EDT 2026
+1 99 {'FILTER_L1': 12514, 'L0': 5262, 'L1': 10195, 'L1Z': 19, 'L3odd': 1, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 9, 'ERROR': 0} replayFAIL 0 surv 9 384s
+6 99 {'FILTER_L1': 66382, 'L0': 32867, 'L1': 68450, 'L1Z': 208, 'L3odd': 4, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 89, 'ERROR': 0} replayFAIL 0 surv 89 969s
+=== resume (maxtasksperchild=1) Wed Oct 14 11:57:58 PM EDT 2026
+1 90 {'FILTER_L1': 12098, 'L0': 6876, 'L1': 9003, 'L1Z': 20, 'L3odd': 1, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 2, 'ERROR': 0} replayFAIL 0 surv 2 210s
+6 90 {'FILTER_L1': 73672, 'L0': 36213, 'L1': 57928, 'L1Z': 145, 'L3odd': 12, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 30, 'ERROR': 0} replayFAIL 0 surv 30 469s
+11 90 {'FILTER_L1': 137529, 'L0': 66697, 'L1': 103347, 'L1Z': 379, 'L3odd': 12, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 36, 'ERROR': 0} replayFAIL 0 surv 36 893s
+=== resume (streamed certs, from chunk 195 on) Thu Oct 15 12:18:28 AM EDT 2026
+1 75 {'FILTER_L1': 16575, 'L0': 4645, 'L1': 6767, 'L1Z': 11, 'L3odd': 1, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 1, 'ERROR': 0} replayFAIL 0 surv 1 167s
+6 75 {'FILTER_L1': 79580, 'L0': 38833, 'L1': 49285, 'L1Z': 283, 'L3odd': 7, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 12, 'ERROR': 0} replayFAIL 0 surv 12 465s
+11 75 {'FILTER_L1': 139425, 'L0': 70718, 'L1': 97303, 'L1Z': 501, 'L3odd': 13, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 40, 'ERROR': 0} replayFAIL 0 surv 40 883s
+16 75 {'FILTER_L1': 206573, 'L0': 101698, 'L1': 139053, 'L1Z': 606, 'L3odd': 18, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 52, 'ERROR': 0} replayFAIL 0 surv 52 1175s
+21 75 {'FILTER_L1': 282861, 'L0': 126049, 'L1': 178215, 'L1Z': 778, 'L3odd': 20, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 77, 'ERROR': 0} replayFAIL 0 surv 77 1453s
+26 75 {'FILTER_L1': 361810, 'L0': 155723, 'L1': 209483, 'L1Z': 880, 'L3odd': 21, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 83, 'ERROR': 0} replayFAIL 0 surv 83 1605s
+31 75 {'FILTER_L1': 440867, 'L0': 189651, 'L1': 236470, 'L1Z': 905, 'L3odd': 24, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 83, 'ERROR': 0} replayFAIL 0 surv 83 1819s
+36 75 {'FILTER_L1': 501046, 'L0': 224464, 'L1': 281320, 'L1Z': 1036, 'L3odd': 33, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 101, 'ERROR': 0} replayFAIL 0 surv 101 2135s
+41 75 {'FILTER_L1': 553882, 'L0': 256586, 'L1': 336045, 'L1Z': 1308, 'L3odd': 51, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 128, 'ERROR': 0} replayFAIL 0 surv 128 2516s
+46 75 {'FILTER_L1': 606297, 'L0': 286824, 'L1': 392986, 'L1Z': 1676, 'L3odd': 61, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 156, 'ERROR': 0} replayFAIL 0 surv 156 2787s
+51 75 {'FILTER_L1': 698946, 'L0': 307490, 'L1': 419626, 'L1Z': 1713, 'L3odd': 62, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 163, 'ERROR': 0} replayFAIL 0 surv 163 2948s
+56 75 {'FILTER_L1': 793473, 'L0': 339394, 'L1': 433188, 'L1Z': 1720, 'L3odd': 62, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 163, 'ERROR': 0} replayFAIL 0 surv 163 3127s
+61 75 {'FILTER_L1': 871610, 'L0': 372000, 'L1': 462429, 'L1Z': 1734, 'L3odd': 64, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 163, 'ERROR': 0} replayFAIL 0 surv 163 3411s
+66 75 {'FILTER_L1': 943442, 'L0': 401179, 'L1': 501298, 'L1Z': 1779, 'L3odd': 67, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 235, 'ERROR': 0} replayFAIL 0 surv 235 3614s
+71 75 {'FILTER_L1': 1027173, 'L0': 429629, 'L1': 529112, 'L1Z': 1784, 'L3odd': 67, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 235, 'ERROR': 0} replayFAIL 0 surv 235 3835s
+75 75 {'FILTER_L1': 1068017, 'L0': 448421, 'L1': 557923, 'L1Z': 1817, 'L3odd': 67, 'L2rank': 0, 'L3GZodd': 0, 'SURVIVE': 235, 'ERROR': 0} replayFAIL 0 surv 235 4012s
+stage2 done this session 4012s
+exit 0

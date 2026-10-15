@@ -1,0 +1,11 @@
+[0, 2, 3, 4, 14, 64, 72] [1, 1, 2, 1, 2, 1, 1] clauses 619729 rank-cliques 12965 cadical UNSAT glucose UNSAT
+[0, 2, 3, 4, 14, 88, 112] [1, 1, 2, 1, 2, 1, 1] clauses 617886 rank-cliques 12878 cadical UNSAT glucose UNSAT
+[0, 2, 3, 14, 15, 56, 80] [1, 1, 2, 1, 2, 1, 1] clauses 622848 rank-cliques 13138 cadical SAT glucose SAT
+[0, 2, 3, 14, 15, 56, 80] [1, 1, 2, 2, 1, 1, 1] clauses 618041 rank-cliques 12929 cadical UNSAT glucose UNSAT
+[0, 2, 3, 14, 15, 56, 80] [1, 2, 1, 1, 2, 1, 1] clauses 618041 rank-cliques 12929 cadical UNSAT glucose UNSAT
+[0, 2, 3, 14, 15, 56, 80] [1, 2, 1, 2, 1, 1, 1] clauses 622848 rank-cliques 13138 cadical SAT glucose SAT
+[2, 3, 4, 5, 56, 87, 96] [1, 1, 1, 2, 1, 2, 1] clauses 635421 rank-cliques 13362 cadical UNSAT glucose UNSAT
+[2, 3, 4, 5, 56, 87, 96] [2, 1, 1, 2, 1, 1, 1] clauses 621181 rank-cliques 13005 cadical UNSAT glucose UNSAT
+[2, 3, 4, 5, 56, 87, 96] [2, 1, 2, 1, 1, 1, 1] clauses 620467 rank-cliques 13007 cadical UNSAT glucose UNSAT
+[2, 3, 4, 14, 64, 72, 112] [1, 1, 1, 2, 2, 1, 1] clauses 635109 rank-cliques 13346 cadical UNSAT glucose UNSAT
+LEMMA S: 2 cases NOT refuted

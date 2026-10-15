@@ -1,0 +1,3 @@
+extension counts noncov/cov/L1kills/survpairs(raw): [1305898, 2375390, 34500067, 32010853]
+covering orbits 269160 non-covering orbits 150792 total 7-orbits 419952
+covering orbits with >=1 filter survivor 261919 surviving (orbit, comp) pairs 3636308

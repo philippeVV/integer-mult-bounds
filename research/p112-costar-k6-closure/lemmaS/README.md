@@ -1,7 +1,9 @@
 # Lemma S: support SAT for co-star decoders with k = 7–9 normals (sampled cases)
 
-**Scope.** Exact UNSAT certificates for *sampled* cases only. The complete k = 7, 8 and 9 families
-have **not** been enumerated, so k ≥ 7 remains open as a theorem. No κ, decoder or cost claim.
+**Scope.** Exact UNSAT results for the *sampled* cases below. The complete k = 7 family has since
+been enumerated and closed in `../k7/`, which uses this lemma, with capacity 3 allowed, on all 2,342 k = 7
+engine survivors. The k = 8 and 9 families have **not** been enumerated, so k = 8 and k = 9 remain
+open as theorems (except the sets containing F0, `../f0/`). No κ, decoder or cost claim.
 
 ## Lemma S
 
@@ -57,6 +59,11 @@ python3 check_S.py cases_k6_expI.json
 
 ## Cost of a full k = 7 closure
 
-This is an estimate; none of it has been run. Stage 1 has 27.93M raw (set, composition) pairs,
-about 3.2M after orbit dedup. At about 0.077 s per engine pair that is roughly 70 CPU-h, and
-Lemma S on about 2k expected engine survivors adds roughly 2.5 CPU-h.
+This has now been done; see `../k7/README.md`. The estimate that used to be here (27.93M raw
+(set, composition) pairs, about 3.2M after orbit dedup) came from an incomplete stage-1 run. The
+complete run has 32,010,853 raw filter-surviving pairs and 3,636,308 after orbit dedup. All 7,536,480
+(orbit, composition) cases were processed, which took about 11 CPU-h with the C clique scan. That left
+2,342 engine survivors, which is more than the 53 sampled above. Not all of them are of the
+(2,2,1⁵) A2 type: 222 have orthogonal capacity-2 normals and 9 have capacities (3,1⁶). With
+`--frames`, 2,332 of them are UNSAT. The other 10 need wider (R) clique sets: slack ≤ 2 closes 8 of
+them, and slack ≤ 4 closes the last 2.

@@ -1,0 +1,607 @@
+{
+ "positive": [
+  {
+   "config": {
+    "d": 9,
+    "ell": 2,
+    "K": 2,
+    "k": 0,
+    "g_axes": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "Q": 3
+   },
+   "seed": 0,
+   "exact_equal": true,
+   "phases": [
+    {
+     "phase": 0,
+     "h": 8,
+     "active": 4,
+     "deferred": 4,
+     "exposure_support": 14,
+     "bound_2hK": 32,
+     "rows": 4,
+     "padded_rows": 6,
+     "padding_zero_at_completion": true
+    },
+    {
+     "phase": 1,
+     "h": 4,
+     "active": 1,
+     "deferred": 3,
+     "exposure_support": 14,
+     "bound_2hK": 16,
+     "rows": 4,
+     "padded_rows": 6,
+     "padding_zero_at_completion": true
+    },
+    {
+     "phase": 2,
+     "h": 3,
+     "mode": "individual"
+    }
+   ]
+  },
+  {
+   "config": {
+    "d": 9,
+    "ell": 2,
+    "K": 2,
+    "k": 0,
+    "g_axes": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "Q": 3
+   },
+   "seed": 1,
+   "exact_equal": true,
+   "phases": [
+    {
+     "phase": 0,
+     "h": 8,
+     "active": 4,
+     "deferred": 4,
+     "exposure_support": 10,
+     "bound_2hK": 32,
+     "rows": 4,
+     "padded_rows": 6,
+     "padding_zero_at_completion": true
+    },
+    {
+     "phase": 1,
+     "h": 4,
+     "active": 1,
+     "deferred": 3,
+     "exposure_support": 12,
+     "bound_2hK": 16,
+     "rows": 4,
+     "padded_rows": 6,
+     "padding_zero_at_completion": true
+    },
+    {
+     "phase": 2,
+     "h": 3,
+     "mode": "individual"
+    }
+   ]
+  },
+  {
+   "config": {
+    "d": 9,
+    "ell": 2,
+    "K": 2,
+    "k": 0,
+    "g_axes": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "Q": 3
+   },
+   "seed": 2,
+   "exact_equal": true,
+   "phases": [
+    {
+     "phase": 0,
+     "h": 8,
+     "active": 4,
+     "deferred": 4,
+     "exposure_support": 12,
+     "bound_2hK": 32,
+     "rows": 4,
+     "padded_rows": 6,
+     "padding_zero_at_completion": true
+    },
+    {
+     "phase": 1,
+     "h": 4,
+     "active": 1,
+     "deferred": 3,
+     "exposure_support": 8,
+     "bound_2hK": 16,
+     "rows": 4,
+     "padded_rows": 6,
+     "padding_zero_at_completion": true
+    },
+    {
+     "phase": 2,
+     "h": 3,
+     "mode": "individual"
+    }
+   ]
+  },
+  {
+   "config": {
+    "d": 7,
+    "ell": 3,
+    "K": 2,
+    "k": 1,
+    "g_axes": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "Q": 3
+   },
+   "seed": 0,
+   "exact_equal": true,
+   "phases": [
+    {
+     "phase": 0,
+     "h": 6,
+     "active": 2,
+     "deferred": 4,
+     "exposure_support": 14,
+     "bound_2hK": 24,
+     "rows": 4,
+     "padded_rows": 6,
+     "padding_zero_at_completion": true
+    },
+    {
+     "phase": 1,
+     "h": 4,
+     "active": 1,
+     "deferred": 3,
+     "exposure_support": 12,
+     "bound_2hK": 16,
+     "rows": 4,
+     "padded_rows": 6,
+     "padding_zero_at_completion": true
+    },
+    {
+     "phase": 2,
+     "h": 3,
+     "mode": "individual"
+    }
+   ]
+  },
+  {
+   "config": {
+    "d": 7,
+    "ell": 3,
+    "K": 2,
+    "k": 1,
+    "g_axes": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "Q": 3
+   },
+   "seed": 1,
+   "exact_equal": true,
+   "phases": [
+    {
+     "phase": 0,
+     "h": 6,
+     "active": 2,
+     "deferred": 4,
+     "exposure_support": 16,
+     "bound_2hK": 24,
+     "rows": 4,
+     "padded_rows": 6,
+     "padding_zero_at_completion": true
+    },
+    {
+     "phase": 1,
+     "h": 4,
+     "active": 1,
+     "deferred": 3,
+     "exposure_support": 8,
+     "bound_2hK": 16,
+     "rows": 4,
+     "padded_rows": 6,
+     "padding_zero_at_completion": true
+    },
+    {
+     "phase": 2,
+     "h": 3,
+     "mode": "individual"
+    }
+   ]
+  },
+  {
+   "config": {
+    "d": 7,
+    "ell": 3,
+    "K": 2,
+    "k": 1,
+    "g_axes": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "Q": 3
+   },
+   "seed": 2,
+   "exact_equal": true,
+   "phases": [
+    {
+     "phase": 0,
+     "h": 6,
+     "active": 2,
+     "deferred": 4,
+     "exposure_support": 14,
+     "bound_2hK": 24,
+     "rows": 4,
+     "padded_rows": 6,
+     "padding_zero_at_completion": true
+    },
+    {
+     "phase": 1,
+     "h": 4,
+     "active": 1,
+     "deferred": 3,
+     "exposure_support": 10,
+     "bound_2hK": 16,
+     "rows": 4,
+     "padded_rows": 6,
+     "padding_zero_at_completion": true
+    },
+    {
+     "phase": 2,
+     "h": 3,
+     "mode": "individual"
+    }
+   ]
+  },
+  {
+   "config": {
+    "d": 5,
+    "ell": 4,
+    "K": 3,
+    "k": 1,
+    "g_axes": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "Q": 5
+   },
+   "seed": 0,
+   "exact_equal": true,
+   "phases": [
+    {
+     "phase": 0,
+     "h": 4,
+     "active": 1,
+     "deferred": 3,
+     "exposure_support": 15,
+     "bound_2hK": 24,
+     "rows": 8,
+     "padded_rows": 10,
+     "padding_zero_at_completion": true
+    },
+    {
+     "phase": 1,
+     "h": 3,
+     "mode": "individual"
+    }
+   ]
+  },
+  {
+   "config": {
+    "d": 5,
+    "ell": 4,
+    "K": 3,
+    "k": 1,
+    "g_axes": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "Q": 5
+   },
+   "seed": 1,
+   "exact_equal": true,
+   "phases": [
+    {
+     "phase": 0,
+     "h": 4,
+     "active": 1,
+     "deferred": 3,
+     "exposure_support": 12,
+     "bound_2hK": 24,
+     "rows": 8,
+     "padded_rows": 10,
+     "padding_zero_at_completion": true
+    },
+    {
+     "phase": 1,
+     "h": 3,
+     "mode": "individual"
+    }
+   ]
+  },
+  {
+   "config": {
+    "d": 5,
+    "ell": 4,
+    "K": 3,
+    "k": 1,
+    "g_axes": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "Q": 5
+   },
+   "seed": 2,
+   "exact_equal": true,
+   "phases": [
+    {
+     "phase": 0,
+     "h": 4,
+     "active": 1,
+     "deferred": 3,
+     "exposure_support": 15,
+     "bound_2hK": 24,
+     "rows": 8,
+     "padded_rows": 10,
+     "padding_zero_at_completion": true
+    },
+    {
+     "phase": 1,
+     "h": 3,
+     "mode": "individual"
+    }
+   ]
+  },
+  {
+   "config": {
+    "d": 10,
+    "ell": 2,
+    "K": 1,
+    "k": 1,
+    "g_axes": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "Q": 3
+   },
+   "seed": 0,
+   "exact_equal": true,
+   "phases": [
+    {
+     "phase": 0,
+     "h": 9,
+     "active": 4,
+     "deferred": 5,
+     "exposure_support": 11,
+     "bound_2hK": 18,
+     "rows": 2,
+     "padded_rows": 3,
+     "padding_zero_at_completion": true
+    },
+    {
+     "phase": 1,
+     "h": 5,
+     "active": 1,
+     "deferred": 4,
+     "exposure_support": 7,
+     "bound_2hK": 10,
+     "rows": 2,
+     "padded_rows": 3,
+     "padding_zero_at_completion": true
+    },
+    {
+     "phase": 2,
+     "h": 4,
+     "active": 1,
+     "deferred": 3,
+     "exposure_support": 6,
+     "bound_2hK": 8,
+     "rows": 2,
+     "padded_rows": 3,
+     "padding_zero_at_completion": true
+    },
+    {
+     "phase": 3,
+     "h": 3,
+     "mode": "individual"
+    }
+   ]
+  },
+  {
+   "config": {
+    "d": 10,
+    "ell": 2,
+    "K": 1,
+    "k": 1,
+    "g_axes": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "Q": 3
+   },
+   "seed": 1,
+   "exact_equal": true,
+   "phases": [
+    {
+     "phase": 0,
+     "h": 9,
+     "active": 4,
+     "deferred": 5,
+     "exposure_support": 11,
+     "bound_2hK": 18,
+     "rows": 2,
+     "padded_rows": 3,
+     "padding_zero_at_completion": true
+    },
+    {
+     "phase": 1,
+     "h": 5,
+     "active": 1,
+     "deferred": 4,
+     "exposure_support": 9,
+     "bound_2hK": 10,
+     "rows": 2,
+     "padded_rows": 3,
+     "padding_zero_at_completion": true
+    },
+    {
+     "phase": 2,
+     "h": 4,
+     "active": 1,
+     "deferred": 3,
+     "exposure_support": 6,
+     "bound_2hK": 8,
+     "rows": 2,
+     "padded_rows": 3,
+     "padding_zero_at_completion": true
+    },
+    {
+     "phase": 3,
+     "h": 3,
+     "mode": "individual"
+    }
+   ]
+  },
+  {
+   "config": {
+    "d": 10,
+    "ell": 2,
+    "K": 1,
+    "k": 1,
+    "g_axes": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "Q": 3
+   },
+   "seed": 2,
+   "exact_equal": true,
+   "phases": [
+    {
+     "phase": 0,
+     "h": 9,
+     "active": 4,
+     "deferred": 5,
+     "exposure_support": 13,
+     "bound_2hK": 18,
+     "rows": 2,
+     "padded_rows": 3,
+     "padding_zero_at_completion": true
+    },
+    {
+     "phase": 1,
+     "h": 5,
+     "active": 1,
+     "deferred": 4,
+     "exposure_support": 5,
+     "bound_2hK": 10,
+     "rows": 2,
+     "padded_rows": 3,
+     "padding_zero_at_completion": true
+    },
+    {
+     "phase": 2,
+     "h": 4,
+     "active": 1,
+     "deferred": 3,
+     "exposure_support": 6,
+     "bound_2hK": 8,
+     "rows": 2,
+     "padded_rows": 3,
+     "padding_zero_at_completion": true
+    },
+    {
+     "phase": 3,
+     "h": 3,
+     "mode": "individual"
+    }
+   ]
+  }
+ ],
+ "controls": {
+  "drop_deferred": {
+   "exact_equal": false,
+   "padding_zero": true
+  },
+  "no_restore": {
+   "exact_equal": false,
+   "padding_zero": true
+  },
+  "preliminary_on_reserved": {
+   "exact_equal": false,
+   "padding_zero": true
+  },
+  "row_label_touched": {
+   "exact_equal": false,
+   "padding_zero": false
+  }
+ }
+}

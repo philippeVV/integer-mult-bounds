@@ -1,0 +1,10 @@
+{
+ "axis fits K-neighbourhood above local core: p^(1-eps) > K + log2 L (L=p^128)": "4.9857995e+30014",
+ "router reach: n=p >= 9kG, k=2gK": "3.3237889e+30014",
+ "short-record gap: n > 2(k+1)ceil(log2 p)^2": "4.9855167e+30014",
+ "all g neighbourhoods fit address: gK <= n": "1.6619014e+30014",
+ "group below dimension: g <= d (no log factor)": "0.0",
+ "reservation R(h)<=h/16 holds for all h >=": 48,
+ "max R(h)/h above that": 0.0625,
+ "sum_j h_j^(1-q) / g^(1-q) <=": 1.0669987260301719
+}

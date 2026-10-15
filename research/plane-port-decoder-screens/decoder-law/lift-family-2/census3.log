@@ -1,0 +1,29 @@
+0_1 rigid side X |A| 7 |B| 7 A=B normal-form residual 8.9e-16 diag 4.4e-16 A pairwise odd True A-B non-orth True  pred dim 13 moduli tangent 13 OK
+1_1 rigid side X |A| 7 |B| 7 A=B normal-form residual 9.6e-16 diag 4.4e-16 A pairwise odd True A-B non-orth True  pred dim 13 moduli tangent 13 OK
+2_0 rigid side X |A| 6 |B| 9  normal-form residual 1.8e-15 diag 6.7e-16 A pairwise odd True A-B non-orth True  pred dim 14 moduli tangent 14 OK
+2_1 rigid side X |A| 8 |B| 8 A=B normal-form residual 8.9e-16 diag 6.7e-16 A pairwise odd True A-B non-orth True  pred dim 15 moduli tangent 15 OK
+3_1 rigid side X |A| 8 |B| 8 A=B normal-form residual 8.9e-16 diag 4.4e-16 A pairwise odd True A-B non-orth True  pred dim 15 moduli tangent 15 OK
+4_1 rigid side X |A| 8 |B| 8 A=B normal-form residual 2.0e-15 diag 4.4e-16 A pairwise odd True A-B non-orth True  pred dim 15 moduli tangent 15 OK
+5_1 rigid side X |A| 8 |B| 8 A=B normal-form residual 7.8e-16 diag 4.4e-16 A pairwise odd True A-B non-orth True  pred dim 15 moduli tangent 15 OK
+6_1 rigid side X |A| 8 |B| 8 A=B normal-form residual 7.2e-16 diag 4.4e-16 A pairwise odd True A-B non-orth True  pred dim 15 moduli tangent 15 OK
+7_0 rigid side X |A| 3 |B| 19  normal-form residual 2.2e-14 diag 1.1e-15 A pairwise odd True A-B non-orth True  pred dim 21 moduli tangent 21 OK
+7_1 rigid side X |A| 8 |B| 8 A=B normal-form residual 7.6e-16 diag 5.6e-16 A pairwise odd True A-B non-orth True  pred dim 15 moduli tangent 15 OK
+8_1 rigid side X |A| 8 |B| 8 A=B normal-form residual 1.0e-15 diag 4.4e-16 A pairwise odd True A-B non-orth True  pred dim 15 moduli tangent 15 OK
+9_1 rigid side X |A| 8 |B| 8 A=B normal-form residual 6.7e-16 diag 5.6e-16 A pairwise odd True A-B non-orth True  pred dim 15 moduli tangent 15 OK
+10_0 rigid side X |A| 8 |B| 8 A=B normal-form residual 1.9e-15 diag 2.0e-15 A pairwise odd True A-B non-orth True  pred dim 15 moduli tangent 15 OK
+10_1 rigid side X |A| 7 |B| 7 A=B normal-form residual 8.7e-16 diag 6.7e-16 A pairwise odd True A-B non-orth True  pred dim 13 moduli tangent 13 OK
+11_1 rigid side X |A| 8 |B| 8 A=B normal-form residual 1.0e-15 diag 6.7e-16 A pairwise odd True A-B non-orth True  pred dim 15 moduli tangent 15 OK
+12_1 rigid side X |A| 7 |B| 7 A=B normal-form residual 7.8e-16 diag 4.4e-16 A pairwise odd True A-B non-orth True  pred dim 13 moduli tangent 13 OK
+13_1 rigid side X |A| 8 |B| 8 A=B normal-form residual 8.3e-16 diag 4.4e-16 A pairwise odd True A-B non-orth True  pred dim 15 moduli tangent 15 OK
+14_0 rigid side Y |A| 1 |B| 57  normal-form residual 2.6e-15 diag 1.1e-15 A pairwise odd True A-B non-orth True  pred dim 56 moduli tangent 56 OK
+14_1 rigid side X |A| 8 |B| 8 A=B normal-form residual 8.2e-16 diag 4.4e-16 A pairwise odd True A-B non-orth True  pred dim 15 moduli tangent 15 OK
+15_0 rigid side X |A| 7 |B| 7 A=B normal-form residual 3.8e-15 diag 8.9e-16 A pairwise odd True A-B non-orth True  pred dim 13 moduli tangent 13 OK
+15_1 rigid side X |A| 8 |B| 8 A=B normal-form residual 1.3e-15 diag 6.7e-16 A pairwise odd True A-B non-orth True  pred dim 15 moduli tangent 15 OK
+16_0 rigid side X |A| 8 |B| 8 A=B normal-form residual 2.2e-15 diag 1.2e-15 A pairwise odd True A-B non-orth True  pred dim 15 moduli tangent 15 OK
+16_1 rigid side X |A| 8 |B| 8 A=B normal-form residual 1.6e-15 diag 4.4e-16 A pairwise odd True A-B non-orth True  pred dim 15 moduli tangent 15 OK
+17_0 rigid side X |A| 8 |B| 8 A=B normal-form residual 2.5e-15 diag 1.4e-15 A pairwise odd True A-B non-orth True  pred dim 15 moduli tangent 15 OK
+17_1 rigid side X |A| 8 |B| 8 A=B normal-form residual 2.0e-15 diag 4.4e-16 A pairwise odd True A-B non-orth True  pred dim 15 moduli tangent 15 OK
+18_1 rigid side X |A| 8 |B| 8 A=B normal-form residual 8.5e-16 diag 4.4e-16 A pairwise odd True A-B non-orth True  pred dim 15 moduli tangent 15 OK
+19_0 rigid side Y |A| 1 |B| 57  normal-form residual 4.1e-15 diag 2.0e-15 A pairwise odd True A-B non-orth True  pred dim 56 moduli tangent 56 OK
+19_1 rigid side X |A| 7 |B| 7 A=B normal-form residual 8.9e-16 diag 5.6e-16 A pairwise odd True A-B non-orth True  pred dim 13 moduli tangent 13 OK
+ALL LIFTS, tangent = kappa-family dim

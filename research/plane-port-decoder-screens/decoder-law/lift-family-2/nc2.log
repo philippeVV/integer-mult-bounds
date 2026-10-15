@@ -1,0 +1,9 @@
+h 486 |O| 56 |O minus C2| 32 |O cap C2| 24 s,t in O False False u.r_s 1.4142 u.r_t 0.0 |u| 1.0
+   u vs (r_s +- r_t)/2: 0.7071 0.7071
+   r_b.u on O cap C2 values Counter({np.float64(1.0): 24})  on C2 minus O Counter()
+h 504 |O| 56 |O minus C2| 32 |O cap C2| 24 s,t in O False False u.r_s 0.0 u.r_t -1.4142 |u| 1.0
+   u vs (r_s +- r_t)/2: 0.7071 0.7071
+   r_b.u on O cap C2 values Counter({np.float64(-1.0): 12, np.float64(1.0): 12})  on C2 minus O Counter()
+labels: h486 ^ h504 = 30 q_s 7 q_t 25 q_s^q_t 30
+B = C2: rank q_B 7 e9' Def dim 2 standard f (odd to all of B): []
+486 in span(q_B)^perp? False  504? False

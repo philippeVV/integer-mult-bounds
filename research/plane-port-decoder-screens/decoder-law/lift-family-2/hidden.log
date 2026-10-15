@@ -1,0 +1,9 @@
+2_1 detected S [24, 44, 79, 81, 83, 101] deg of S [56, 56, 55, 56, 56, 56] other nonzero deg [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 6, 6]
+   X minimal extensions making rank 8 on complement: [(37, 48)] 1
+   Y minimal extensions making rank 8 on complement: [(37, 48)] 1
+5_1 detected S [4, 48, 49, 58, 105, 108] deg of S [56, 56, 54, 56, 56, 56] other nonzero deg [5, 5, 5, 5, 5, 5, 5, 5, 5, 6, 6, 6]
+   X minimal extensions making rank 8 on complement: [(98, 109)] 1
+   Y minimal extensions making rank 8 on complement: [(98, 109)] 1
+7_1 detected S [1, 20, 23, 48, 76, 109, 118] deg of S [56, 56, 56, 56, 56, 56, 56] other nonzero deg [5, 5, 5, 5, 6, 6, 6, 6, 6, 6, 6, 7]
+   X minimal extensions making rank 8 on complement: [(18,)] 1
+   Y minimal extensions making rank 8 on complement: [(18,)] 1

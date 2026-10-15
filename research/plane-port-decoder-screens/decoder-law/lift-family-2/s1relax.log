@@ -1,0 +1,16 @@
+opts {}
+OPTIMAL max T_Y (no h0-generic) 9.0 bound 9.0 pencil dims (0, 8) Q [77]
+{1: 1, 2: 56, 3: 0, 4: 0} s in [2]
+recheck dims 0 8
+opts {'norank': True}
+OPTIMAL max T_Y (no h0-generic) 9.0 bound 9.0 pencil dims (0, 8) Q [113]
+{1: 1, 2: 56, 3: 0, 4: 0} s in [2]
+recheck dims 0 8
+opts {'nob': True}
+OPTIMAL max T_Y (no h0-generic) 16.0 bound 16.0 pencil dims (1, 8) Q [1, 2, 3, 4, 5, 6, 10]
+{1: 1, 2: 56, 3: 0, 4: 0} s in [1]
+recheck dims 1 8
+opts {'nodim': True}
+OPTIMAL max T_Y (no h0-generic) 9.0 bound 9.0 pencil dims (0, 8) Q [49]
+{1: 1, 2: 56, 3: 0, 4: 0} s in [2]
+recheck dims 0 8

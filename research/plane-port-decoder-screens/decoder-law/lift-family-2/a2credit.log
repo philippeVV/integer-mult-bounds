@@ -1,0 +1,2 @@
+true max credit 9 ('none', [], ('e9',), ('h0', 'h1', 'h2')) PASS
+ctrl max credit 11 ('none', [], ('e9', 'g0', 'g1'), ('h0', 'h1', 'h2')) PASS

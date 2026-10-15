@@ -1,0 +1,5 @@
+orth pair (0, 7) |C(A)| 24 Clean bad classes [(486, np.int64(7)), (504, np.int64(7))]
+W-orbits of orthogonal line pairs: 1
+pairwise-odd 9-sets: 0
+lines a (not s,t) non-orth to all of C2: [] -> A = {s,t} is the only non-clique support with non-Clean B
+B = C2: rank q_B 7 ; standard h'_f: []

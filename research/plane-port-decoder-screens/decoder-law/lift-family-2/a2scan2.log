@@ -1,0 +1,10 @@
+K_35 class 127 label q 127 True
+K_36 class 131 label q 131 True
+K_64 class 259 label q 259 True
+L (35, 36) class 252 in K_i: {35: np.True_, 36: np.True_, 64: np.False_} h.q_s [1, 1, 0]
+L (35, 64) class 380 in K_i: {35: np.True_, 36: np.False_, 64: np.True_} h.q_s [1, 0, 1]
+L (36, 64) class 384 in K_i: {35: np.False_, 36: np.True_, 64: np.True_} h.q_s [0, 1, 1]
+K_i cap K_j dims {(35, 36): np.int64(1), (35, 64): np.int64(1), (36, 64): np.int64(1)}
+span of the 3 L lines rank 3 ; L.e9-component (gamma): ['1', '1', '1']
+labels q_S independent: True
+pair-class labels {(35, 36): 252, (35, 64): 380, (36, 64): 384} q [127, 131, 259] q.q pairwise [0, 0, 0]

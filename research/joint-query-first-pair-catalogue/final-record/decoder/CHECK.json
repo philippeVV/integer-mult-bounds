@@ -1,0 +1,559 @@
+{
+ "A_decoders": [
+  {
+   "p": 2147483647,
+   "kind": "mat",
+   "m": 8,
+   "D0": "I",
+   "seed": 1
+  },
+  {
+   "p": 2147483647,
+   "kind": "mat",
+   "m": 8,
+   "D0": "I",
+   "seed": 2
+  },
+  {
+   "p": 2147483647,
+   "kind": "mat",
+   "m": 8,
+   "D0": "random",
+   "seed": 1
+  },
+  {
+   "p": 2147483647,
+   "kind": "mat",
+   "m": 8,
+   "D0": "random",
+   "seed": 2
+  },
+  {
+   "p": 2147483647,
+   "kind": "mat",
+   "m": 3,
+   "D0": "I",
+   "seed": 1
+  },
+  {
+   "p": 2147483647,
+   "kind": "mat",
+   "m": 3,
+   "D0": "I",
+   "seed": 2
+  },
+  {
+   "p": 2147483647,
+   "kind": "perm",
+   "m": 4,
+   "D0": "I",
+   "seed": 1
+  },
+  {
+   "p": 2147483647,
+   "kind": "perm",
+   "m": 4,
+   "D0": "I",
+   "seed": 2
+  },
+  {
+   "p": 2147483647,
+   "kind": "diag",
+   "m": 3,
+   "D0": "I",
+   "seed": 1
+  },
+  {
+   "p": 2147483647,
+   "kind": "diag",
+   "m": 3,
+   "D0": "I",
+   "seed": 2
+  },
+  {
+   "p": 2147483647,
+   "kind": "ident",
+   "m": 2,
+   "D0": "I",
+   "seed": 1
+  },
+  {
+   "p": 2147483647,
+   "kind": "ident",
+   "m": 2,
+   "D0": "I",
+   "seed": 2
+  },
+  {
+   "p": 4611686018427387847,
+   "kind": "mat",
+   "m": 8,
+   "D0": "I",
+   "seed": 1
+  },
+  {
+   "p": 4611686018427387847,
+   "kind": "mat",
+   "m": 8,
+   "D0": "I",
+   "seed": 2
+  },
+  {
+   "p": 4611686018427387847,
+   "kind": "mat",
+   "m": 8,
+   "D0": "random",
+   "seed": 1
+  },
+  {
+   "p": 4611686018427387847,
+   "kind": "mat",
+   "m": 8,
+   "D0": "random",
+   "seed": 2
+  },
+  {
+   "p": 4611686018427387847,
+   "kind": "mat",
+   "m": 3,
+   "D0": "I",
+   "seed": 1
+  },
+  {
+   "p": 4611686018427387847,
+   "kind": "mat",
+   "m": 3,
+   "D0": "I",
+   "seed": 2
+  },
+  {
+   "p": 4611686018427387847,
+   "kind": "perm",
+   "m": 4,
+   "D0": "I",
+   "seed": 1
+  },
+  {
+   "p": 4611686018427387847,
+   "kind": "perm",
+   "m": 4,
+   "D0": "I",
+   "seed": 2
+  },
+  {
+   "p": 4611686018427387847,
+   "kind": "diag",
+   "m": 3,
+   "D0": "I",
+   "seed": 1
+  },
+  {
+   "p": 4611686018427387847,
+   "kind": "diag",
+   "m": 3,
+   "D0": "I",
+   "seed": 2
+  },
+  {
+   "p": 4611686018427387847,
+   "kind": "ident",
+   "m": 2,
+   "D0": "I",
+   "seed": 1
+  },
+  {
+   "p": 4611686018427387847,
+   "kind": "ident",
+   "m": 2,
+   "D0": "I",
+   "seed": 2
+  }
+ ],
+ "B_decoder_mutations": {
+  "mat/bank0/tail_sign": false,
+  "mat/bank0/tail_chart": false,
+  "mat/bank0/drop_K0f": false,
+  "mat/bank0/section_chart": false,
+  "mat/bank1/tail_sign": false,
+  "mat/bank2/tail_sign": false,
+  "mat/bank1/tail_chart": false,
+  "mat/bank2/tail_chart": false,
+  "mat/bank1/beta_swap_order": false,
+  "mat/bank2/beta_swap_order": false,
+  "mat/bank1/drop_init": false,
+  "mat/bank2/drop_init": false,
+  "mat/bank1/eleven_to_twelve": false,
+  "mat/bank2/eleven_to_twelve": false,
+  "mat/bank2/drop_alternating": false,
+  "mat/bank1/uses dA0": false,
+  "diag/bank0/tail_sign": false,
+  "diag/bank0/tail_chart": false,
+  "diag/bank0/drop_K0f": false,
+  "diag/bank0/section_chart": false,
+  "diag/bank1/tail_sign": false,
+  "diag/bank2/tail_sign": false,
+  "diag/bank1/tail_chart": false,
+  "diag/bank2/tail_chart": false,
+  "diag/bank1/beta_swap_order": true,
+  "diag/bank2/beta_swap_order": true,
+  "diag/bank1/drop_init": false,
+  "diag/bank2/drop_init": false,
+  "diag/bank1/eleven_to_twelve": false,
+  "diag/bank2/eleven_to_twelve": false,
+  "diag/bank2/drop_alternating": false,
+  "diag/bank1/uses dA0": false
+ },
+ "C_simulator_mutations": {
+  "bridge sign flipped": {
+   "bank0 (dA0)": true,
+   "bank1 (dA1)": false,
+   "bank2 (dA2)": false,
+   "bank3 (no record, f8)": false,
+   "bank0 alt (B2 X1U)": false,
+   "bank1 alt (B4 X2U)": false,
+   "bank2 alt (B6 X3U)": false
+  },
+  "pair=stage//2 mod 4 (F2->pair1, F8->pair0)": {
+   "bank0 (dA0)": false,
+   "bank1 (dA1)": false,
+   "bank2 (dA2)": true,
+   "bank3 (no record, f8)": false,
+   "bank0 alt (B2 X1U)": false,
+   "bank1 alt (B4 X2U)": false,
+   "bank2 alt (B6 X3U)": true
+  },
+  "backward Y_T coefficient 11->12": {
+   "bank0 (dA0)": false,
+   "bank1 (dA1)": false,
+   "bank2 (dA2)": false,
+   "bank3 (no record, f8)": false,
+   "bank0 alt (B2 X1U)": false,
+   "bank1 alt (B4 X2U)": false,
+   "bank2 alt (B6 X3U)": false
+  },
+  "backward X_T coefficient 12->13": {
+   "bank0 (dA0)": false,
+   "bank1 (dA1)": false,
+   "bank2 (dA2)": false,
+   "bank3 (no record, f8)": false,
+   "bank0 alt (B2 X1U)": false,
+   "bank1 alt (B4 X2U)": false,
+   "bank2 alt (B6 X3U)": false
+  }
+ },
+ "D_census": {
+  "mat m=2": {
+   "FINAL+INIT64": {
+    "rank_O": 1168,
+    "lost_selected_arrays_per_owner": [
+     "8",
+     "8",
+     "8",
+     "0"
+    ]
+   },
+   "FINAL+INIT64+dA0": {
+    "rank_O": 1184,
+    "lost_selected_arrays_per_owner": [
+     "0",
+     "8",
+     "8",
+     "0"
+    ]
+   },
+   "FINAL+INIT64+dA0,dA1,dA2": {
+    "rank_O": 1216,
+    "lost_selected_arrays_per_owner": [
+     "0",
+     "0",
+     "0",
+     "0"
+    ]
+   },
+   "FINAL+INIT64+dA1,dA2": {
+    "rank_O": 1200,
+    "lost_selected_arrays_per_owner": [
+     "8",
+     "0",
+     "0",
+     "0"
+    ]
+   },
+   "FINAL+INIT64+XB (B2X1U,B4X2U,B6X3U)": {
+    "rank_O": 1216,
+    "lost_selected_arrays_per_owner": [
+     "0",
+     "0",
+     "0",
+     "0"
+    ]
+   },
+   "PR2174 contract, sums p_A,p_T + d_A": {
+    "rank_O": 304,
+    "lost_selected_arrays_per_owner": [
+     "0",
+     "32",
+     "32",
+     "32"
+    ]
+   },
+   "PR2174 sums contract without final C0": {
+    "rank_O": 112,
+    "lost_selected_arrays_per_owner": [
+     "8",
+     "32",
+     "32",
+     "32"
+    ]
+   }
+  },
+  "perm m=3": {
+   "FINAL+INIT64": {
+    "rank_O": 1712,
+    "lost_selected_arrays_per_owner": [
+     "16/3",
+     "16/3",
+     "16/3",
+     "0"
+    ]
+   },
+   "FINAL+INIT64+dA0": {
+    "rank_O": 1728,
+    "lost_selected_arrays_per_owner": [
+     "0",
+     "16/3",
+     "16/3",
+     "0"
+    ]
+   },
+   "FINAL+INIT64+dA0,dA1,dA2": {
+    "rank_O": 1760,
+    "lost_selected_arrays_per_owner": [
+     "0",
+     "0",
+     "0",
+     "0"
+    ]
+   },
+   "FINAL+INIT64+dA1,dA2": {
+    "rank_O": 1744,
+    "lost_selected_arrays_per_owner": [
+     "16/3",
+     "0",
+     "0",
+     "0"
+    ]
+   },
+   "FINAL+INIT64+XB (B2X1U,B4X2U,B6X3U)": {
+    "rank_O": 1760,
+    "lost_selected_arrays_per_owner": [
+     "0",
+     "0",
+     "0",
+     "0"
+    ]
+   },
+   "PR2174 contract, sums p_A,p_T + d_A": {
+    "rank_O": 448,
+    "lost_selected_arrays_per_owner": [
+     "0",
+     "32",
+     "32",
+     "32"
+    ]
+   },
+   "PR2174 sums contract without final C0": {
+    "rank_O": 160,
+    "lost_selected_arrays_per_owner": [
+     "8",
+     "32",
+     "32",
+     "32"
+    ]
+   }
+  }
+ },
+ "E_witnesses": {
+  "mat m=3 p=2147483647 bank0": {
+   "nonzero_selected_input_arrays": 32,
+   "kernel_dim": 456,
+   "dA_k_nonzero": true
+  },
+  "mat m=3 p=2147483647 bank1": {
+   "nonzero_selected_input_arrays": 32,
+   "kernel_dim": 240,
+   "dA_k_nonzero": true
+  },
+  "mat m=3 p=2147483647 bank2": {
+   "nonzero_selected_input_arrays": 32,
+   "kernel_dim": 240,
+   "dA_k_nonzero": true
+  },
+  "perm m=3 p=2147483647 bank0": {
+   "nonzero_selected_input_arrays": 24,
+   "kernel_dim": 480,
+   "dA_k_nonzero": true
+  },
+  "perm m=3 p=2147483647 bank1": {
+   "nonzero_selected_input_arrays": 28,
+   "kernel_dim": 248,
+   "dA_k_nonzero": true
+  },
+  "perm m=3 p=2147483647 bank2": {
+   "nonzero_selected_input_arrays": 30,
+   "kernel_dim": 248,
+   "dA_k_nonzero": true
+  },
+  "mat m=3 p=4611686018427387847 bank0": {
+   "nonzero_selected_input_arrays": 32,
+   "kernel_dim": 456,
+   "dA_k_nonzero": true
+  },
+  "mat m=3 p=4611686018427387847 bank1": {
+   "nonzero_selected_input_arrays": 32,
+   "kernel_dim": 240,
+   "dA_k_nonzero": true
+  },
+  "mat m=3 p=4611686018427387847 bank2": {
+   "nonzero_selected_input_arrays": 32,
+   "kernel_dim": 240,
+   "dA_k_nonzero": true
+  },
+  "perm m=3 p=4611686018427387847 bank0": {
+   "nonzero_selected_input_arrays": 24,
+   "kernel_dim": 480,
+   "dA_k_nonzero": true
+  },
+  "perm m=3 p=4611686018427387847 bank1": {
+   "nonzero_selected_input_arrays": 24,
+   "kernel_dim": 248,
+   "dA_k_nonzero": true
+  },
+  "perm m=3 p=4611686018427387847 bank2": {
+   "nonzero_selected_input_arrays": 32,
+   "kernel_dim": 248,
+   "dA_k_nonzero": true
+  }
+ },
+ "F_actual_route_bound": {
+  "bank1 (4;5,6)": {
+   "trG": "1152",
+   "trG2": "64512",
+   "rank_lower_bound": "144/7",
+   "loss_lower_bound_per_owner": "32/7",
+   "pairs": {
+    "4,5": {
+     "distinct_full": 96,
+     "distinct_owner": 96,
+     "l2_mass": 1536
+    },
+    "4,6": {
+     "distinct_full": 96,
+     "distinct_owner": 96,
+     "l2_mass": 1536
+    },
+    "5,4": {
+     "distinct_full": 96,
+     "distinct_owner": 96,
+     "l2_mass": 1536
+    },
+    "5,6": {
+     "distinct_full": 96,
+     "distinct_owner": 96,
+     "l2_mass": 1536
+    },
+    "6,4": {
+     "distinct_full": 96,
+     "distinct_owner": 96,
+     "l2_mass": 1536
+    },
+    "6,5": {
+     "distinct_full": 96,
+     "distinct_owner": 96,
+     "l2_mass": 1536
+    }
+   }
+  },
+  "bank2 (6;7,8)": {
+   "trG": "1152",
+   "trG2": "64512",
+   "rank_lower_bound": "144/7",
+   "loss_lower_bound_per_owner": "32/7",
+   "pairs": {
+    "6,7": {
+     "distinct_full": 96,
+     "distinct_owner": 96,
+     "l2_mass": 1536
+    },
+    "6,8": {
+     "distinct_full": 96,
+     "distinct_owner": 96,
+     "l2_mass": 1536
+    },
+    "7,6": {
+     "distinct_full": 96,
+     "distinct_owner": 96,
+     "l2_mass": 1536
+    },
+    "7,8": {
+     "distinct_full": 96,
+     "distinct_owner": 96,
+     "l2_mass": 1536
+    },
+    "8,6": {
+     "distinct_full": 96,
+     "distinct_owner": 96,
+     "l2_mass": 1536
+    },
+    "8,7": {
+     "distinct_full": 96,
+     "distinct_owner": 96,
+     "l2_mass": 1536
+    }
+   }
+  },
+  "bank0 (2;3,4)": {
+   "trG": "1152",
+   "trG2": "64512",
+   "rank_lower_bound": "144/7",
+   "loss_lower_bound_per_owner": "32/7",
+   "pairs": {
+    "2,3": {
+     "distinct_full": 96,
+     "distinct_owner": 96,
+     "l2_mass": 1536
+    },
+    "2,4": {
+     "distinct_full": 96,
+     "distinct_owner": 96,
+     "l2_mass": 1536
+    },
+    "3,2": {
+     "distinct_full": 96,
+     "distinct_owner": 96,
+     "l2_mass": 1536
+    },
+    "3,4": {
+     "distinct_full": 96,
+     "distinct_owner": 96,
+     "l2_mass": 1536
+    },
+    "4,2": {
+     "distinct_full": 96,
+     "distinct_owner": 96,
+     "l2_mass": 1536
+    },
+    "4,3": {
+     "distinct_full": 96,
+     "distinct_owner": 96,
+     "l2_mass": 1536
+    }
+   }
+  },
+  "bank0 under FINAL+INIT64 (PR2346 reproduced)": {
+   "(1;0,2) bound": "32/7",
+   "intersection_lower_bound_per_owner": "8/7"
+  },
+  "control_D5_eq_D4_bound": "27/2"
+ }
+}

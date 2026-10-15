@@ -44,8 +44,9 @@ the final Y ordinary fields, the five forward histories, and optionally INIT64.
      which serves as a calibration check.
    - So the route depends on one pricing convention that is still open: does a retained array
      that no call consumes cost a rank-8 copy per call, or one paid unit?
-4. **Discrepancy (minor).** In these models, PR2174's cut contract recovers pair 0 only with all
-   32 cut selected values (X_A, X_T, Y_A, Y_T). With only "p_A, p_T, d_A" it still loses.
+4. ~~Discrepancy (minor)~~ **Withdrawn.** The `modelq2.py` rows labelled pA0/pT0 are the cut X_A/X_T
+   values, not the sums. PR2174's own contract (INIT B0/B2, cut sums, d_A, f0, f2, C0) does
+   recover bank 0; dropping C0 loses 8. See `decoder/`.
 
 **κ context** (`kappa/est.py`).
 - With a free controller and C = 0 the complex ceiling is 0.004702. The bit side still caps

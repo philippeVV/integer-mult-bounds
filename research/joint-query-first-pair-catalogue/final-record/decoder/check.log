@@ -1,0 +1,27 @@
+A. decoders: 24 runs x 7 decoders, all selected inputs exact (incl. D0 random, noncommuting m=8 routes, both primes)
+B. decoder mutations: 30 rejected; order-swapped beta passes only with commuting (diagonal) routes
+C. simulator mutations: 4 detected
+D. census mat m=2: FINAL+INIT64                               rankO= 1168 lost/owner=['8', '8', '8', '0']
+D. census mat m=2: FINAL+INIT64+dA0                           rankO= 1184 lost/owner=['0', '8', '8', '0']
+D. census mat m=2: FINAL+INIT64+dA0,dA1,dA2                   rankO= 1216 lost/owner=['0', '0', '0', '0']
+D. census mat m=2: FINAL+INIT64+dA1,dA2                       rankO= 1200 lost/owner=['8', '0', '0', '0']
+D. census mat m=2: FINAL+INIT64+XB (B2X1U,B4X2U,B6X3U)        rankO= 1216 lost/owner=['0', '0', '0', '0']
+D. census mat m=2: PR2174 contract, sums p_A,p_T + d_A        rankO=  304 lost/owner=['0', '32', '32', '32']
+D. census mat m=2: PR2174 sums contract without final C0      rankO=  112 lost/owner=['8', '32', '32', '32']
+D. census perm m=3: FINAL+INIT64                               rankO= 1712 lost/owner=['16/3', '16/3', '16/3', '0']
+D. census perm m=3: FINAL+INIT64+dA0                           rankO= 1728 lost/owner=['0', '16/3', '16/3', '0']
+D. census perm m=3: FINAL+INIT64+dA0,dA1,dA2                   rankO= 1760 lost/owner=['0', '0', '0', '0']
+D. census perm m=3: FINAL+INIT64+dA1,dA2                       rankO= 1744 lost/owner=['16/3', '0', '0', '0']
+D. census perm m=3: FINAL+INIT64+XB (B2X1U,B4X2U,B6X3U)        rankO= 1760 lost/owner=['0', '0', '0', '0']
+D. census perm m=3: PR2174 contract, sums p_A,p_T + d_A        rankO=  448 lost/owner=['0', '32', '32', '32']
+D. census perm m=3: PR2174 sums contract without final C0      rankO=  160 lost/owner=['8', '32', '32', '32']
+E. witnesses: 12 assembled; banks 1,2: all FINAL+INIT64+dA0 observations zero; bank 0: all FINAL+INIT64 observations zero; bank-k selected inputs nonzero; each detected by its own d_A_k
+F. actual cover:
+actual routes: 8 charts x 112 ports, all involutions; 1792 Y-alignment owners match rho_s/rho_t
+control: 96 distinct stage-1/2 relative owner routes (QQ16-SELECTED-WITNESS premise) reproduced
+bank1 (4;5,6): tr G=1152 tr G^2=64512 rank[B_r;B_s;B_t] >= 20.5714 > 16; dim B_r(ker B_s cap ker B_t) >= 4.5714 per owner
+bank2 (6;7,8): tr G=1152 tr G^2=64512 rank[B_r;B_s;B_t] >= 20.5714 > 16; dim B_r(ker B_s cap ker B_t) >= 4.5714 per owner
+bank0 (2;3,4): tr G=1152 tr G^2=64512 rank[B_r;B_s;B_t] >= 20.5714 > 16; dim B_r(ker B_s cap ker B_t) >= 4.5714 per owner
+bank0 (1;0,2): image >= 4.5714; intersection with (2;3,4) image >= 8/7 = 1.1429 per owner (PR2346 ceil(8|G|/7) reproduced)
+control D5:=D4: bound 13.5000 <= 16 (no certificate, as required)
+PASS_QQ16_FINAL_CONTRACT_DECODER

@@ -1,0 +1,35 @@
+474 {"own_feasible_hyperplanes": 15, "repairable_hyperplanes": [50, 74, 120, 408, 426, 466, 480], "max_dimV": 236}
+475 {"own_feasible_hyperplanes": 15, "repairable_hyperplanes": [44, 84, 120, 408, 436, 460, 480], "max_dimV": 236}
+476 {"own_feasible_hyperplanes": 15, "repairable_hyperplanes": [96, 138, 234, 266, 362, 384, 480], "max_dimV": 236}
+477 {"own_feasible_hyperplanes": 15, "repairable_hyperplanes": [96, 148, 244, 276, 372, 384, 480], "max_dimV": 236}
+486 {"own_feasible_hyperplanes": 15, "repairable_hyperplanes": [126, 138, 244, 276, 362, 414, 480], "max_dimV": 234}
+487 {"own_feasible_hyperplanes": 15, "repairable_hyperplanes": [126, 148, 234, 266, 372, 414, 480], "max_dimV": 234}
+488 {"own_feasible_hyperplanes": 15, "repairable_hyperplanes": [50, 84, 102, 390, 436, 466, 480], "max_dimV": 234}
+489 {"own_feasible_hyperplanes": 15, "repairable_hyperplanes": [44, 74, 102, 390, 426, 460, 480], "max_dimV": 234}
+506 {"own_feasible_hyperplanes": 1, "repairable_hyperplanes": [], "max_dimV": 5}
+518 {"own_feasible_hyperplanes": 1, "repairable_hyperplanes": [], "max_dimV": 5}
+522 {"own_feasible_hyperplanes": 15, "repairable_hyperplanes": [61, 67, 126, 414, 419, 477, 480], "max_dimV": 208}
+523 {"own_feasible_hyperplanes": 15, "repairable_hyperplanes": [37, 91, 126, 414, 443, 453, 480], "max_dimV": 208}
+524 {"own_feasible_hyperplanes": 15, "repairable_hyperplanes": [96, 131, 227, 259, 355, 384, 480], "max_dimV": 208}
+525 {"own_feasible_hyperplanes": 15, "repairable_hyperplanes": [96, 155, 251, 283, 379, 384, 480], "max_dimV": 208}
+526 {"own_feasible_hyperplanes": 15, "repairable_hyperplanes": [96, 143, 239, 271, 367, 384, 480], "max_dimV": 220}
+527 {"own_feasible_hyperplanes": 15, "repairable_hyperplanes": [96, 137, 233, 265, 361, 384, 480], "max_dimV": 220}
+528 {"own_feasible_hyperplanes": 15, "repairable_hyperplanes": [49, 79, 126, 414, 431, 465, 480], "max_dimV": 220}
+529 {"own_feasible_hyperplanes": 15, "repairable_hyperplanes": [55, 73, 126, 414, 425, 471, 480], "max_dimV": 220}
+534 {"own_feasible_hyperplanes": 15, "repairable_hyperplanes": [120, 131, 251, 283, 355, 408, 480], "max_dimV": 206}
+535 {"own_feasible_hyperplanes": 15, "repairable_hyperplanes": [120, 155, 227, 259, 379, 408, 480], "max_dimV": 206}
+536 {"own_feasible_hyperplanes": 15, "repairable_hyperplanes": [61, 91, 102, 390, 443, 477, 480], "max_dimV": 206}
+537 {"own_feasible_hyperplanes": 15, "repairable_hyperplanes": [37, 67, 102, 390, 419, 453, 480], "max_dimV": 206}
+538 {"own_feasible_hyperplanes": 15, "repairable_hyperplanes": [102, 137, 239, 271, 361, 390, 480], "max_dimV": 218}
+539 {"own_feasible_hyperplanes": 15, "repairable_hyperplanes": [102, 143, 233, 265, 367, 390, 480], "max_dimV": 218}
+540 {"own_feasible_hyperplanes": 15, "repairable_hyperplanes": [55, 79, 120, 408, 431, 471, 480], "max_dimV": 218}
+541 {"own_feasible_hyperplanes": 15, "repairable_hyperplanes": [49, 73, 120, 408, 425, 465, 480], "max_dimV": 218}
+550 {"own_feasible_hyperplanes": 15, "repairable_hyperplanes": [102, 143, 233, 271, 361, 384, 486], "max_dimV": 216}
+551 {"own_feasible_hyperplanes": 15, "repairable_hyperplanes": [102, 137, 239, 265, 367, 384, 486], "max_dimV": 216}
+552 {"own_feasible_hyperplanes": 15, "repairable_hyperplanes": [49, 79, 126, 408, 425, 471, 486], "max_dimV": 216}
+553 {"own_feasible_hyperplanes": 15, "repairable_hyperplanes": [55, 73, 126, 408, 431, 465, 486], "max_dimV": 216}
+562 {"own_feasible_hyperplanes": 15, "repairable_hyperplanes": [96, 137, 233, 271, 367, 390, 486], "max_dimV": 214}
+563 {"own_feasible_hyperplanes": 15, "repairable_hyperplanes": [96, 143, 239, 265, 361, 390, 486], "max_dimV": 214}
+564 {"own_feasible_hyperplanes": 15, "repairable_hyperplanes": [55, 79, 120, 414, 425, 465, 486], "max_dimV": 214}
+565 {"own_feasible_hyperplanes": 15, "repairable_hyperplanes": [49, 73, 120, 414, 431, 471, 486], "max_dimV": 214}
+helpers with a repairable hyperplane in this class: 32 of 34

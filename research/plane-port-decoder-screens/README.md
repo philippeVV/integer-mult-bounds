@@ -141,7 +141,26 @@ The scripts in `gain/` read the ports through `lower/ports.py`. That file loads 
   - Large-term decoders (every ρ ≥ 7) on this instance only need C ≥ 7·23 = 161. That is at, not above, the `ceiling.py` break-even for ρ = 7 (161); the first-order bound is C < 163.6.
   - A winning large-term decoder would need rank N = α = 23 with every term of rank exactly 7 and support pairing rank 7. That is far tighter than anything constructed, since the best exact build is 224.
   - PSD decoders still need about ⌈ϑ⌉ ≥ 29 terms, so C ≥ 203 when ρ ≥ 7.
-- **Open question:** can a plane choice reach α ≤ 22, which would leave real slack? Separately, can any decoder on these instances approach rank α with cheap terms?
+- **Update 3: rank N ≥ α(Γ_E) + 2 on every instance tested** (`construct2/rank_cert_indep.py`).
+  - **Argument.**
+    - Let S be a maximum independent set, so N[S,S] = I.
+    - If rank N = |S| + k, the Schur complement gives N = N[:,S]·N[S,:] + UVᵀ, where U and V have k columns supported off S.
+    - Entries N[a,s] and N[s,b] with s ∈ S can be nonzero only on free pairs.
+    - That gives a Boolean zero-pattern relaxation over the required entries. A diagonal needs at least one nonzero product, and a required zero cannot have exactly one.
+    - If the relaxation is UNSAT at k = 1, then rank N ≥ |S| + 2 (k = 0 is the special case U = 0).
+  - **Results.**
+    - k = 1 is UNSAT on both MiniSat and Glucose for a23 (rank ≥ 25), a24 (≥ 26), amin25 (≥ 27) and amin_s1 (≥ 30).
+    - The certificates are the S sets in `cert_*_k1.json`. The checker loads ports straight from the pinned tarball.
+    - On the line instance, where rank α is achievable, the relaxation is SAT. At k = 2 it is SAT on a23, so this method stops at α + 2.
+  - **Consequence: the large-term route is closed on all of these instances.**
+    - Decoders whose terms all have ρ ≥ 7 cost at least 7·25 = 175 on a23, 182 on a24 and 189 on amin25.
+    - A sub-162 decoder on a23 needs at least 25 terms with average ρ < 6.5.
+  - **Numerical evidence (floating point, uncertified).**
+    - Levenberg–Marquardt masked min-rank on a23 is about 39 for general N (38 fails) and 40 for PSD.
+    - Decoders restricted to a dictionary of ρ ≤ 6 support pairs need on the order of 100 terms.
+    - Every block-diagonal replacement tried does worse than the naive decoder.
+  - **No exact decoder below 224 was found.**
+- **Open question:** α ≤ 22 is still unreached. The rigorous remaining loophole is decoders dominated by terms with ρ ≤ 4 that still reach rank around 39.
 
 ## Open
 

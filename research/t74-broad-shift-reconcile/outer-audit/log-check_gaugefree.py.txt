@@ -1,0 +1,12 @@
+{
+ "A_broad": "K = Drow*G_s*Dcol exact; s=-dl/lam kills x-linear term, y-linear coefficient 2*b0*dl*(1-lam)",
+ "A_narrow": "N_{ij}=k(j-i) exp(a th (t_i^2-t_j^2)), k(h)=exp(-a rho h^2-2 a be0 h)=exp(a be0^2/rho) exp(-gamma (h-s)^2), gamma=a rho, s=-be0/rho",
+ "A_old_weights": "log w_i = const + a th (i - c/th)^2 : linear slope 2 a beta0 is the old gauge, removed by the shift",
+ "A_shrunk_shift": "x-lin 4 b0 dl th/(1+th), y-lin -2 b0 dl th/(1+th) (|.|<=2 b0 th, b0 th for |dl|<=1/2)",
+ "B_exact_mixed_difference_checks": 600,
+ "C_triple_product_max_rel_err": "2.5349e-42",
+ "C_min_RePhi_over_ms": "1.0",
+ "C_max(|arg|-f(a1))": "1.2306e-42",
+ "C_points": 1025
+}
+ALL STAGES PASS

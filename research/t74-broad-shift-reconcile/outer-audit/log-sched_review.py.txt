@@ -1,0 +1,9 @@
+g 4 L 6 E [2, 3, 5, 4] spect 1 | match True order True sum|S_r| 3024 =sum|F| 3024 (g|U|=5088) cost/sum|S_r|=13.43  vs (log g+log E+1)=5.32
+g 5 L 6 E [3, 2, 4, 3, 5] spect 2 | match True order True sum|S_r| 44064 =sum|F| 44064 (g|U|=77040) cost/sum|S_r|=17.35  vs (log g+log E+1)=5.64
+g 3 L 9 E [6, 7, 5] spect 3 | match True order True sum|S_r| 4374 =sum|F| 4374 (g|U|=6345) cost/sum|S_r|=15.00  vs (log g+log E+1)=5.39
+g 6 L 5 E [2, 3, 2, 4, 3, 2] spect 1 | match True order True sum|S_r| 50000 =sum|F| 50000 (g|U|=93102) cost/sum|S_r|=16.25  vs (log g+log E+1)=5.58
+g 5 L 7 E [2, 3, 2, 3, 2] spect 1 | match True order True sum|S_r| 28812 =sum|F| 28812 (g|U|=74035) cost/sum|S_r|=16.00  vs (log g+log E+1)=4.91
+g 2 L 12 E [7, 11] spect 2 | match True order True sum|S_r| 432 =sum|F| 432 (g|U|=556) cost/sum|S_r|=12.22  vs (log g+log E+1)=5.46
+g 7 L 4 E [2, 3, 2, 3, 2, 3, 2] spect 1 | match True order True sum|S_r| 69632 =sum|F| 69632 (g|U|=114576) cost/sum|S_r|=16.06  vs (log g+log E+1)=5.39
+ALL OK True
+PASS_UNION_SCHEDULE_REVIEW

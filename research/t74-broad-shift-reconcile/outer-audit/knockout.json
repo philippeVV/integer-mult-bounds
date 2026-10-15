@@ -1,0 +1,178 @@
+[
+ {
+  "config": "FINAL (PR2044 rows, slacks->0)",
+  "sup_kappa": "0.001679754956125544521335670994",
+  "q_minus_sup": "0.0000000000e+00",
+  "final_minus_sup": "0.0000000000e+00",
+  "sup_minus_supplier": "2.8168451031e-06",
+  "eps": "1.000000000000",
+  "beta": "1.000000000000",
+  "xi": "0.907929754956",
+  "active": [
+   "main eps q",
+   "gaussian 1-eps+q beta",
+   "eps<=1",
+   "boundary c+xi-eps"
+  ]
+ },
+ {
+  "config": "- fine primes (gauge-free guard with theta~1/d), Strassen c=3/32",
+  "sup_kappa": "0.001677460666567140763129915853",
+  "q_minus_sup": "2.2942895584e-06",
+  "final_minus_sup": "2.2942895584e-06",
+  "sup_minus_supplier": "5.2255554470e-07",
+  "eps": "0.998634152232",
+  "beta": "0.185510926435",
+  "xi": "0.906561612898",
+  "active": [
+   "main eps q",
+   "guard 1-(2xi-eps)-beta",
+   "boundary c+xi-eps",
+   "gaussian 1-eps+q beta"
+  ]
+ },
+ {
+  "config": "- fine primes, structured boundary c=1/2 (=PR1758 config, free eps)",
+  "sup_kappa": "0.001679745508802299051546533685",
+  "q_minus_sup": "9.4473232455e-09",
+  "final_minus_sup": "9.4473232455e-09",
+  "sup_minus_supplier": "2.8073977799e-06",
+  "eps": "0.999994375773",
+  "beta": "0.996646133209",
+  "xi": "0.501674121282",
+  "active": [
+   "main eps q",
+   "guard 1-(2xi-eps)-beta",
+   "boundary c+xi-eps",
+   "gaussian 1-eps+q beta"
+  ]
+ },
+ {
+  "config": "- fine primes - gauge-free (linear guard), Strassen",
+  "sup_kappa": "0.001677201747406332474800926193",
+  "q_minus_sup": "2.5532087192e-06",
+  "final_minus_sup": "2.5532087192e-06",
+  "sup_minus_supplier": "2.6363638389e-07",
+  "eps": "0.998480011201",
+  "beta": "0.093592787052",
+  "xi": "0.906407212948",
+  "active": [
+   "main eps q",
+   "gaussian 1-eps+q beta",
+   "guard 1-xi-beta",
+   "boundary c+xi-eps"
+  ]
+ },
+ {
+  "config": "- radix union (old row 1-eps-beta-1/2+xi)",
+  "sup_kappa": "0.001678341805945094232163020467",
+  "q_minus_sup": "1.4131501805e-06",
+  "final_minus_sup": "1.4131501805e-06",
+  "sup_minus_supplier": "1.4036949227e-06",
+  "eps": "0.999158716469",
+  "beta": "0.498321658194",
+  "xi": "0.999158716469",
+  "active": [
+   "main eps q",
+   "gaussian 1-eps+q beta",
+   "xi<=eps",
+   "old union 1-eps-beta-1/2+xi"
+  ]
+ },
+ {
+  "config": "- per-visit tag (old 1-2beta)",
+  "sup_kappa": "0.001678346533573991646262885506",
+  "q_minus_sup": "1.4084225516e-06",
+  "final_minus_sup": "1.4084225516e-06",
+  "sup_minus_supplier": "1.4084225516e-06",
+  "eps": "0.999161530944",
+  "beta": "0.500000000000",
+  "xi": "0.907089877478",
+  "active": [
+   "main eps q",
+   "old tag 1-2beta",
+   "boundary c+xi-eps",
+   "gaussian 1-eps+q beta"
+  ]
+ },
+ {
+  "config": "+ old per-axis scan row 1-eps",
+  "sup_kappa": "0.001676938111022438771190100017",
+  "q_minus_sup": "2.8168451031e-06",
+  "final_minus_sup": "2.8168451031e-06",
+  "sup_minus_supplier": "0.0000000000e+00",
+  "eps": "0.998323061889",
+  "beta": "0.000000000000",
+  "xi": "0.906250000000",
+  "active": [
+   "main eps q",
+   "beta>=0",
+   "boundary c+xi-eps",
+   "gaussian 1-eps+q beta"
+  ]
+ },
+ {
+  "config": "PR1673 strassen rows (linear guard, old union + full key, halo 3/core 8)",
+  "sup_kappa": "0.001677201747406332474800926193",
+  "q_minus_sup": "2.5532087192e-06",
+  "final_minus_sup": "2.5532087192e-06",
+  "sup_minus_supplier": "2.6363638389e-07",
+  "eps": "0.998480011201",
+  "beta": "0.093592787052",
+  "xi": "0.906407212948",
+  "active": [
+   "main eps q",
+   "gaussian 1-eps+q beta",
+   "guard 1-xi-beta",
+   "boundary c+xi-eps"
+  ]
+ },
+ {
+  "config": "PR1673 + radix union (pkg4-like, Strassen)",
+  "sup_kappa": "0.001677201747406332474800926193",
+  "q_minus_sup": "2.5532087192e-06",
+  "final_minus_sup": "2.5532087192e-06",
+  "sup_minus_supplier": "2.6363638389e-07",
+  "eps": "0.998480011201",
+  "beta": "0.093592787052",
+  "xi": "0.906407212948",
+  "active": [
+   "main eps q",
+   "gaussian 1-eps+q beta",
+   "guard 1-xi-beta",
+   "boundary c+xi-eps"
+  ]
+ },
+ {
+  "config": "PR1673 + radix union + gauge-free (theta~1/d), Strassen",
+  "sup_kappa": "0.001677460666567140763129915853",
+  "q_minus_sup": "2.2942895584e-06",
+  "final_minus_sup": "2.2942895584e-06",
+  "sup_minus_supplier": "5.2255554470e-07",
+  "eps": "0.998634152232",
+  "beta": "0.185510926435",
+  "xi": "0.906561612898",
+  "active": [
+   "main eps q",
+   "guard 1-(2xi-eps)-beta",
+   "boundary c+xi-eps",
+   "gaussian 1-eps+q beta"
+  ]
+ },
+ {
+  "config": "PR1673 + radix union + gauge-free + structured c=1/2",
+  "sup_kappa": "0.001679745508802299051546533685",
+  "q_minus_sup": "9.4473232455e-09",
+  "final_minus_sup": "9.4473232455e-09",
+  "sup_minus_supplier": "2.8073977799e-06",
+  "eps": "0.999994375773",
+  "beta": "0.996646133209",
+  "xi": "0.501674121282",
+  "active": [
+   "main eps q",
+   "guard 1-(2xi-eps)-beta",
+   "boundary c+xi-eps",
+   "gaussian 1-eps+q beta"
+  ]
+ }
+]

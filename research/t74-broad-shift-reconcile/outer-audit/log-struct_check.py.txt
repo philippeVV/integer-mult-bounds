@@ -1,0 +1,7 @@
+W=3 G=3 I=9: max Stein displacement ranks {'diag': 3, 'sub': 2, 'sup': 2, 'pivot': 3, 'pivot_inv': 3} -- structured solve == dense solve (exact)
+W=3 G=5 I=9: max Stein displacement ranks {'diag': 3, 'sub': 2, 'sup': 2, 'pivot': 3, 'pivot_inv': 3} -- structured solve == dense solve (exact)
+W=4 G=4 I=12: max Stein displacement ranks {'diag': 4, 'sub': 2, 'sup': 2, 'pivot': 4, 'pivot_inv': 4} -- structured solve == dense solve (exact)
+W=3 G=6 I=9: max Stein displacement ranks {'diag': 3, 'sub': 2, 'sup': 2, 'pivot': 3, 'pivot_inv': 3} -- structured solve == dense solve (exact)
+W=5 G=3 I=15: max Stein displacement ranks {'diag': 4, 'sub': 2, 'sup': 2, 'pivot': 4, 'pivot_inv': 4} -- structured solve == dense solve (exact)
+control: Toeplitz W=6 max rank 4; non-Toeplitz perturbation raises pivot/diag rank to 6/6 (full)
+PASS_STRUCTURED_BOUNDARY (max rank 4)

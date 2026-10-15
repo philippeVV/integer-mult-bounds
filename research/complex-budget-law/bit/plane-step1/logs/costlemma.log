@@ -1,0 +1,2 @@
+set 0 Ty min cost eps=0: 1 eps!=0: 2 violations 0 T0 min 2
+set 5000 Ty min cost eps=0: 1 eps!=0: 2 violations 0 T0 min 2

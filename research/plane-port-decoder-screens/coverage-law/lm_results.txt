@@ -1,0 +1,15 @@
+Floating-point LM screens (uncertified; local optimiser, 2 restarts each). Residual = sum of squared errors.
+c_lm.py f8:6 K=44 gen   residual 1.3e-3   (fail)
+c_lm.py f8:6 K=46 gen   residual 3.6e-16  (masked rank <= 46; alpha = 40)
+c_lm.py f8:6 K=50 gen   residual 7.4e-14
+c_lm.py paired K=48 gen residual 4        (fail; alpha = 48)
+c_lm.py paired K=56 gen residual 4.2e-17  (masked rank <= 56)
+e_planes.py 6 <kdeg> <knd> 2 99   (every term inside one F8-plane; cost bound 3 per degenerate, 6 per nondegenerate plane)
+  kdeg=1 knd=36  K=45  cost<=243  residual 35  (fail)
+  kdeg=2 knd=34  K=52  cost<=258  residual 28  (fail)
+  kdeg=3 knd=30  K=57  cost<=261  residual 28  (fail)
+  kdeg=4 knd=24  K=60  cost<=252  residual 32  (fail)
+  kdeg=2 knd=48  K=66  cost<=342  residual 12  (fail)
+  kdeg=2 knd=56  K=74  cost<=390  residual 3   (fail)
+  kdeg=2 knd=64  K=82  cost<=438  residual 1.3e-21 (feasible)
+  kdeg=4 knd=64  K=100 cost<=492  residual 1.4e-15 (feasible)

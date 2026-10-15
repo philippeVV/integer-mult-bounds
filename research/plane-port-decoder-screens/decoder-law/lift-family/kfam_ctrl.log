@@ -1,0 +1,26 @@
+0 |S| 8 B 6 |C| 8 zeros 0 2 kerdim 1 1 clean True X ok True Y ok True
+1 |S| 8 B 7 |C| 8 zeros 1 3 kerdim 1 1 clean True X ok True Y ok True
+2 |S| 8 B 3 |C| 8 zeros 2 1 kerdim 1 1 clean True X ok True Y ok True
+3 |S| 8 B 5 |C| 8 zeros 2 0 kerdim 1 1 clean True X ok True Y ok True
+4 |S| 8 B 0 |C| 8 zeros 0 0 kerdim 1 1 clean True X ok True Y ok True
+5 |S| 1 B 1 |C| 57 zeros 1 0 kerdim 1 1 clean True X ok True Y ok True
+6 |S| 7 B 1 |C| 8 zeros 0 0 kerdim 1 1 clean True X ok True Y ok True
+7 |S| 6 B 4 |C| 9 zeros 4 0 kerdim 1 1 clean True X ok True Y ok True
+8 |S| 6 B 2 |C| 9 zeros 0 1 kerdim 1 1 clean True X ok True Y ok True
+9 |S| 8 B 3 |C| 8 zeros 1 1 kerdim 1 1 clean True X ok True Y ok True
+10 |S| 8 B 2 |C| 8 zeros 0 1 kerdim 1 1 clean True X ok True Y ok True
+11 |S| 3 B 0 |C| 19 zeros 0 0 kerdim 1 1 clean True X ok True Y ok True
+12 |S| 2 B 0 |C| 30 zeros 0 0 kerdim 1 1 clean True X ok True Y ok True
+13 |S| 6 B 3 |C| 9 zeros 0 0 kerdim 1 1 clean True X ok True Y ok True
+14 |S| 2 B 3 |C| 30 zeros 0 0 kerdim 1 1 clean True X ok True Y ok True
+15 |S| 1 B 1 |C| 57 zeros 0 1 kerdim 1 1 clean True X ok True Y ok True
+16 |S| 5 B 7 |C| 11 zeros 1 0 kerdim 1 1 clean True X ok True Y ok True
+17 |S| 3 B 0 |C| 19 zeros 0 0 kerdim 1 1 clean True X ok True Y ok True
+18 |S| 8 B 3 |C| 8 zeros 1 0 kerdim 1 1 clean True X ok True Y ok True
+19 |S| 7 B 3 |C| 7 zeros 1 0 kerdim 1 1 clean True X ok True Y ok True
+20 |S| 7 B 4 |C| 8 zeros 2 1 kerdim 1 1 clean True X ok True Y ok True
+21 |S| 2 B 3 |C| 30 zeros 0 0 kerdim 1 1 clean True X ok True Y ok True
+22 |S| 8 B 1 |C| 8 zeros 0 0 kerdim 1 1 clean True X ok True Y ok True
+23 |S| 8 B 5 |C| 8 zeros 1 1 kerdim 1 1 clean True X ok True Y ok True
+24 |S| 8 B 1 |C| 8 zeros 1 0 kerdim 1 1 clean True X ok True Y ok True
+PASS 25

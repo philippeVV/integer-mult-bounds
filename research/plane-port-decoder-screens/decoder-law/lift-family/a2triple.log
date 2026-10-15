@@ -1,0 +1,4 @@
+concurrent rank Y_T 8 X lines [1, 1, 1, 63] Y lines [1, 1, 1, 63] kerdim 1 1 mincost 73
+NON-concurrent rank Y_T 9 X lines [1, 1, 1, 63] Y lines [1, 1, 1] kerdim 1 1 mincost 73
+concurrent rank Y_T 8 X lines [1, 1, 1, 63] Y lines [1, 1, 1, 63] kerdim 1 1 mincost 73
+NON-concurrent rank Y_T 9 X lines [1, 1, 1, 63] Y lines [1, 1, 1] kerdim 1 1 mincost 73

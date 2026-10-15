@@ -1,0 +1,5 @@
+Clean(S) holds (X side standard); bad classes of C(S): [499, 500, 504] ; each contains F, rank R[F] = 8  => every extra line has gamma != 0
+B = F + () credit 9 (['e9', 0, 1], []) Y Def dims [2, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0]
+B = F + (0,) credit 9 (['e9', 0, 1], []) Y Def dims [1, 2, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 2]
+B = F + (1,) credit 9 (['e9', 0, 1], []) Y Def dims [1, 2, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 2]
+non-Clean B tested 8 max credit 9 PASS

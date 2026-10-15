@@ -1,0 +1,3 @@
+S [21, 107, 37, 17, 109, 65, 2] C(S) = S: True
+cases 330 max credit 9 at (0, 0, 0, 0, (['e9', 21, 107, 37, 17, 109, 65, 2], [], []))
+random-pattern spot check max credit 9

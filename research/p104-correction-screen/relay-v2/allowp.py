@@ -1,6 +1,6 @@
 import json, os, sys
 from fractions import Fraction as Q
-sys.path.insert(0, '/home/pvv/repo/imb-work10/research/complex-local-word-ceiling')
+sys.path.insert(0, __import__('os').path.join(__import__('os').path.dirname(__import__('os').path.abspath(__file__)), '..', '..', 'complex-local-word-ceiling'))
 import ceiling as CE
 s = json.load(open('pr2559/OUTER-CLAIM.json'))['kappa']; ip, fp = s.split('.'); k0 = Q(int(ip + fp), 10**len(fp))
 K = Q(-((-k0.numerator * 10**30) // k0.denominator), 10**30)

@@ -1,0 +1,336 @@
+{
+ "PR2044": {
+  "main transform V p d^-q": {
+   "kind": "cost",
+   "value": "-1.000000E-30022",
+   "ok": true,
+   "where": "note:290,298"
+  },
+  "global routing (incl. one global low-bit gather)": {
+   "kind": "cost",
+   "value": "-5.033595E-30011",
+   "ok": true,
+   "where": "note:299; OUTER-AUDIT:52"
+  },
+  "fused Gaussian (d/g) g^(1-q) polylog H calls": {
+   "kind": "cost",
+   "value": "-1.993281E-30010",
+   "ok": true,
+   "where": "note:136,300; TENSOR-COMPILER:147-151"
+  },
+  "grouped bit routing (d/g) g^(1-a) per H call": {
+   "kind": "cost",
+   "value": "-2.493281E-30010",
+   "ok": true,
+   "where": "note:301; SUPPLIER-SUPPORT:86-87"
+  },
+  "group scans: polylog diag scans, 2^g shifts, q-embeds, union gather/scatter, halo scan": {
+   "kind": "cost",
+   "value": "-9.983202E-1",
+   "ok": true,
+   "where": "note:254,264,302"
+  },
+  "boundary algebra (d/B) W^(omega-1)": {
+   "kind": "cost",
+   "value": "-1.000000E-30010",
+   "ok": true,
+   "where": "note:241,303"
+  },
+  "PR1673 union, U scanned once per axis: (d/g) g^2 W/B": {
+   "kind": "cost",
+   "value": "5.937500E-1",
+   "ok": false,
+   "where": "note:250-252,304 (replaced in PR2044)"
+  },
+  "union transposes/merge (d/g) g mu polylog": {
+   "kind": "cost",
+   "value": "-4.062500E-1",
+   "ok": true,
+   "where": "PHASE-LAYOUT-AUDIT:103-108; UNION-SCHEDULE:96"
+  },
+  "core-face part of E_i: (d/g) g^2 W/L": {
+   "kind": "cost",
+   "value": "-1.264983E+2",
+   "ok": true,
+   "where": "PHASE-LAYOUT-AUDIT:44-45"
+  },
+  "dyadic-tail boundary W log B per cell, times W^(omega-2)": {
+   "kind": "cost",
+   "value": "-1.092070E+0",
+   "ok": true,
+   "where": "note:209-212"
+  },
+  "packed polynomial products": {
+   "kind": "cost",
+   "value": "-9.983202E-1",
+   "ok": true,
+   "where": "note:306"
+  },
+  "core-face corrections (d/g)(gA/L) g p^2": {
+   "kind": "cost",
+   "value": "-7.699832E+1",
+   "ok": true,
+   "where": "note:268-272,307"
+  },
+  "halo sparse radix key passes (d/g)(gA/L) K0, K0=g h": {
+   "kind": "cost",
+   "value": "-7.899832E+1",
+   "ok": true,
+   "where": "HALO-THEOREM:150-156"
+  },
+  "halo metadata K0^2/B fallback (d/g)(gA/L)K0^2/p": {
+   "kind": "cost",
+   "value": "-7.899832E+1",
+   "ok": true,
+   "where": "HALO-THEOREM:41-42"
+  },
+  "membership g h^2 per p-bit record": {
+   "kind": "side<0",
+   "value": "-2.000000E-30010",
+   "ok": true,
+   "where": "note:254; PHASE-LAYOUT-AUDIT:123-130"
+  },
+  "union header g log L per record": {
+   "kind": "side<0",
+   "value": "-6.000000E-30010",
+   "ok": true,
+   "where": "PHASE-LAYOUT-AUDIT:119-121"
+  },
+  "group key g log s per record": {
+   "kind": "side<0",
+   "value": "-4.000000E-30010",
+   "ok": true,
+   "where": "note:273"
+  },
+  "tensor prefix guard g polylog bits vs p": {
+   "kind": "side<0",
+   "value": "-6.000000E-30010",
+   "ok": true,
+   "where": "TENSOR-COMPILER:21,110"
+  },
+  "H0 -> H rescale guard O(g) bits": {
+   "kind": "side<0",
+   "value": "-6.000000E-30010",
+   "ok": true,
+   "where": "TENSOR-COMPILER:154-157"
+  },
+  "support span gK, reservoirs O(g log^2 p) vs n=Theta(p)": {
+   "kind": "side<0",
+   "value": "-6.000000E-30010",
+   "ok": true,
+   "where": "SUPPLIER-SUPPORT:80,121"
+  },
+  "K-neighbourhood (log p) inside one axis (log s=p^h): -h": {
+   "kind": "side<0",
+   "value": "-2.000000E-30010",
+   "ok": true,
+   "where": "note:126"
+  },
+  "core side log L inside one axis: -h": {
+   "kind": "side<0",
+   "value": "-2.000000E-30010",
+   "ok": true,
+   "where": "OUTER-AUDIT:52"
+  },
+  "cap B below phase cell: xi - cell": {
+   "kind": "side<0",
+   "value": "-1.092070E+0",
+   "ok": true,
+   "where": "note:213 (B=o(d)); ledger cap_below_*"
+  },
+  "halo volume gA/L -> 0": {
+   "kind": "side<0",
+   "value": "-7.900000E+1",
+   "ok": true,
+   "where": "HALO-THEOREM:28,93-101"
+  },
+  "PR1673 precision guard g a B (linear gauge) vs p": {
+   "kind": "side<0",
+   "value": "9.079298E-1",
+   "ok": false,
+   "where": "note:276-281 (replaced in PR2044)"
+  },
+  "PR1758/1786 chirp guard g a theta B^2 vs p": {
+   "kind": "side<0",
+   "value": "-1.841405E-1",
+   "ok": true,
+   "where": "PR2044 ledger group_gauge_power_slack"
+  },
+  "global scalar range d u vs p": {
+   "kind": "side<0",
+   "value": "-2.000000E-30010",
+   "ok": true,
+   "where": "note:283"
+  },
+  "tables gN per coarse block vs N^g: (gN)/(N^g) [exponent of log]": {
+   "kind": "side<0",
+   "value": "-1.000000E+0",
+   "ok": true,
+   "where": "TENSOR-COMPILER:130 (superpolynomially small)"
+  }
+ },
+ "PR1673": {
+  "main transform V p d^-q": {
+   "kind": "cost",
+   "value": "-1.000000E-11",
+   "ok": true,
+   "where": "note:290,298"
+  },
+  "global routing (incl. one global low-bit gather)": {
+   "kind": "cost",
+   "value": "-2.594804E-6",
+   "ok": true,
+   "where": "note:299; OUTER-AUDIT:52"
+  },
+  "fused Gaussian (d/g) g^(1-q) polylog H calls": {
+   "kind": "cost",
+   "value": "-1.000000E-11",
+   "ok": true,
+   "where": "note:136,300; TENSOR-COMPILER:147-151"
+  },
+  "grouped bit routing (d/g) g^(1-a) per H call": {
+   "kind": "cost",
+   "value": "-3.910615E-9",
+   "ok": true,
+   "where": "note:301; SUPPLIER-SUPPORT:86-87"
+  },
+  "group scans: polylog diag scans, 2^g shifts, q-embeds, union gather/scatter, halo scan": {
+   "kind": "cost",
+   "value": "-9.342461E-2",
+   "ok": true,
+   "where": "note:254,264,302"
+  },
+  "boundary algebra (d/B) W^(omega-1)": {
+   "kind": "cost",
+   "value": "-1.000001E-5",
+   "ok": true,
+   "where": "note:241,303"
+  },
+  "PR1673 union, U scanned once per axis: (d/g) g^2 W/B": {
+   "kind": "cost",
+   "value": "-3.126782E-1",
+   "ok": true,
+   "where": "note:250-252,304 (replaced in PR2044)"
+  },
+  "union transposes/merge (d/g) g mu polylog": {
+   "kind": "cost",
+   "value": "-4.062600E-1",
+   "ok": true,
+   "where": "PHASE-LAYOUT-AUDIT:103-108; UNION-SCHEDULE:96"
+  },
+  "core-face part of E_i: (d/g) g^2 W/L": {
+   "kind": "cost",
+   "value": "-7.406261E+0",
+   "ok": true,
+   "where": "PHASE-LAYOUT-AUDIT:44-45"
+  },
+  "dyadic-tail boundary W log B per cell, times W^(omega-2)": {
+   "kind": "cost",
+   "value": "-9.207284E-2",
+   "ok": true,
+   "where": "note:209-212"
+  },
+  "packed polynomial products": {
+   "kind": "cost",
+   "value": "-9.968029E-1",
+   "ok": true,
+   "where": "note:306"
+  },
+  "core-face corrections (d/g)(gA/L) g p^2": {
+   "kind": "cost",
+   "value": "-2.906261E+0",
+   "ok": true,
+   "where": "note:268-272,307"
+  },
+  "halo sparse radix key passes (d/g)(gA/L) K0, K0=g h": {
+   "kind": "cost",
+   "value": "-4.904741E+0",
+   "ok": true,
+   "where": "HALO-THEOREM:150-156"
+  },
+  "halo metadata K0^2/B fallback (d/g)(gA/L)K0^2/p": {
+   "kind": "cost",
+   "value": "-5.809639E+0",
+   "ok": true,
+   "where": "HALO-THEOREM:41-42"
+  },
+  "membership g h^2 per p-bit record": {
+   "kind": "side<0",
+   "value": "-9.033783E-1",
+   "ok": true,
+   "where": "note:254; PHASE-LAYOUT-AUDIT:123-130"
+  },
+  "union header g log L per record": {
+   "kind": "side<0",
+   "value": "-9.064182E-1",
+   "ok": true,
+   "where": "PHASE-LAYOUT-AUDIT:119-121"
+  },
+  "group key g log s per record": {
+   "kind": "side<0",
+   "value": "-9.048982E-1",
+   "ok": true,
+   "where": "note:273"
+  },
+  "tensor prefix guard g polylog bits vs p": {
+   "kind": "side<0",
+   "value": "-9.064182E-1",
+   "ok": true,
+   "where": "TENSOR-COMPILER:21,110"
+  },
+  "H0 -> H rescale guard O(g) bits": {
+   "kind": "side<0",
+   "value": "-9.064182E-1",
+   "ok": true,
+   "where": "TENSOR-COMPILER:154-157"
+  },
+  "support span gK, reservoirs O(g log^2 p) vs n=Theta(p)": {
+   "kind": "side<0",
+   "value": "-9.064182E-1",
+   "ok": true,
+   "where": "SUPPLIER-SUPPORT:80,121"
+  },
+  "K-neighbourhood (log p) inside one axis (log s=p^h): -h": {
+   "kind": "side<0",
+   "value": "-1.519970E-3",
+   "ok": true,
+   "where": "note:126"
+  },
+  "core side log L inside one axis: -h": {
+   "kind": "side<0",
+   "value": "-1.519970E-3",
+   "ok": true,
+   "where": "OUTER-AUDIT:52"
+  },
+  "cap B below phase cell: xi - cell": {
+   "kind": "side<0",
+   "value": "-9.206284E-2",
+   "ok": true,
+   "where": "note:213 (B=o(d)); ledger cap_below_*"
+  },
+  "halo volume gA/L -> 0": {
+   "kind": "side<0",
+   "value": "-4.906418E+0",
+   "ok": true,
+   "where": "HALO-THEOREM:28,93-101"
+  },
+  "PR1673 precision guard g a B (linear gauge) vs p": {
+   "kind": "side<0",
+   "value": "-1.010000E-6",
+   "ok": true,
+   "where": "note:276-281 (replaced in PR2044)"
+  },
+  "global scalar range d u vs p": {
+   "kind": "side<0",
+   "value": "-1.519970E-3",
+   "ok": true,
+   "where": "note:283"
+  },
+  "tables gN per coarse block vs N^g: (gN)/(N^g) [exponent of log]": {
+   "kind": "side<0",
+   "value": "-1.000000E+0",
+   "ok": true,
+   "where": "TENSOR-COMPILER:130 (superpolynomially small)"
+  }
+ }
+}

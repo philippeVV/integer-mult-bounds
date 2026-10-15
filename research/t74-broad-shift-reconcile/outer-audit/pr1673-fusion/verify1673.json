@@ -1,0 +1,113 @@
+{
+  "status": "PASS_PORTABLE_EXACT_PHASE_FUSION_PACKAGE",
+  "scope": "Exact finite controls and arithmetic plus retained native receipt binding. This does not replay the entire native dependency or discharge all-size hypotheses. The matrix corollary retains an additional external premise.",
+  "package_files": 183,
+  "headline_kappa": "1677160151714381/1000000000000000000",
+  "checks": [
+    {
+      "script": "frontier_fusion/check_frontier_fusion.py",
+      "artifact": "frontier_fusion/FRONTIER-FUSION-ARITHMETIC.json",
+      "status": "PASS_EXACT_REPLAY"
+    },
+    {
+      "script": "frontier_fusion/independent_substitution_check.py",
+      "artifact": "frontier_fusion/INDEPENDENT-SUBSTITUTION-RECEIPT.json",
+      "status": "PASS_EXACT_REPLAY"
+    },
+    {
+      "script": "evidence/inplace_algebra_ultra/check_exact_algebra.py",
+      "artifact": "evidence/inplace_algebra_ultra/EXACT-ALGEBRA.json",
+      "status": "PASS_EXACT_REPLAY"
+    },
+    {
+      "script": "evidence/inplace_algebra_ultra/check_tensor_compiler.py",
+      "artifact": "evidence/inplace_algebra_ultra/TENSOR-COMPILER-CONTROLS.json",
+      "status": "PASS_EXACT_REPLAY"
+    },
+    {
+      "script": "evidence/inplace_algebra_ultra/check_supplier_capacity.py",
+      "artifact": "evidence/inplace_algebra_ultra/SUPPLIER-CAPACITY-CONTROLS.json",
+      "status": "PASS_EXACT_REPLAY"
+    },
+    {
+      "script": "evidence/gaussian_fast_ultra/check_lower.py",
+      "artifact": "evidence/gaussian_fast_ultra/LOWER-CONTROLS.json",
+      "status": "PASS_EXACT_REPLAY"
+    },
+    {
+      "script": "evidence/gaussian_fast_ultra/check_bilateral.py",
+      "artifact": "evidence/gaussian_fast_ultra/BILATERAL-CONTROLS.json",
+      "status": "PASS_EXACT_REPLAY"
+    },
+    {
+      "script": "evidence/gaussian_fast_ultra/check_upper_data.py",
+      "artifact": "evidence/gaussian_fast_ultra/UPPER-DATA-CONTROLS.json",
+      "status": "PASS_EXACT_REPLAY"
+    },
+    {
+      "script": "evidence/gaussian_fast_ultra/check_upper_merge.py",
+      "artifact": "evidence/gaussian_fast_ultra/UPPER-MERGE-CONTROLS.json",
+      "status": "PASS_EXACT_REPLAY"
+    },
+    {
+      "script": "evidence/gaussian_fast_ultra/check_capped_gauges.py",
+      "artifact": "evidence/gaussian_fast_ultra/CAPPED-GAUGE-CONTROLS.json",
+      "status": "PASS_EXACT_REPLAY"
+    },
+    {
+      "script": "evidence/gaussian_fast_ultra/check_dyadic_interiors.py",
+      "artifact": "evidence/gaussian_fast_ultra/DYADIC-INTERIOR-CONTROLS.json",
+      "status": "PASS_EXACT_REPLAY"
+    },
+    {
+      "script": "evidence/gaussian_fast_ultra/check_cyclic_scan.py",
+      "artifact": "evidence/gaussian_fast_ultra/CYCLIC-SCAN-CONTROLS.json",
+      "status": "PASS_EXACT_REPLAY"
+    },
+    {
+      "script": "evidence/gaussian_fast_ultra/check_forward_cell.py",
+      "artifact": "evidence/gaussian_fast_ultra/FORWARD-CELL-CONTROLS.json",
+      "status": "PASS_EXACT_REPLAY"
+    },
+    {
+      "script": "evidence/gaussian_fast_ultra/check_log_a_schur.py",
+      "artifact": "evidence/gaussian_fast_ultra/LOG-A-SCHUR-CONTROLS.json",
+      "status": "PASS_EXACT_REPLAY"
+    },
+    {
+      "script": "evidence/halo_layout_ultra/check_halo.py",
+      "artifact": "evidence/halo_layout_ultra/HALO-CONTROLS.json",
+      "status": "PASS_EXACT_REPLAY"
+    },
+    {
+      "script": "evidence/halo_layout_ultra/check_embedding.py",
+      "artifact": "evidence/halo_layout_ultra/EMBEDDING-CONTROLS.json",
+      "status": "PASS_EXACT_REPLAY"
+    },
+    {
+      "script": "evidence/halo_layout_ultra/check_ragged.py",
+      "artifact": "evidence/halo_layout_ultra/RAGGED-CONTROLS.json",
+      "status": "PASS_EXACT_REPLAY"
+    },
+    {
+      "script": "evidence/halo_layout_ultra/check_sparse_shear.py",
+      "artifact": "evidence/halo_layout_ultra/SPARSE-SHEAR-CONTROLS.json",
+      "status": "PASS_EXACT_REPLAY"
+    },
+    {
+      "script": "evidence/phase_layout_audit_ultra/check_union.py",
+      "artifact": "evidence/phase_layout_audit_ultra/UNION-CONTROLS.json",
+      "status": "PASS_EXACT_REPLAY"
+    },
+    {
+      "script": "evidence/phase_layout_audit_ultra/check_q_embedding.py",
+      "artifact": "evidence/phase_layout_audit_ultra/Q-EMBEDDING-CONTROLS.json",
+      "status": "PASS_EXACT_REPLAY"
+    },
+    {
+      "script": "evidence/phase_layout_audit_ultra/check_capped_layout.py",
+      "artifact": "evidence/phase_layout_audit_ultra/CAPPED-LAYOUT-CONTROLS.json",
+      "status": "PASS_EXACT_REPLAY"
+    }
+  ]
+}

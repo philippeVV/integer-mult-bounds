@@ -1,0 +1,195 @@
+{
+ "exhaustive_axes_checked": 1033,
+ "fine_theta_axes": [
+  {
+   "t": 65536,
+   "P": 8,
+   "s": 65141,
+   "theta": 0.006063769361845939,
+   "primes_in_window": 26,
+   "holes": 395,
+   "min_inner_cell": 164,
+   "max_cell": 165,
+   "one_over_theta": 164.91392405063027,
+   "cells_at_least_2P2_minus_2": true
+  },
+  {
+   "t": 262144,
+   "P": 12,
+   "s": 261463,
+   "theta": 0.002604575025911826,
+   "primes_in_window": 36,
+   "holes": 681,
+   "min_inner_cell": 383,
+   "max_cell": 384,
+   "one_over_theta": 383.93979441997976,
+   "cells_at_least_2P2_minus_2": true
+  },
+  {
+   "t": 1048576,
+   "P": 16,
+   "s": 1047097,
+   "theta": 0.001412476590038958,
+   "primes_in_window": 75,
+   "holes": 1479,
+   "min_inner_cell": 707,
+   "max_cell": 708,
+   "one_over_theta": 707.97633536172,
+   "cells_at_least_2P2_minus_2": true
+  },
+  {
+   "t": 2097152,
+   "P": 30,
+   "s": 2096231,
+   "theta": 0.00043935997511734826,
+   "primes_in_window": 36,
+   "holes": 921,
+   "min_inner_cell": 2276,
+   "max_cell": 2277,
+   "one_over_theta": 2276.038002171024,
+   "cells_at_least_2P2_minus_2": true
+  }
+ ],
+ "group_embedding": [
+  {
+   "g": 3,
+   "sizes": [
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     10,
+     16
+    ]
+   ],
+   "input": 1260,
+   "one_pass_moves": 4332,
+   "per_axis_pass_moves": 11532,
+   "ratio": 3.4380952380952383,
+   "T_over_S": 2.4380952380952383
+  },
+  {
+   "g": 2,
+   "sizes": [
+    [
+     9,
+     16
+    ],
+    [
+     14,
+     16
+    ]
+   ],
+   "input": 378,
+   "one_pass_moves": 1146,
+   "per_axis_pass_moves": 2490,
+   "ratio": 3.0317460317460316,
+   "T_over_S": 2.0317460317460316
+  },
+  {
+   "g": 3,
+   "sizes": [
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     5,
+     8
+    ]
+   ],
+   "input": 210,
+   "one_pass_moves": 722,
+   "per_axis_pass_moves": 1922,
+   "ratio": 3.4380952380952383,
+   "T_over_S": 2.4380952380952383
+  },
+  {
+   "g": 4,
+   "sizes": [
+    [
+     11,
+     16
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     13,
+     16
+    ],
+    [
+     6,
+     8
+    ]
+   ],
+   "input": 54054,
+   "one_pass_moves": 201510,
+   "per_axis_pass_moves": 759654,
+   "ratio": 3.727938727938728,
+   "T_over_S": 2.727938727938728
+  },
+  {
+   "g": 4,
+   "sizes": [
+    [
+     9,
+     16
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ]
+   ],
+   "input": 5292,
+   "one_pass_moves": 21676,
+   "per_axis_pass_moves": 90668,
+   "ratio": 4.09599395313681,
+   "T_over_S": 3.0959939531368104
+  },
+  {
+   "g": 4,
+   "sizes": [
+    [
+     15,
+     16
+    ],
+    [
+     9,
+     16
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     8
+    ]
+   ],
+   "input": 13230,
+   "one_pass_moves": 45998,
+   "per_axis_pass_moves": 181742,
+   "ratio": 3.476795162509448,
+   "T_over_S": 2.476795162509448
+  }
+ ]
+}

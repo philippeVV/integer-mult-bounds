@@ -162,6 +162,30 @@ The scripts in `gain/` read the ports through `lower/ports.py`. That file loads 
   - **No exact decoder below 224 was found.**
 - **Open question:** α ≤ 22 is still unreached. The rigorous remaining loophole is decoders dominated by terms with ρ ≤ 4 that still reach rank around 39.
 
+## Fourth follow-up: barriers for a low-ρ bound, a shared isotropic subspace (`barriers/`, `construct2/p292.json`)
+
+No bound ≥ 129 and no decoder below 224. This section records why the current
+tools stop, so that the next attempt does not repeat them.
+`barriers/check_bf.py` (stdlib only) reproduces every exact claim and prints `PASS_EXPBF_CHECKS`.
+
+- **B1. Any method that also holds for line ports caps at 128.**
+  - Take a bound Σ_k φ(ρ_k, d_k) ≥ τ, where τ is the rank of the block-diagonal Gram (112 for lines, 224 for planes) and d_k is the 2-adic depth.
+  - The exact line incumbent has 8 terms with ρ = 8, d = 2, C = 64. So a valid φ has φ(8,2) ≥ 14, and 16 such terms meet the plane inequality at cost 128.
+  - Theorem A, the Smith lemma, the gain inequality and LPs over (ρ, d) term types are all of this form. They cannot certify more than 128, which is exactly the κ×2 threshold (u=2 needs C ≤ 128).
+  - For half-integral decoders the exact line decoder over a ℤ-basis of E8 costs 68, so the cap there is 224·68/112 = 136.
+- **B2. Per-term Smith capacities are already large on a23.** Real a23 terms reach r_d/ρ = 2 (ρ=3, d=1), 2.5 (ρ=4, d=2) and 3 (ρ=6, d=2). The exact cap table by odd-vector configuration shows the full 2^ρ − 1 only when both sides' odd vectors cover the quotient. So per-term counting gives at most 112 for ρ ≤ 3 and about 75 overall.
+- **B3. No mod-4 orthogonal lift.** A lift z = x̃ + 2w of the plane bases, with form I + 2H, exactly orthogonal on all free pairs, would cap terms at 9 per depth-1 term. The linear system over F2 is inconsistent on a23 and on rW.
+- **B4. Natural cancellation lemmas fail.** "Level-1 carry of an evenly cancelling rectangle family ≤ half its cost" holds for one-sided families (span-rank submodularity), but a 6-rectangle family on a23 has carry rank 31 against cost 54. The purely algebraic version has a 2×2 counterexample.
+- **Conclusion.** A bound ≥ 129 must be plane-specific and must charge cancellation *between* terms. The one plane-specific handle used so far is port blocking (the N⊗J zero pattern behind rank N ≥ α + 2).
+
+**A new exact family at exactly 224.** Call S *lost-free* if every q-orthogonal pair in S is also plane-orthogonal. Then (G/2)[S,S] ⊕ I_{S^c} is an exact masked decoder. CP-SAT finds |S| = 32 in seconds; the best of the orthogonal root frames gives block cost 64 = 2|S|, so the total is exactly 224 (`barriers/lf32_dec.json`; re-checked independently). Beating 224 this way needs |S| ≥ 37 at block cost ≤ 72. No 33-set was found in 30 min of CP-SAT; this is not a proof.
+
+**α search: one shared totally singular subspace.** Work in the 8-dimensional even-weight space E ⊂ F2^9 with Q(v) = wt(v)/2 mod 2 (O⁺(8,2)), and set q' = q + j, r' = r + j, s = q + r (j = all-ones). Then q ⊥ r becomes ⟨q', r'⟩ = 1, and the 112 ports are 112 of the 120 non-singular vectors of E.
+- Every good local-search state found (all α = 23/24 states) uses one maximal totally singular 4-space W = {0,15,53,58,150,153,163,172,275,284,294,297,389,394,432,447}: each port has s ∈ W (about 97 ports) or r' ∈ W (about 15 ports).
+- This cuts the choice per port from 128 to 16 and reduces adjacency to linear conditions on W. In this space a random start reaches α = 23 in minutes, where the full search needed hours.
+- Best new state: `construct2/p292.json`, α = 23 with only 292 maximum independent sets (a23_first has 5,416). `construct2/alpha_check_indep.py` re-proves α = 23 from the pinned word (841 edges).
+- α ≤ 22 was not reached. Exact re-solves of 30 or 60 freed ports in the restricted space, and of 8 or 14 freed ports in the full space, are infeasible. This is local evidence, not a proof.
+
 ## Open
 
 **Decoder target: resolved in favour of the masked target (`target/line_decoder.py`).**

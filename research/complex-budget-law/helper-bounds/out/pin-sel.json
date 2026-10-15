@@ -1,0 +1,82 @@
+{
+ "word": "sel1094.json.gz",
+ "streams": 480,
+ "all_feasible": true,
+ "all_ctrl": true,
+ "actual_logmass": 13802.034028678592,
+ "lb_logmass": 9336.112498618522,
+ "ratio": 0.676430189870526,
+ "actual_climbs": 2406,
+ "lb_climbs": 773,
+ "streams_lb_equals_actual": 0,
+ "streams_lb_zero": 0,
+ "span_actual": 10783.28527303202,
+ "span_lb": 269.57737366121495,
+ "span_lb_climbs": 36,
+ "span_lb_climb_hist": {
+  "0": 444,
+  "1": 36
+ },
+ "by_width": {
+  "4": {
+   "n": 56,
+   "actual": 961.06,
+   "lb": 659.53,
+   "climbs": 224,
+   "lb_climbs": 60,
+   "span_actual": 858.09,
+   "span_lb": 0.0
+  },
+  "5": {
+   "n": 32,
+   "actual": 642.11,
+   "lb": 448.98,
+   "climbs": 128,
+   "lb_climbs": 40,
+   "span_actual": 504.82,
+   "span_lb": 0.0
+  },
+  "7": {
+   "n": 30,
+   "actual": 760.53,
+   "lb": 521.06,
+   "climbs": 120,
+   "lb_climbs": 40,
+   "span_actual": 760.53,
+   "span_lb": 0.0
+  },
+  "8": {
+   "n": 122,
+   "actual": 3410.31,
+   "lb": 2353.83,
+   "climbs": 496,
+   "lb_climbs": 186,
+   "span_actual": 2720.88,
+   "span_lb": 0.0
+  },
+  "9": {
+   "n": 240,
+   "actual": 8028.02,
+   "lb": 5352.71,
+   "climbs": 1438,
+   "lb_climbs": 447,
+   "span_actual": 5938.96,
+   "span_lb": 269.58
+  }
+ },
+ "read8d_streams": 210,
+ "read8d_multi_port": 0,
+ "lb_climb_hist": {
+  "1": 201,
+  "2": 265,
+  "3": 14
+ },
+ "actual_climb_hist": {
+  "3": 54,
+  "4": 136,
+  "5": 129,
+  "6": 76,
+  "7": 81,
+  "8": 4
+ }
+}

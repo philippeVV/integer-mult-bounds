@@ -1,0 +1,112 @@
+{
+ "word": "/home/pvv/repo/imb-work7/research/gmx-t74-borrow43-handoff/new/borrow/words/BORROW-WORD-43extra.json.gz",
+ "helpers": 429,
+ "T": 13086,
+ "section_start": {
+  "precondition": 0,
+  "compensation": 192,
+  "A": 7400,
+  "cut": 10879,
+  "B": 11055,
+  "Bwarp": 11996,
+  "restore": 12999
+ },
+ "literal": {
+  "omega": 568,
+  "at_time": 11353,
+  "live_kinds": {
+   "source": 70,
+   "target": 112,
+   "helper": 386
+  },
+  "helper_streams": 480,
+  "helper_registers_min": 344,
+  "deletable_max": 85,
+  "profile_at_section_start": {
+   "precondition": {
+    "source": 112,
+    "target": 112
+   },
+   "compensation": {
+    "source": 112,
+    "target": 112,
+    "helper": 1
+   },
+   "A": {
+    "source": 112,
+    "target": 112,
+    "helper": 240
+   },
+   "cut": {
+    "source": 75,
+    "target": 112,
+    "helper": 302
+   },
+   "B": {
+    "source": 70,
+    "target": 112,
+    "helper": 299
+   },
+   "Bwarp": {
+    "source": 38,
+    "target": 112,
+    "helper": 248,
+    "alias": 1
+   },
+   "restore": {
+    "source": 10,
+    "target": 112,
+    "helper": 82
+   }
+  },
+  "max_live_helpers_minus_retired_sources": 344
+ },
+ "relaxed": {
+  "omega": 560,
+  "at_time": 11353,
+  "live_kinds": {
+   "source": 70,
+   "target": 112,
+   "helper": 378
+  },
+  "helper_streams": 480,
+  "helper_registers_min": 336,
+  "deletable_max": 93,
+  "profile_at_section_start": {
+   "precondition": {
+    "source": 112,
+    "target": 112
+   },
+   "compensation": {
+    "source": 112,
+    "target": 112
+   },
+   "A": {
+    "source": 112,
+    "target": 112
+   },
+   "cut": {
+    "source": 75,
+    "target": 112,
+    "helper": 294
+   },
+   "B": {
+    "source": 70,
+    "target": 112,
+    "helper": 291
+   },
+   "Bwarp": {
+    "source": 38,
+    "target": 112,
+    "helper": 248,
+    "alias": 1
+   },
+   "restore": {
+    "source": 10,
+    "target": 112,
+    "helper": 82
+   }
+  },
+  "max_live_helpers_minus_retired_sources": 336
+ }
+}

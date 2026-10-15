@@ -1,0 +1,35 @@
+{
+ "word": "sel1094.json.gz",
+ "framed_gates": 5413,
+ "infeasible_gates": 0,
+ "streams": 480,
+ "span_actual": 10783.28527303202,
+ "span_lb": 9004.849481623953,
+ "actual_climbs": 1894,
+ "lb_climbs": 1310,
+ "lb_climb_hist": {
+  "1": 4,
+  "2": 211,
+  "3": 187,
+  "4": 67,
+  "5": 11
+ },
+ "gate_slack_hist": {
+  "0": 1998,
+  "1": 1705,
+  "2": 224,
+  "3": 8,
+  "4": 2,
+  "5": 1476
+ },
+ "ratio": 0.835074771150146,
+ "by_width": {
+  "9": {
+   "n": 480,
+   "actual": 10783.3,
+   "lb": 9004.8,
+   "climbs": 1894,
+   "lb_climbs": 1310
+  }
+ }
+}

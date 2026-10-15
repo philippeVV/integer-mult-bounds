@@ -1,0 +1,85 @@
+{
+ "word": "/home/pvv/repo/imb-work7/research/gmx-t74-borrow43-handoff/new/borrow/words/BORROW-WORD-43extra.json.gz",
+ "framed_gates": 5451,
+ "infeasible_gates": 0,
+ "streams": 480,
+ "span_actual": 10738.208596391265,
+ "span_lb": 9893.817718078839,
+ "actual_climbs": 1927,
+ "lb_climbs": 1729,
+ "lb_climb_hist": {
+  "1": 2,
+  "2": 101,
+  "3": 160,
+  "4": 130,
+  "5": 31,
+  "6": 22,
+  "7": 34
+ },
+ "gate_slack_hist": {
+  "0": 3909,
+  "1": 773,
+  "2": 606,
+  "3": 29,
+  "4": 118,
+  "5": 16
+ },
+ "ratio": 0.9213657594064436,
+ "full_chain": {
+  "actual": 13123.097987944142,
+  "lb": 12772.36635681159,
+  "lb_profile": {
+   "1": 2131,
+   "2": 680,
+   "3": 263,
+   "4": 155,
+   "5": 70,
+   "7": 4,
+   "8": 4
+  },
+  "ceiling_base": 0.001731490431,
+  "ceiling_lb": 0.001761666573,
+  "ratio": 1.0174278421986844,
+  "t74_root_kappa": {
+   "kappa": 0.0017328815325741709,
+   "gain": 0.017142424926651634
+  }
+ },
+ "by_width": {
+  "4": {
+   "n": 33,
+   "actual": 562.1,
+   "lb": 556.5,
+   "climbs": 131,
+   "lb_climbs": 127
+  },
+  "5": {
+   "n": 8,
+   "actual": 126.2,
+   "lb": 96.0,
+   "climbs": 24,
+   "lb_climbs": 19
+  },
+  "7": {
+   "n": 62,
+   "actual": 1293.1,
+   "lb": 1163.7,
+   "climbs": 190,
+   "lb_climbs": 158
+  },
+  "8": {
+   "n": 95,
+   "actual": 2165.5,
+   "lb": 1927.7,
+   "climbs": 329,
+   "lb_climbs": 268
+  },
+  "9": {
+   "n": 282,
+   "actual": 6591.4,
+   "lb": 6149.8,
+   "climbs": 1253,
+   "lb_climbs": 1157
+  }
+ }
+}

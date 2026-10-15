@@ -1,0 +1,100 @@
+{
+ "word": "sel1094.json.gz",
+ "helpers": 480,
+ "T": 12989,
+ "section_start": {
+  "precondition": 0,
+  "compensation": 192,
+  "A": 7400,
+  "cut": 10851,
+  "B": 11027,
+  "restore": 12873
+ },
+ "literal": {
+  "omega": 624,
+  "at_time": 11513,
+  "live_kinds": {
+   "source": 70,
+   "target": 112,
+   "helper": 442
+  },
+  "helper_streams": 480,
+  "helper_registers_min": 400,
+  "deletable_max": 80,
+  "profile_at_section_start": {
+   "precondition": {
+    "source": 112,
+    "target": 112
+   },
+   "compensation": {
+    "source": 112,
+    "target": 112,
+    "helper": 1
+   },
+   "A": {
+    "source": 112,
+    "target": 112,
+    "helper": 241
+   },
+   "cut": {
+    "source": 75,
+    "target": 112,
+    "helper": 302
+   },
+   "B": {
+    "source": 70,
+    "target": 112,
+    "helper": 300
+   },
+   "restore": {
+    "source": 26,
+    "target": 112,
+    "helper": 130
+   }
+  },
+  "max_live_helpers_minus_retired_sources": 400
+ },
+ "relaxed": {
+  "omega": 617,
+  "at_time": 11513,
+  "live_kinds": {
+   "source": 70,
+   "target": 112,
+   "helper": 435
+  },
+  "helper_streams": 480,
+  "helper_registers_min": 393,
+  "deletable_max": 87,
+  "profile_at_section_start": {
+   "precondition": {
+    "source": 112,
+    "target": 112
+   },
+   "compensation": {
+    "source": 112,
+    "target": 112
+   },
+   "A": {
+    "source": 112,
+    "target": 112,
+    "helper": 2
+   },
+   "cut": {
+    "source": 75,
+    "target": 112,
+    "helper": 294
+   },
+   "B": {
+    "source": 70,
+    "target": 112,
+    "helper": 292
+   },
+   "restore": {
+    "source": 26,
+    "target": 112,
+    "helper": 130
+   }
+  },
+  "max_live_helpers_minus_retired_sources": 393
+ }
+}

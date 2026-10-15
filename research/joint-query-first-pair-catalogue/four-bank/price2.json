@@ -1,0 +1,190 @@
+{
+ "selected_ceiling": "8450271/5000000000",
+ "bit_a": "1733427039589844234749/1000000000000000000000000",
+ "C0_B_rank-1 children per replica": [
+  14597.999956458807,
+  14597.999956458807
+ ],
+ "C0_B_centre-like rank-8 copies per replica": [
+  70.79008128494024,
+  71.82054799050093
+ ],
+ "C0_MIX_rank-1 children per replica": [
+  14677.999969571829,
+  14677.999969571829
+ ],
+ "C0_MIX_centre-like rank-8 copies per replica": [
+  70.85825018584728,
+  71.88701089471579
+ ],
+ "scenarios": [
+  [
+   64,
+   "once per replica",
+   "16 rank-1",
+   0.0016942405,
+   0.2477021151155981
+  ],
+  [
+   64,
+   "once per replica",
+   "2 rank-8 (ideal packed)",
+   0.0016945397,
+   0.2654056893559982
+  ],
+  [
+   64,
+   "once per replica",
+   "one rank-16",
+   0.0016946392,
+   0.2712930745061312
+  ],
+  [
+   64,
+   "once per replica",
+   "16 centre-like copies (rank-8 + total)",
+   0.0010166218,
+   -39.846793079180536
+  ],
+  [
+   64,
+   "once per pair (4/replica)",
+   "16 rank-1",
+   0.0016925478,
+   0.14754556392333454
+  ],
+  [
+   64,
+   "once per pair (4/replica)",
+   "2 rank-8 (ideal packed)",
+   0.001693743,
+   0.2182651893649328
+  ],
+  [
+   64,
+   "once per pair (4/replica)",
+   "one rank-16",
+   0.0016941408,
+   0.24180289602546476
+  ],
+  [
+   64,
+   "once per pair (4/replica)",
+   "16 centre-like copies (rank-8 + total)",
+   0.0,
+   -100.0
+  ],
+  [
+   64,
+   "every call",
+   "16 rank-1",
+   0.0016897343,
+   -0.01892838703042778
+  ],
+  [
+   64,
+   "every call",
+   "2 rank-8 (ideal packed)",
+   0.0016924167,
+   0.13978841625315921
+  ],
+  [
+   64,
+   "every call",
+   "one rank-16",
+   0.0016933106,
+   0.19268021108435457
+  ],
+  [
+   64,
+   "every call",
+   "16 centre-like copies (rank-8 + total)",
+   0.0,
+   -100.0
+  ],
+  [
+   0,
+   "once per replica",
+   "16 rank-1",
+   0.0047226946,
+   179.44042267993535
+  ],
+  [
+   0,
+   "once per replica",
+   "2 rank-8 (ideal packed)",
+   0.0047235285,
+   179.48976429276647
+  ],
+  [
+   0,
+   "once per replica",
+   "one rank-16",
+   0.0047238047,
+   179.50610696390683
+  ],
+  [
+   0,
+   "once per replica",
+   "16 centre-like copies (rank-8 + total)",
+   0.0040483344,
+   139.53873195309356
+  ],
+  [
+   0,
+   "once per pair (4/replica)",
+   "16 rank-1",
+   0.0047179904,
+   179.16207657718905
+  ],
+  [
+   0,
+   "once per pair (4/replica)",
+   "2 rank-8 (ideal packed)",
+   0.0047213212,
+   179.35915901395353
+  ],
+  [
+   0,
+   "once per pair (4/replica)",
+   "one rank-16",
+   0.0047224252,
+   179.424482362755
+  ],
+  [
+   0,
+   "once per pair (4/replica)",
+   "16 centre-like copies (rank-8 + total)",
+   0.0020226092,
+   19.677179583944703
+  ],
+  [
+   0,
+   "every call",
+   "16 rank-1",
+   0.0047101708,
+   178.69939319105862
+  ],
+  [
+   0,
+   "every call",
+   "2 rank-8 (ideal packed)",
+   0.0047176468,
+   179.1417458682686
+  ],
+  [
+   0,
+   "every call",
+   "one rank-16",
+   0.0047201278,
+   179.28854589397193
+  ],
+  [
+   0,
+   "every call",
+   "16 centre-like copies (rank-8 + total)",
+   0.0,
+   -100.0
+  ]
+ ]
+}

@@ -132,7 +132,16 @@ The scripts in `gain/` read the ports through `lower/ports.py`. That file loads 
 - **Structured searches found nothing below 224:** the two-copy root decoder (G_ρ + G_σ)/4, hyperplane-supported quarter terms, and joint ALS.
 - **Update: α = 25 is reachable** (`construct2/amin25.json`). CP-SAT proves this optimal; the graph has 756 edges and exactly 6 maximum independent sets, and ϑ ≈ 29.6. The search found it with tabu moves over single ports and port pairs and then stalled at 25. Large-term decoders on this instance still cost at least 7·25 = 175.
 - On the lower-bound side, Lagrangian averaging is exactly 14 even with integrality. A generalised pairwise-dot-1 family was tried with CEGAR, with no result beyond 14.
-- **The deciding question:** does any plane choice have α(Γ_E) ≤ 23? Averaging over Lagrangians only proves α ≥ 14, and real instances reach only 21–23 per Lagrangian clique.
+- **Update 2: α = 23 is reachable** (`construct2/a23_first.json`; `a24_first.json` has α = 24).
+  - The graph has 815 edges. CP-SAT proves α = 23 optimal, and an independent C branch and bound agrees: 5,416 maximum sets and no independent 24-set.
+  - `alpha_check_indep.py` re-proves it from the pinned canonical word without importing anything from this package.
+  - ϑ ≈ 28.52 (numerical).
+  - **Search method** (`construct2/lsc4.c`): tabu search minimising N_T, the number of independent T-sets. All 112×127 single-port moves are scored exactly from stored lists of T- and (T−1)-sets, and kicks are guided rather than random. α = 22 was not reached: N23 bottomed out at 430.
+- **Consequence: the large-term obstruction no longer closes the route.**
+  - Large-term decoders (every ρ ≥ 7) on this instance only need C ≥ 7·23 = 161. That is at, not above, the `ceiling.py` break-even for ρ = 7 (161); the first-order bound is C < 163.6.
+  - A winning large-term decoder would need rank N = α = 23 with every term of rank exactly 7 and support pairing rank 7. That is far tighter than anything constructed, since the best exact build is 224.
+  - PSD decoders still need about ⌈ϑ⌉ ≥ 29 terms, so C ≥ 203 when ρ ≥ 7.
+- **Open question:** can a plane choice reach α ≤ 22, which would leave real slack? Separately, can any decoder on these instances approach rank α with cheap terms?
 
 ## Open
 

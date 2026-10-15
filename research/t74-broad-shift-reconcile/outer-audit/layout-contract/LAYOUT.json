@@ -1,0 +1,96 @@
+{
+ "T74_pr2044": {
+  "children_s": 2343092,
+  "rank_mass": 4816512,
+  "deficit": 23680,
+  "s_over_W": "35.3386221042471042471042471042471042471",
+  "maxchild": 48,
+  "halving_degree": 2,
+  "halving_ints": [
+   5329,
+   4608
+  ],
+  "physical_minus_live": 490,
+  "stock_bits": 2644,
+  "naive_uniform_sigma_log_m_s_over_W": "0.8309078608803165578237521125453941300982",
+  "rank_one_expansion_rate_1_minus_log_m_mass_over_W": "0.001143088469279895950766346081124158329417"
+ },
+ "T16_pr1094": {
+  "children_s": 510662,
+  "rank_mass": 1041408,
+  "deficit": 5120,
+  "s_over_W": "35.62095424107142857142857142857142857143",
+  "maxchild": 48,
+  "halving_degree": 2,
+  "halving_ints": [
+   5329,
+   4608
+  ],
+  "physical_minus_live": 490,
+  "stock_bits": 2642,
+  "naive_uniform_sigma_log_m_s_over_W": "0.8327625784572289998837785862490649194929",
+  "rank_one_expansion_rate_1_minus_log_m_mass_over_W": "0.001143088469279895950766346081124158329417"
+ },
+ "depth_D_of_2^L": {
+  "10": {
+   "D": 5,
+   "D_over_log2h": "1/2",
+   "two_log2h": 20
+  },
+  "100": {
+   "D": 154,
+   "D_over_log2h": "77/50",
+   "two_log2h": 200
+  },
+  "1000": {
+   "D": 1642,
+   "D_over_log2h": "821/500",
+   "two_log2h": 2000
+  },
+  "10000": {
+   "D": 16521,
+   "D_over_log2h": "16521/10000",
+   "two_log2h": 20000
+  },
+  "100000": {
+   "D": 165315,
+   "D_over_log2h": "33063/20000",
+   "two_log2h": 200000
+  }
+ },
+ "depth_asymptotic_slope_1_over_log2(73/48)": "1.653269512463550609989312321155103376311",
+ "row_coefficient_T74": 19545,
+ "row_limit": 20161,
+ "q0_chunks_at_h=p": {
+  "64": {
+   "row": 38,
+   "conservative_51_25_x_20161": 79,
+   "degree_1e6": 1909
+  },
+  "10000": {
+   "row": 39,
+   "conservative_51_25_x_20161": 81,
+   "degree_1e6": 1953
+  },
+  "1000000000000000000000000000000": {
+   "row": 39,
+   "conservative_51_25_x_20161": 81,
+   "degree_1e6": 1954
+  }
+ },
+ "R(h)<=h/16_threshold": {
+  "1": 77,
+  "39": 1050,
+  "40": 1076,
+  "79": 2074,
+  "1954": 50074
+ },
+ "stop": {
+  "STOP": "1e-30016",
+  "leaf_minus_a": "4.9999999832e-30011",
+  "leaf_minus_q": "9.9999999832e-30011",
+  "with_stop_1e-9_leaf_minus_a": "-1.67975495613e-12",
+  "onset_log2_h_for_h^stop>=2m": "7.1898246e30016"
+ },
+ "tau_minus_sigma(=b-a)": "5.0e-30011"
+}

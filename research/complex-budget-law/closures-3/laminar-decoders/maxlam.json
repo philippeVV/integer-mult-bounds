@@ -1,0 +1,34 @@
+{
+ "P120": {
+  "V": 120,
+  "corrections": 6720,
+  "direct_greedy": 441,
+  "frac": 0.065625,
+  "per_port": 3.675,
+  "bowties_disjoint": 465
+ },
+ "P112": {
+  "V": 112,
+  "corrections": 5824,
+  "direct_greedy": 406,
+  "frac": 0.06971153846153846,
+  "per_port": 3.625,
+  "bowties_disjoint": 407
+ },
+ "P104": {
+  "V": 104,
+  "corrections": 4992,
+  "direct_greedy": 374,
+  "frac": 0.07491987179487179,
+  "per_port": 3.5961538461538463,
+  "bowties_disjoint": 344
+ },
+ "E7": {
+  "V": 63,
+  "corrections": 2016,
+  "direct_greedy": 232,
+  "frac": 0.11507936507936507,
+  "per_port": 3.6825396825396823,
+  "bowties_disjoint": 136
+ }
+}

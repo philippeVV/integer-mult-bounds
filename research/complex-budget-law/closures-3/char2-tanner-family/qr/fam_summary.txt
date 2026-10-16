@@ -1,0 +1,21 @@
+F1_Droot_r1              pair  m=[2, 4, 8] G-seeds=[3] runs=3 max nullity=0
+F1_Droot_r1              same  m=[2, 3, 4, 5, 6, 7, 8] G-seeds=[0, 1, 2] runs=21 max nullity=0
+F2_Droot_gateorth        pair  m=[2, 4, 8] G-seeds=[3] runs=3 max nullity=0
+F2_Droot_gateorth        same  m=[2, 3, 4, 5, 6, 7, 8] G-seeds=[0, 1, 2] runs=21 max nullity=0
+F3_Droot_rankhalf        pair  m=[2, 4, 8] G-seeds=[3] runs=3 max nullity=0
+F3_Droot_rankhalf        same  m=[2, 4, 6, 8] G-seeds=[0, 1, 2] runs=12 max nullity=0
+F4_E8_r1                 pair  m=[8] G-seeds=[3] runs=1 max nullity=0
+F4_E8_r1                 same  m=[8] G-seeds=[0, 1, 2] runs=3 max nullity=0
+F4b_E8_rank4             pair  m=[8] G-seeds=[3] runs=1 max nullity=0
+F4b_E8_rank4             same  m=[8] G-seeds=[0, 1, 2] runs=3 max nullity=0
+F5_F16_hamming           pair  m=[8] G-seeds=[3] runs=1 max nullity=0
+F5_F16_hamming           same  m=[8] G-seeds=[0, 1, 2] runs=3 max nullity=0
+F5b_hamming_gateorth     pair  m=[8] G-seeds=[3] runs=1 max nullity=0
+F5b_hamming_gateorth     same  m=[8] G-seeds=[0, 1, 2] runs=3 max nullity=0
+F6_herm_realified        pair  m=[2, 4, 8] G-seeds=[3] runs=3 max nullity=0
+F6_herm_realified        same  m=[2, 4, 6, 8] G-seeds=[0, 1, 2] runs=12 max nullity=0
+F7_twoclass              pair  m=[2, 4, 8] G-seeds=[3] runs=3 max nullity=0
+F7_twoclass              same  m=[2, 3, 4, 5, 6, 7, 8] G-seeds=[0, 1, 2] runs=21 max nullity=0
+F8_common_control        pair  m=[2, 4, 8] G-seeds=[3] runs=3 max nullity=0
+F8_common_control        same  m=[2, 3, 4, 5, 6, 7, 8] G-seeds=[0, 1, 2] runs=21 max nullity=0
+total runs 142 max nullity 0

@@ -1,0 +1,26 @@
+{
+ "none": {
+  "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "C": 119.9999999999998,
+  "bound": 119.9999999999998,
+  "pieces": [],
+  "n_id": 120,
+  "free_rows": 3360
+ },
+ "greedy": {
+  "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "C": 119.99999999999999,
+  "bound": 119.99999999999999,
+  "pieces": [],
+  "n_id": 120,
+  "free_rows": 3347
+ },
+ "triangles": {
+  "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "C": 119.99999999999855,
+  "bound": 119.99999999999855,
+  "pieces": [],
+  "n_id": 120,
+  "free_rows": 3240
+ }
+}

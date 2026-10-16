@@ -1,0 +1,234 @@
+{
+ "random_sym": {
+  "nullity": [
+   0,
+   0,
+   0
+  ],
+  "noncomm_adjacent_pairs": 165,
+  "alg_dim": 36,
+  "Wm": 996
+ },
+ "random_alt": {
+  "nullity": [
+   0,
+   0,
+   0
+  ],
+  "noncomm_adjacent_pairs": 165,
+  "alg_dim": 36,
+  "Wm": 996
+ },
+ "signed_orth_r1": {
+  "nullity": [
+   0,
+   0,
+   0
+  ],
+  "noncomm_adjacent_pairs": 29,
+  "alg_dim": 36,
+  "Wm": 996
+ },
+ "signed_orth_r1_conflicts": 13,
+ "signed_orth_r3": {
+  "nullity": [
+   0,
+   0,
+   0
+  ],
+  "noncomm_adjacent_pairs": 90,
+  "alg_dim": 36,
+  "Wm": 996
+ },
+ "signed_orth_r3_conflicts": 122,
+ "alt_nondeg_orbit": {
+  "nullity": [
+   0,
+   0,
+   0
+  ],
+  "noncomm_adjacent_pairs": 165,
+  "alg_dim": 36,
+  "Wm": 996
+ },
+ "J_plus_diag": {
+  "nullity": [
+   0,
+   0,
+   0
+  ],
+  "noncomm_adjacent_pairs": 158,
+  "alg_dim": 36,
+  "Wm": 996
+ },
+ "gram_gl": {
+  "nullity": [
+   0,
+   0,
+   0
+  ],
+  "noncomm_adjacent_pairs": 165,
+  "alg_dim": 36,
+  "Wm": 996
+ },
+ "orbit_rank2": {
+  "nullity": [
+   0,
+   0,
+   0
+  ],
+  "noncomm_adjacent_pairs": 159,
+  "alg_dim": 36,
+  "Wm": 996
+ },
+ "I_plus_wwT": {
+  "nullity": [
+   0,
+   0,
+   0
+  ],
+  "noncomm_adjacent_pairs": 81,
+  "alg_dim": 36,
+  "Wm": 996
+ },
+ "two_class_noncomm_srcpar": {
+  "nullity": [
+   0,
+   0,
+   0
+  ],
+  "noncomm_adjacent_pairs": 69,
+  "alg_dim": 36,
+  "Wm": 996
+ },
+ "two_class_noncomm_pointline": {
+  "nullity": [
+   0,
+   0,
+   0
+  ],
+  "noncomm_adjacent_pairs": 31,
+  "alg_dim": 36,
+  "Wm": 996
+ },
+ "f9gen_rand_uuT_src": {
+  "nullity": [
+   0,
+   0,
+   0
+  ],
+  "noncomm_adjacent_pairs": 55,
+  "alg_dim": 36,
+  "Wm": 996
+ },
+ "f9gen_rand_src+snk": {
+  "nullity": [
+   0,
+   0,
+   0
+  ],
+  "noncomm_adjacent_pairs": 85,
+  "alg_dim": 36,
+  "Wm": 996
+ },
+ "f9gen_rand_cross": {
+  "nullity": [
+   0,
+   0,
+   0
+  ],
+  "noncomm_adjacent_pairs": 85,
+  "alg_dim": 36,
+  "Wm": 996
+ },
+ "f9gen_rand_cross+diag": {
+  "nullity": [
+   0,
+   0,
+   0
+  ],
+  "noncomm_adjacent_pairs": 122,
+  "alg_dim": 36,
+  "Wm": 996
+ },
+ "f9gen_fold_uuT_src": {
+  "nullity": [
+   0,
+   0,
+   0
+  ],
+  "noncomm_adjacent_pairs": 73,
+  "alg_dim": 36,
+  "Wm": 996
+ },
+ "f9gen_fold_src+snk": {
+  "nullity": [
+   0,
+   0,
+   0
+  ],
+  "noncomm_adjacent_pairs": 85,
+  "alg_dim": 12,
+  "Wm": 996
+ },
+ "f9gen_fold_cross": {
+  "nullity": [
+   0,
+   0,
+   0
+  ],
+  "noncomm_adjacent_pairs": 85,
+  "alg_dim": 13,
+  "Wm": 996
+ },
+ "f9gen_fold_cross+diag": {
+  "nullity": [
+   0,
+   0,
+   0
+  ],
+  "noncomm_adjacent_pairs": 117,
+  "alg_dim": 36,
+  "Wm": 996
+ },
+ "f9gen_gram5": {
+  "nullity": [
+   0,
+   0,
+   0
+  ],
+  "noncomm_adjacent_pairs": 131,
+  "alg_dim": 17,
+  "Wm": 996
+ },
+ "f9gen_gram5_srcsnk": {
+  "nullity": [
+   0,
+   0,
+   0
+  ],
+  "noncomm_adjacent_pairs": 0,
+  "alg_dim": 2,
+  "Wm": 996
+ },
+ "pg_coords_src+snk": {
+  "nullity": [
+   0,
+   0,
+   0
+  ],
+  "noncomm_adjacent_pairs": 139,
+  "alg_dim": 36,
+  "Wm": 996
+ },
+ "pg_coords_cross": {
+  "nullity": [
+   0,
+   0,
+   0
+  ],
+  "noncomm_adjacent_pairs": 139,
+  "alg_dim": 36,
+  "Wm": 996
+ }
+}

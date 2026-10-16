@@ -1,0 +1,283 @@
+start cost 901 F 1227
+it 0 lam 0.200 T 0.600 cost 901 F 1227 bestF 1227
+it 1 bestF 1226 (cost 901)
+it 58 bestF 1225 (cost 901)
+it 59 bestF 1224 (cost 901)
+it 71 bestF 1223 (cost 901)
+it 98 bestF 1221 (cost 901)
+it 106 bestF 1220 (cost 901)
+it 163 bestF 1219 (cost 902)
+it 172 bestF 1218 (cost 902)
+it 177 bestF 1215 (cost 902)
+it 186 bestF 1214 (cost 902)
+it 252 bestF 1211 (cost 902)
+it 263 bestF 1210 (cost 902)
+it 279 bestF 1209 (cost 902)
+it 297 bestF 1208 (cost 902)
+it 304 bestF 1207 (cost 902)
+it 328 bestF 1201 (cost 904)
+it 333 bestF 1200 (cost 904)
+it 335 bestF 1199 (cost 904)
+it 342 bestF 1196 (cost 904)
+it 343 bestF 1195 (cost 904)
+it 344 bestF 1194 (cost 904)
+it 387 bestF 1193 (cost 904)
+it 392 bestF 1192 (cost 904)
+it 424 bestF 1191 (cost 905)
+it 429 bestF 1190 (cost 905)
+it 444 bestF 1187 (cost 905)
+it 451 bestF 1186 (cost 905)
+it 452 bestF 1185 (cost 905)
+it 453 bestF 1183 (cost 905)
+it 473 bestF 1182 (cost 905)
+it 475 bestF 1181 (cost 905)
+it 484 bestF 1180 (cost 906)
+it 496 bestF 1175 (cost 906)
+it 536 bestF 1174 (cost 906)
+it 1437 bestF 1172 (cost 933)
+it 1442 bestF 1170 (cost 933)
+it 1443 bestF 1169 (cost 933)
+it 2245 bestF 1168 (cost 939)
+it 2250 bestF 1167 (cost 939)
+it 2300 bestF 1166 (cost 940)
+it 2301 bestF 1164 (cost 940)
+it 2303 bestF 1160 (cost 940)
+it 2306 bestF 1158 (cost 940)
+it 2312 bestF 1154 (cost 941)
+it 2314 bestF 1153 (cost 941)
+it 2329 bestF 1152 (cost 941)
+it 10242 bestF 1151 (cost 982)
+it 10267 bestF 1150 (cost 982)
+it 10285 bestF 1146 (cost 982)
+it 19097 bestF 1145 (cost 989)
+it 19105 bestF 1144 (cost 989)
+it 19109 bestF 1143 (cost 989)
+it 19111 bestF 1142 (cost 989)
+it 20000 lam 0.212 T 0.589 cost 1002 F 1153 bestF 1142
+it 40000 lam 0.224 T 0.578 cost 1001 F 1174 bestF 1142
+it 60000 lam 0.235 T 0.568 cost 1003 F 1165 bestF 1142
+it 100000 lam 0.259 T 0.547 cost 1008 F 1169 bestF 1142
+it 114038 bestF 1141 (cost 986)
+it 114044 bestF 1140 (cost 986)
+it 140000 lam 0.283 T 0.528 cost 1006 F 1174 bestF 1140
+it 160000 lam 0.295 T 0.518 cost 1006 F 1157 bestF 1140
+it 164480 bestF 1139 (cost 996)
+it 164742 bestF 1138 (cost 997)
+it 164973 bestF 1137 (cost 996)
+it 164980 bestF 1136 (cost 996)
+it 168804 bestF 1135 (cost 998)
+it 168806 bestF 1134 (cost 998)
+it 179319 bestF 1133 (cost 997)
+it 179358 bestF 1132 (cost 996)
+it 180000 lam 0.306 T 0.509 cost 995 F 1140 bestF 1132
+it 184579 bestF 1131 (cost 997)
+it 185133 bestF 1130 (cost 996)
+it 200000 lam 0.318 T 0.500 cost 992 F 1153 bestF 1130
+it 207966 bestF 1129 (cost 988)
+it 208020 bestF 1128 (cost 988)
+it 208042 bestF 1127 (cost 988)
+it 208073 bestF 1125 (cost 990)
+it 218315 bestF 1124 (cost 998)
+it 220000 lam 0.330 T 0.491 cost 996 F 1145 bestF 1124
+it 240000 lam 0.342 T 0.482 cost 1000 F 1135 bestF 1124
+it 242135 bestF 1123 (cost 1006)
+it 242144 bestF 1122 (cost 1006)
+it 244925 bestF 1120 (cost 988)
+it 260606 bestF 1119 (cost 999)
+it 260918 bestF 1118 (cost 992)
+it 260931 bestF 1117 (cost 992)
+it 261071 bestF 1116 (cost 997)
+it 280000 lam 0.365 T 0.464 cost 992 F 1139 bestF 1116
+it 287971 bestF 1115 (cost 994)
+it 287997 bestF 1114 (cost 994)
+it 288106 bestF 1113 (cost 994)
+it 288271 bestF 1112 (cost 996)
+it 306937 bestF 1111 (cost 980)
+it 307493 bestF 1109 (cost 977)
+it 320000 lam 0.389 T 0.448 cost 999 F 1130 bestF 1109
+it 326716 bestF 1108 (cost 1000)
+it 326954 bestF 1107 (cost 1000)
+it 327069 bestF 1105 (cost 1002)
+it 327168 bestF 1104 (cost 1003)
+it 327467 bestF 1103 (cost 1002)
+it 327914 bestF 1101 (cost 990)
+it 340000 lam 0.401 T 0.439 cost 988 F 1113 bestF 1101
+it 360000 lam 0.413 T 0.431 cost 990 F 1128 bestF 1101
+it 365039 bestF 1100 (cost 1001)
+it 365258 bestF 1099 (cost 997)
+it 380000 lam 0.425 T 0.424 cost 991 F 1114 bestF 1099
+it 380911 bestF 1098 (cost 994)
+it 380913 bestF 1097 (cost 993)
+it 381064 bestF 1096 (cost 992)
+it 381066 bestF 1095 (cost 992)
+it 381207 bestF 1094 (cost 992)
+it 381249 bestF 1093 (cost 991)
+it 381269 bestF 1092 (cost 990)
+it 381303 bestF 1091 (cost 989)
+it 400000 lam 0.436 T 0.416 cost 984 F 1128 bestF 1091
+it 420000 lam 0.448 T 0.408 cost 984 F 1096 bestF 1091
+it 420053 bestF 1090 (cost 985)
+it 437075 bestF 1088 (cost 984)
+it 437454 bestF 1087 (cost 984)
+it 437577 bestF 1086 (cost 984)
+it 437583 bestF 1085 (cost 984)
+it 437951 bestF 1084 (cost 988)
+it 440000 lam 0.460 T 0.401 cost 982 F 1092 bestF 1084
+it 472360 bestF 1083 (cost 987)
+it 473433 bestF 1082 (cost 986)
+it 473777 bestF 1081 (cost 986)
+it 479540 bestF 1080 (cost 972)
+it 479541 bestF 1079 (cost 972)
+it 479658 bestF 1078 (cost 973)
+it 479661 bestF 1077 (cost 973)
+it 480000 lam 0.484 T 0.387 cost 975 F 1084 bestF 1077
+it 500000 lam 0.495 T 0.380 cost 986 F 1087 bestF 1077
+it 520000 lam 0.507 T 0.373 cost 976 F 1092 bestF 1077
+it 523184 bestF 1076 (cost 977)
+it 523258 bestF 1075 (cost 975)
+it 523610 bestF 1074 (cost 975)
+it 526690 bestF 1073 (cost 977)
+it 526835 bestF 1072 (cost 977)
+it 529257 bestF 1071 (cost 980)
+it 529496 bestF 1070 (cost 980)
+it 529546 bestF 1069 (cost 980)
+it 552092 bestF 1068 (cost 978)
+it 552180 bestF 1067 (cost 979)
+it 552217 bestF 1066 (cost 979)
+it 552250 bestF 1065 (cost 979)
+it 552956 bestF 1064 (cost 976)
+it 552980 bestF 1063 (cost 976)
+it 553017 bestF 1062 (cost 976)
+it 553169 bestF 1061 (cost 975)
+it 597414 bestF 1060 (cost 978)
+it 597775 bestF 1059 (cost 978)
+it 597962 bestF 1058 (cost 978)
+it 600000 lam 0.555 T 0.346 cost 980 F 1064 bestF 1058
+it 603780 bestF 1057 (cost 980)
+it 603828 bestF 1056 (cost 980)
+it 604328 bestF 1055 (cost 980)
+it 604384 bestF 1053 (cost 980)
+it 605460 bestF 1052 (cost 975)
+it 617737 bestF 1051 (cost 978)
+it 617848 bestF 1050 (cost 979)
+it 619145 bestF 1049 (cost 980)
+it 620000 lam 0.566 T 0.340 cost 979 F 1053 bestF 1049
+it 631702 bestF 1048 (cost 976)
+it 669046 bestF 1047 (cost 979)
+it 680000 lam 0.602 T 0.322 cost 980 F 1054 bestF 1047
+it 687545 bestF 1046 (cost 978)
+it 687555 bestF 1045 (cost 978)
+it 700000 lam 0.614 T 0.316 cost 980 F 1054 bestF 1045
+it 713183 bestF 1044 (cost 979)
+it 720000 lam 0.625 T 0.310 cost 987 F 1049 bestF 1044
+it 729779 bestF 1043 (cost 981)
+it 736266 bestF 1042 (cost 979)
+it 756373 bestF 1041 (cost 983)
+it 756405 bestF 1040 (cost 983)
+it 760000 lam 0.649 T 0.299 cost 982 F 1046 bestF 1040
+it 775388 bestF 1039 (cost 981)
+it 775772 bestF 1038 (cost 983)
+it 775964 bestF 1037 (cost 983)
+it 779373 bestF 1036 (cost 982)
+it 779499 bestF 1035 (cost 982)
+it 779570 bestF 1034 (cost 982)
+it 780000 lam 0.661 T 0.294 cost 984 F 1036 bestF 1034
+it 800000 lam 0.673 T 0.288 cost 976 F 1051 bestF 1034
+it 820000 lam 0.685 T 0.283 cost 980 F 1038 bestF 1034
+it 824961 bestF 1033 (cost 973)
+it 825525 bestF 1032 (cost 973)
+it 825550 bestF 1031 (cost 973)
+it 826265 bestF 1030 (cost 972)
+it 826274 bestF 1029 (cost 971)
+it 828768 bestF 1028 (cost 975)
+it 828830 bestF 1027 (cost 975)
+it 829221 bestF 1026 (cost 975)
+it 840000 lam 0.696 T 0.278 cost 976 F 1040 bestF 1026
+it 860000 lam 0.708 T 0.273 cost 974 F 1030 bestF 1026
+it 860758 bestF 1025 (cost 974)
+it 880000 lam 0.720 T 0.268 cost 986 F 1028 bestF 1025
+it 881948 bestF 1024 (cost 988)
+it 906420 bestF 1023 (cost 979)
+it 906456 bestF 1022 (cost 979)
+it 912090 bestF 1020 (cost 981)
+it 912426 bestF 1019 (cost 981)
+it 913216 bestF 1018 (cost 982)
+it 920000 lam 0.744 T 0.258 cost 977 F 1023 bestF 1018
+it 935400 bestF 1017 (cost 980)
+it 935405 bestF 1016 (cost 981)
+it 940000 lam 0.755 T 0.254 cost 979 F 1019 bestF 1016
+it 943787 bestF 1015 (cost 983)
+it 944137 bestF 1014 (cost 984)
+it 944187 bestF 1013 (cost 984)
+it 954813 bestF 1012 (cost 985)
+it 956216 bestF 1011 (cost 985)
+it 956978 bestF 1010 (cost 984)
+it 980000 lam 0.779 T 0.245 cost 979 F 1015 bestF 1010
+it 996664 bestF 1009 (cost 981)
+it 999299 bestF 1008 (cost 979)
+it 1000000 lam 0.791 T 0.240 cost 979 F 1009 bestF 1008
+it 1016544 bestF 1007 (cost 982)
+it 1020000 lam 0.803 T 0.236 cost 980 F 1010 bestF 1007
+it 1032052 bestF 1006 (cost 977)
+it 1040000 lam 0.815 T 0.231 cost 981 F 1013 bestF 1006
+it 1060000 lam 0.826 T 0.227 cost 981 F 1008 bestF 1006
+it 1064455 bestF 1005 (cost 978)
+it 1066757 bestF 1004 (cost 978)
+it 1080000 lam 0.838 T 0.223 cost 983 F 1011 bestF 1004
+it 1098816 bestF 1003 (cost 980)
+it 1098994 bestF 1002 (cost 980)
+it 1099139 bestF 1001 (cost 980)
+it 1100000 lam 0.850 T 0.219 cost 980 F 1003 bestF 1001
+it 1102827 bestF 1000 (cost 979)
+it 1105329 bestF 999 (cost 979)
+it 1151671 bestF 998 (cost 975)
+it 1152367 bestF 997 (cost 974)
+it 1160000 lam 0.885 T 0.207 cost 974 F 998 bestF 997
+it 1180000 lam 0.897 T 0.204 cost 976 F 1001 bestF 997
+it 1200000 lam 0.909 T 0.200 cost 978 F 1001 bestF 997
+it 1220000 lam 0.921 T 0.196 cost 974 F 1000 bestF 997
+it 1240000 lam 0.933 T 0.193 cost 977 F 999 bestF 997
+it 1260000 lam 0.945 T 0.189 cost 974 F 998 bestF 997
+it 1278943 bestF 996 (cost 974)
+it 1280000 lam 0.956 T 0.186 cost 974 F 996 bestF 996
+it 1296787 bestF 995 (cost 974)
+it 1297240 bestF 994 (cost 974)
+it 1320000 lam 0.980 T 0.179 cost 974 F 995 bestF 994
+it 1321705 bestF 993 (cost 974)
+it 1322555 bestF 992 (cost 974)
+it 1360000 lam 1.004 T 0.173 cost 980 F 993 bestF 992
+it 1380000 lam 1.015 T 0.170 cost 984 F 992 bestF 992
+it 1388840 bestF 991 (cost 981)
+it 1388989 bestF 990 (cost 980)
+it 1400000 lam 1.027 T 0.166 cost 979 F 990 bestF 990
+it 1420000 lam 1.039 T 0.163 cost 979 F 990 bestF 990
+it 1438301 bestF 989 (cost 980)
+it 1440000 lam 1.051 T 0.160 cost 980 F 989 bestF 989
+it 1460000 lam 1.063 T 0.158 cost 980 F 989 bestF 989
+it 1465066 bestF 988 (cost 980)
+it 1480000 lam 1.075 T 0.155 cost 980 F 988 bestF 988
+it 1500000 lam 1.086 T 0.152 cost 981 F 989 bestF 988
+it 1580000 lam 1.134 T 0.141 cost 982 F 988 bestF 988
+it 1600000 lam 1.145 T 0.139 cost 982 F 988 bestF 988
+it 1700000 lam 1.205 T 0.126 cost 982 F 988 bestF 988
+it 1720000 lam 1.216 T 0.124 cost 982 F 988 bestF 988
+it 1760000 lam 1.240 T 0.120 cost 982 F 988 bestF 988
+it 1780000 lam 1.252 T 0.118 cost 982 F 988 bestF 988
+it 1820000 lam 1.275 T 0.113 cost 982 F 988 bestF 988
+it 1840000 lam 1.287 T 0.111 cost 982 F 988 bestF 988
+it 1860000 lam 1.299 T 0.109 cost 982 F 988 bestF 988
+it 1880000 lam 1.311 T 0.107 cost 982 F 988 bestF 988
+it 1900000 lam 1.323 T 0.105 cost 982 F 988 bestF 988
+it 1920000 lam 1.335 T 0.103 cost 982 F 988 bestF 988
+it 1940000 lam 1.346 T 0.102 cost 982 F 988 bestF 988
+it 1960000 lam 1.358 T 0.100 cost 982 F 988 bestF 988
+it 2000000 lam 1.382 T 0.096 cost 982 F 988 bestF 988
+it 2020000 lam 1.394 T 0.094 cost 982 F 988 bestF 988
+it 2040000 lam 1.405 T 0.093 cost 982 F 988 bestF 988
+it 2060000 lam 1.417 T 0.091 cost 982 F 988 bestF 988
+it 2080000 lam 1.429 T 0.089 cost 982 F 988 bestF 988
+it 2100000 lam 1.441 T 0.088 cost 982 F 988 bestF 988
+it 2120000 lam 1.453 T 0.086 cost 982 F 988 bestF 988
+it 2140000 lam 1.465 T 0.085 cost 982 F 988 bestF 988
+it 2180000 lam 1.488 T 0.081 cost 982 F 988 bestF 988
+final bestF 988

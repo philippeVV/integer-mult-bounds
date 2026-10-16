@@ -1,0 +1,2 @@
+start cost 3480 F 3480
+final best F 3480 iters 131222 evals 118590

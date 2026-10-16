@@ -1,0 +1,5 @@
+q=25 V=1302 E=16926 k=13  Boot cost of order = 3480
+back-arc transportation flow 3480/3480
+Eulerian 13-in/13-out orientation OK; |R| = 3480 back arcs; Gamma-R acyclic (sigma topological)
+gates: 1302 simulated, non-invertible: 0
+rank(Phi - I) = 31  => dim W(schedule) = 3449;  EXACT & SOUND: False

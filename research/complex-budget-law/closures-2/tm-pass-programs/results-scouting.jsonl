@@ -1,0 +1,40 @@
+{"R": 2, "b": 3, "V": 12, "k": 1, "c": 1, "mode": "route", "L": 14, "minT": 22, "Tlo": 12, "secs": 6.5}
+{"R": 2, "b": 3, "V": 12, "k": 1, "c": 1, "mode": "xor", "L": 14, "minT": 22, "Tlo": 12, "secs": 6.8}
+{"R": 2, "b": 3, "V": 12, "k": 2, "c": 0, "mode": "route", "L": 14, "minT": 15, "Tlo": 12, "secs": 0.3}
+{"R": 2, "b": 3, "V": 12, "k": 2, "c": 0, "mode": "xor", "L": 14, "minT": 15, "Tlo": 12, "secs": 0.3}
+{"R": 2, "b": 3, "V": 12, "k": 2, "c": 1, "mode": "route", "L": 14, "minT": 14, "Tlo": 12, "secs": 0.1}
+{"R": 2, "b": 3, "V": 12, "k": 2, "c": 1, "mode": "xor", "L": 14, "minT": 14, "Tlo": 12, "secs": 0.1}
+{"R": 2, "b": 3, "V": 12, "k": 3, "c": 0, "mode": "route", "L": 14, "minT": 14, "Tlo": 12, "secs": 0.2}
+{"R": 2, "b": 3, "V": 12, "k": 3, "c": 0, "mode": "xor", "L": 14, "minT": 14, "Tlo": 12, "secs": 0.2}
+{"R": 2, "b": 4, "V": 16, "k": 2, "c": 0, "mode": "route", "L": 18, "minT": 21, "Tlo": 16, "secs": 17.0}
+{"R": 2, "b": 4, "V": 16, "k": 2, "c": 0, "mode": "xor", "L": 18, "minT": 21, "Tlo": 16, "secs": 13.8}
+{"R": 2, "b": 4, "V": 16, "k": 3, "c": 0, "mode": "route", "L": 18, "minT": 19, "Tlo": 16, "secs": 2.6}
+{"R": 2, "b": 4, "V": 16, "k": 3, "c": 0, "mode": "xor", "L": 18, "minT": 19, "Tlo": 16, "secs": 2.2}
+{"R": 4, "b": 1, "V": 16, "k": 2, "c": 0, "mode": "route", "L": 18, "minT": 29, "Tlo": 16, "secs": 91.7}
+{"R": 2, "b": 5, "V": 20, "k": 2, "c": 0, "mode": "route", "L": 22, "minT": 27, "Tlo": 20, "secs": 96.8}
+{"R": 4, "b": 1, "V": 16, "k": 2, "c": 0, "mode": "xor", "L": 18, "minT": 29, "Tlo": 16, "secs": 63.0}
+{"R": 4, "b": 1, "V": 16, "k": 3, "c": 0, "mode": "route", "L": 18, "minT": 25, "Tlo": 16, "secs": 31.2}
+{"R": 2, "b": 5, "V": 20, "k": 2, "c": 0, "mode": "xor", "L": 22, "minT": 27, "Tlo": 20, "secs": 93.8}
+{"R": 4, "b": 1, "V": 16, "k": 3, "c": 0, "mode": "xor", "L": 18, "minT": 25, "Tlo": 16, "secs": 45.6}
+{"R": 2, "b": 5, "V": 20, "k": 3, "c": 0, "mode": "route", "L": 22, "minT": 24, "Tlo": 20, "secs": 6.6}
+{"R": 2, "b": 5, "V": 20, "k": 3, "c": 0, "mode": "xor", "L": 22, "minT": 24, "Tlo": 20, "secs": 7.2}
+{"R": 4, "b": 1, "V": 16, "k": 2, "c": 1, "mode": "route", "L": 18, "minT": 28, "Tlo": 16, "secs": 69.4}
+{"R": 4, "b": 1, "V": 16, "k": 2, "c": 1, "mode": "xor", "L": 18, "minT": 28, "Tlo": 16, "secs": 105.1}
+{"model": "bitswap", "n": 4, "i": 3, "j": 1, "k": 2, "c": 0, "mode": "route", "minT": 25, "secs": 18.5}
+{"model": "bitswap", "n": 4, "i": 3, "j": 1, "k": 2, "c": 0, "mode": "xor", "minT": 25, "secs": 20.8}
+{"model": "bitswap", "n": 4, "i": 2, "j": 0, "k": 2, "c": 0, "mode": "route", "minT": 26, "secs": 64.5}
+{"model": "bitswap", "n": 4, "i": 2, "j": 0, "k": 2, "c": 0, "mode": "xor", "minT": 26, "secs": 71.0}
+{"model": "bitswap", "n": 4, "i": 3, "j": 1, "k": 3, "c": 0, "mode": "route", "minT": 22, "secs": 7.8}
+{"model": "bitswap", "n": 4, "i": 3, "j": 1, "k": 3, "c": 0, "mode": "xor", "minT": 22, "secs": 7.8}
+{"model": "bitswap", "n": 4, "i": 2, "j": 0, "k": 3, "c": 0, "mode": "route", "minT": 20, "secs": 3.5}
+{"model": "bitswap", "n": 4, "i": 2, "j": 0, "k": 3, "c": 0, "mode": "xor", "minT": 20, "secs": 4.2}
+{"R": 4, "b": 1, "V": 16, "k": 2, "c": 0, "mode": "route", "L": 22, "minT": 29, "Tlo": 26, "secs": 72.4}
+{"R": 4, "b": 1, "V": 16, "k": 2, "c": 0, "mode": "xor", "L": 22, "minT": 29, "Tlo": 26, "secs": 120.4}
+{"model": "lagpass", "u": 1, "k": 2, "mode": "route", "minP": 3}
+{"model": "lagpass", "u": 1, "k": 2, "mode": "xor", "minP": 3}
+{"model": "lagpass", "u": 1, "k": 3, "mode": "route", "minP": 3}
+{"model": "lagpass", "u": 1, "k": 3, "mode": "xor", "minP": 3}
+{"model": "lagpass", "u": 2, "k": 2, "mode": "route", "minP": 6}
+{"model": "lagpass", "u": 2, "k": 2, "mode": "xor", "minP": 6}
+{"model": "lagpass", "u": 2, "k": 3, "mode": "route", "minP": 5}
+{"model": "lagpass", "u": 2, "k": 3, "mode": "xor", "minP": 5}

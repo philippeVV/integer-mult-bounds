@@ -1,0 +1,13 @@
+{
+ "W": 1941,
+ "gates": 12324,
+ "segments": 43821,
+ "one_opportunity_greedy": 113,
+ "opportunities_used": 2,
+ "routed_per_opportunity": [
+  113,
+  44
+ ],
+ "F_star": 1941,
+ "gap": 0
+}
